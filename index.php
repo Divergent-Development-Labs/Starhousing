@@ -176,6 +176,8 @@
 	<!-- Homepage search section ends here -->
 	<!-- Lifestyle at Casagrand starts here -->
 	<section class="life-cast-sec bg-grey-color desktop">
+		<h3 class="bg-white font-weight-bold mb-0 pb-10 text-center text-uppercase">Gallery</h3>
+
 		<div class="lco-slider">
 			<div class="loc-cast-block" style="background-image: url('admin/assets/images/Crockery.jpg');">
 				<div class="life-cast-overlay" hidden>
@@ -212,43 +214,6 @@
 		</div>
 	</section>
 	<!-- Lifestyle at Casagrand ends here -->
-
-
-	<div class="modal" id="modal_enq_project">
-		<div class="modal-dialog">
-			<div class="modal-content text-center enquiry pb-30">
-				<span class="text-right close colorfff cur-pointer p-2" data-dismiss="modal">X</span>
-				<p class="primary-color modal-title AvenirLTStdHeavy fs-18">Enquire Now </p>
-				<form class="project-enquiry" id="form" action="https://www.casagrand.co.in/sendtogravity.php" method="post" data-toggle="validator">
-					<div class="form-group">
-						<input type="text" name="f_name" class="mt-10 mb-10" data-error="Valid Name please" placeholder="Name*" required pattern="^[a-zA-Z\s\.]+$" /><br>
-						<div class="help-block with-errors"></div>
-					</div>
-					<div class="form-group">
-						<input type="tel" id="tel" name="phone" class="mt-10 mb-10" data-error="Valid Phone please" placeholder="Phone*" pattern="^[+]*\d{10,15}$" required /><br>
-						<div class="help-block with-errors"></div>
-					</div>
-					<div class="form-group">
-						<input type="email" name="email_id" class="mt-10 mb-10" data-error="Valid Email please" placeholder="Email*" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /><br>
-						<div class="help-block with-errors"></div>
-					</div>
-					<div class="form-group">
-						<input type="text" name="query" class="mt-10 mb-10" placeholder="Query" />
-						<div class="help-block with-errors"></div>
-					</div>
-					<input type="hidden" name="project_name" value="" />
-					<input type="hidden" name="CountryCode" id="CountryCode" value="+91" />
-					<input type="hidden" name="proj_id" value="" />
-					<input type="hidden" name="project_id" value="" />
-					<input type="hidden" name="source-url" value="www.casagrand.co.in/" />
-					<input type="hidden" name="site-url" value="www.casagrand.co.in" />
-					<input type="hidden" name="srd" value="" />
-					<input type="hidden" name="mobile_d" class="mobile_d" value="Desktop Enquiry" />
-					<input type="submit" class="btn-brochure AvenirLTStdHeavy color-fff fs-16 enq-now" value="Submit" />
-				</form>
-			</div>
-		</div>
-	</div>
 
 	<section class="pb-20 pt-50 bg-fbfbfb bg-building bg-grey-color" id="new_home_projects">
 
@@ -531,39 +496,6 @@
 		</div>
 	</section>
 	<!-- About US section ends here -->
-
-	<div class="modal" id="m_enq_now">
-		<div class="modal-dialog">
-			<div class="modal-content text-center enquiry pb-30">
-				<span class="text-right close colorfff cur-pointer p-2" data-dismiss="modal">X</span>
-				<p class="primary-color AvenirLTStdHeavy fs-18">Enquire Now</p>
-				<form class="project_main_enq" action="https://www.casagrand.co.in/project_gravity.php" method="post" data-toggle="validator">
-					<div class="row">
-						<div class="col-12 form-group">
-							<input type="text" class="input mt-md-10" name="proj_page_name" pattern="^[a-zA-Z\s\.]+$" placeholder="Name" required data-error="Required field" />
-							<div class="help-block with-errors"></div>
-						</div>
-						<div class="col-12 form-group">
-							<input type="tel" id="sticky-tel" class="input mt-md-10" pattern="^[+]*\d{10,15}$" name="proj_page_mobile" placeholder="Mobile Number" required data-error="Valid number please" />
-							<div class="help-block with-errors"></div>
-						</div>
-						<div class="col-12 form-group">
-							<input type="email" class="input mt-md-10" name="proj_page_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-error="Valid email please" placeholder="Email" required />
-							<div class="help-block with-errors"></div>
-							<input type="hidden" class="input w-100" name="project_id" value=" " />
-							<input type="hidden" class="input w-100" name="CountryCode" id="sticky-CountryCode" value="+91" />
-							<input type="hidden" class="input w-100" name="source-url" value="https://www.casagrand.co.in/" />
-							<input type="hidden" class="input w-100" name="srd" value=" " />
-							<input type="hidden" class="input w-100 mobile_d" id="mobile_d1" name="mobile_d" value="Mobile Enquiry" />
-						</div>
-						<div class="col-12">
-							<input type="submit" class="show-location fs-16 color-444 AvenirLTStdHeavy text-center text-uppercase w-50 m-auto mt-md-10" value="submit">
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
 
 	<?php include 'home_popping_image.php'; ?>
 	<?php include 'footer.php'; ?>

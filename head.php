@@ -4,6 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="wp-content/themes/css/font-awesome.min.css">
 	<title>Promoters | Real estate company | Land sales | Villas | Construction &amp; Building</title>
 
+	<link rel="shortcut icon" href="admin/assets/images/favicon.ico">
+
 	<meta name="description" content="Promoters | Real estate company | Land sales | Villas | Construction &amp; Building" />
 
 	<link rel='dns-prefetch' href='//maps.googleapis.com' />

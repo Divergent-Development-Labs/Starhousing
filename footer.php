@@ -1,47 +1,38 @@
-	
 	<footer class="fs-10 fw-bold">
 		<div class="container">
 			<label class="primary-color fs-30 AvenirLTStdHeavy">Our Projects</label>
 			<div class="row">
-				<div class="col-12 col-md-3">
-					<ul class="link_row_1">
-						<li>
-							<a href="residential-projects/apartments-in-adyar/">Apartments in Adyar</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-alwarpet/">Apartments in Alwarpet</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-anna-nagar/">Apartments in Anna Nagar</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-arumbakkam/">Apartments in Arumbakkam</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-ashok-nagar/">Apartments in Ashok Nagar</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-3">
-					<ul class="link_row_1">
-						<li>
-							<a href="residential-projects/apartments-in-ayanambakkam/">Apartments in Ayanambakkam</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-bangalore/">Apartments in Bangalore</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-chennai/">Apartments in Chennai</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-coimbatore/">Apartments in Coimbatore</a>
-						</li>
-						<li>
-							<a href="residential-projects/apartments-in-ecr/">Apartments in ECR</a>
-						</li>
-					</ul>
-				</div>
-				
+				<?php
+					$sql2 = "SELECT * FROM `project` WHERE `project_status`='1'";
+					$projectArray = $conn->query($sql2);
+
+					if ($projectArray->num_rows > 0) {
+						$c = 1;
+						while ($project = $projectArray->fetch_assoc()) {
+
+							if ($c == 1) {
+								echo '	<div class="col-12 col-md-3">
+											<ul class="link_row_1">';
+							}
+
+							if (($c % 5) == 0) {
+									echo '		</ul>
+											</div>
+											<div class="col-12 col-md-3">
+												<ul class="link_row_1">';
+							}
+
+							echo '<li><span>';
+							echo ($project['project_type'] == 1) ? "Star Luxor Home " : "PLot ";
+							echo $project['project_name'];
+							echo '</span></li>';
+							$c++;
+
+						}
+						echo '</ul></div>';
+
+					}
+				?>
 				<div class="col-12 col-md-3">
 					<ul class="link_row_1">
 					</ul>
@@ -51,13 +42,13 @@
 			<div class="row ">
 				<div class="col-12 pb-3">
 					<div class="office_address">
-						<div class="off_location AvenirLTStdHeavy text-bold">
+						<!-- <div class="off_location AvenirLTStdHeavy text-bold">
 							MADURAI
-						</div>
+						</div> -->
 						<div class="off_add">
 							<p class="mb-0">Plot Number: 22,<br>Lake Area Main Road,<br>Uthangudi<br>Madurai - 625 107<br> Tamil Nadu, India
-							<div class="chennais"><span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn">+91-97877 73834</a></span></span class="d-block"></div>							
-
+								<div class="chennais"><span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn">+91-97877 73834</a></span></span></div>
+								<div class="chennais"><span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:Jemibalamkt2010@gmail.com" class="ybtn">Jemibalamkt2010@gmail.com</a></span></div>								
 						</div>
 					</div>
 				</div>
@@ -115,7 +106,7 @@
 		<script type='text/javascript' src='wp-content/themes/js/intlTelInput.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/wow.min.js'></script>
 		<!-- <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&#038;ver=3.1'></script> -->
-		
+
 		<!-- <script type='text/javascript'>
 			/* <![CDATA[ */
 			var siteurls = {
@@ -143,20 +134,6 @@
 			/* ]]> */
 		</script>
 		<script type='text/javascript' src='wp-content/themes/js/custom-jobfilter.js'></script>
-		<div class="mobile-sticky-btns d-flex d-sm-flex d-md-none d-lg-none">
-			<a style="width:50%;border-right:1px solid #fff" class="d-block text-center" href="javascript:void(0);" data-toggle="modal" data-target="#m_enq_now">Enquire Now</a>
-			<a style="width:50%;" class="d-block m-call-slideout text-center" href="javascript:void(0);">Call Now</a>
-		</div>
-		<div id="m-call-us" class="m-call-us pt-10">
-			<span class="form-header text-uppercase fs-18 AvenirLTStdHeavy">Call us</span>
-			<span class="form-header text-uppercase fs-16 AvenirLTStdHeavy close-call-div float-right p-1">X</span>
-			<div class="col-12 pt-10">
-				<div class="header_call_us fs-14">
-
-
-				</div>
-			</div>
-		</div>
 	</footer>
 
 	<section class="lower_footer clearfix">

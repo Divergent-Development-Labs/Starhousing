@@ -21,1277 +21,6 @@
         </div>
     </div>
 
-    <div class="modal" id="modal_enq_project">
-        <div class="modal-dialog">
-            <div class="modal-content text-center enquiry pb-30">
-                <span class="text-right close colorfff cur-pointer p-2" data-dismiss="modal">X</span>
-                <p class="primary-color modal-title AvenirLTStdHeavy fs-18">Enquire Now </p>
-                <form class="project-enquiry" id="form" action="https://www.casagrand.co.in/sendtogravity.php" method="post" data-toggle="validator" novalidate="true">
-                    <div class="form-group">
-                        <input type="text" name="f_name" class="mt-10 mb-10" data-error="Valid Name please" placeholder="Name*" required="" pattern="^[a-zA-Z\s\.]+$"><br>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <div class="intl-tel-input allow-dropdown">
-                            <div class="flag-container">
-                                <div class="selected-flag" tabindex="0" title="India (भारत): +91">
-                                    <div class="iti-flag in"></div>
-                                    <div class="iti-arrow"></div>
-                                </div>
-                                <ul class="country-list hide">
-                                    <li class="country preferred" data-dial-code="1" data-country-code="us">
-                                        <div class="flag-box">
-                                            <div class="iti-flag us"></div>
-                                        </div><span class="country-name">United States</span><span class="dial-code">+1</span>
-                                    </li>
-                                    <li class="country preferred" data-dial-code="44" data-country-code="gb">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gb"></div>
-                                        </div><span class="country-name">United Kingdom</span><span class="dial-code">+44</span>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li class="country" data-dial-code="93" data-country-code="af">
-                                        <div class="flag-box">
-                                            <div class="iti-flag af"></div>
-                                        </div><span class="country-name">Afghanistan (&#8235;افغانستان&#8236;&lrm;)</span><span class="dial-code">+93</span>
-                                    </li>
-                                    <li class="country" data-dial-code="355" data-country-code="al">
-                                        <div class="flag-box">
-                                            <div class="iti-flag al"></div>
-                                        </div><span class="country-name">Albania (Shqipëri)</span><span class="dial-code">+355</span>
-                                    </li>
-                                    <li class="country" data-dial-code="213" data-country-code="dz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag dz"></div>
-                                        </div><span class="country-name">Algeria (&#8235;الجزائر&#8236;&lrm;)</span><span class="dial-code">+213</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1684" data-country-code="as">
-                                        <div class="flag-box">
-                                            <div class="iti-flag as"></div>
-                                        </div><span class="country-name">American Samoa</span><span class="dial-code">+1684</span>
-                                    </li>
-                                    <li class="country" data-dial-code="376" data-country-code="ad">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ad"></div>
-                                        </div><span class="country-name">Andorra</span><span class="dial-code">+376</span>
-                                    </li>
-                                    <li class="country" data-dial-code="244" data-country-code="ao">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ao"></div>
-                                        </div><span class="country-name">Angola</span><span class="dial-code">+244</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1264" data-country-code="ai">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ai"></div>
-                                        </div><span class="country-name">Anguilla</span><span class="dial-code">+1264</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1268" data-country-code="ag">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ag"></div>
-                                        </div><span class="country-name">Antigua and Barbuda</span><span class="dial-code">+1268</span>
-                                    </li>
-                                    <li class="country" data-dial-code="54" data-country-code="ar">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ar"></div>
-                                        </div><span class="country-name">Argentina</span><span class="dial-code">+54</span>
-                                    </li>
-                                    <li class="country" data-dial-code="374" data-country-code="am">
-                                        <div class="flag-box">
-                                            <div class="iti-flag am"></div>
-                                        </div><span class="country-name">Armenia (Հայաստան)</span><span class="dial-code">+374</span>
-                                    </li>
-                                    <li class="country" data-dial-code="297" data-country-code="aw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag aw"></div>
-                                        </div><span class="country-name">Aruba</span><span class="dial-code">+297</span>
-                                    </li>
-                                    <li class="country" data-dial-code="61" data-country-code="au">
-                                        <div class="flag-box">
-                                            <div class="iti-flag au"></div>
-                                        </div><span class="country-name">Australia</span><span class="dial-code">+61</span>
-                                    </li>
-                                    <li class="country" data-dial-code="43" data-country-code="at">
-                                        <div class="flag-box">
-                                            <div class="iti-flag at"></div>
-                                        </div><span class="country-name">Austria (Österreich)</span><span class="dial-code">+43</span>
-                                    </li>
-                                    <li class="country" data-dial-code="994" data-country-code="az">
-                                        <div class="flag-box">
-                                            <div class="iti-flag az"></div>
-                                        </div><span class="country-name">Azerbaijan (Azərbaycan)</span><span class="dial-code">+994</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1242" data-country-code="bs">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bs"></div>
-                                        </div><span class="country-name">Bahamas</span><span class="dial-code">+1242</span>
-                                    </li>
-                                    <li class="country" data-dial-code="973" data-country-code="bh">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bh"></div>
-                                        </div><span class="country-name">Bahrain (&#8235;البحرين&#8236;&lrm;)</span><span class="dial-code">+973</span>
-                                    </li>
-                                    <li class="country" data-dial-code="880" data-country-code="bd">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bd"></div>
-                                        </div><span class="country-name">Bangladesh (বাংলাদেশ)</span><span class="dial-code">+880</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1246" data-country-code="bb">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bb"></div>
-                                        </div><span class="country-name">Barbados</span><span class="dial-code">+1246</span>
-                                    </li>
-                                    <li class="country" data-dial-code="375" data-country-code="by">
-                                        <div class="flag-box">
-                                            <div class="iti-flag by"></div>
-                                        </div><span class="country-name">Belarus (Беларусь)</span><span class="dial-code">+375</span>
-                                    </li>
-                                    <li class="country" data-dial-code="32" data-country-code="be">
-                                        <div class="flag-box">
-                                            <div class="iti-flag be"></div>
-                                        </div><span class="country-name">Belgium (België)</span><span class="dial-code">+32</span>
-                                    </li>
-                                    <li class="country" data-dial-code="501" data-country-code="bz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bz"></div>
-                                        </div><span class="country-name">Belize</span><span class="dial-code">+501</span>
-                                    </li>
-                                    <li class="country" data-dial-code="229" data-country-code="bj">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bj"></div>
-                                        </div><span class="country-name">Benin (Bénin)</span><span class="dial-code">+229</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1441" data-country-code="bm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bm"></div>
-                                        </div><span class="country-name">Bermuda</span><span class="dial-code">+1441</span>
-                                    </li>
-                                    <li class="country" data-dial-code="975" data-country-code="bt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bt"></div>
-                                        </div><span class="country-name">Bhutan (འབྲུག)</span><span class="dial-code">+975</span>
-                                    </li>
-                                    <li class="country" data-dial-code="591" data-country-code="bo">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bo"></div>
-                                        </div><span class="country-name">Bolivia</span><span class="dial-code">+591</span>
-                                    </li>
-                                    <li class="country" data-dial-code="387" data-country-code="ba">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ba"></div>
-                                        </div><span class="country-name">Bosnia and Herzegovina (Босна и Херцеговина)</span><span class="dial-code">+387</span>
-                                    </li>
-                                    <li class="country" data-dial-code="267" data-country-code="bw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bw"></div>
-                                        </div><span class="country-name">Botswana</span><span class="dial-code">+267</span>
-                                    </li>
-                                    <li class="country" data-dial-code="55" data-country-code="br">
-                                        <div class="flag-box">
-                                            <div class="iti-flag br"></div>
-                                        </div><span class="country-name">Brazil (Brasil)</span><span class="dial-code">+55</span>
-                                    </li>
-                                    <li class="country" data-dial-code="246" data-country-code="io">
-                                        <div class="flag-box">
-                                            <div class="iti-flag io"></div>
-                                        </div><span class="country-name">British Indian Ocean Territory</span><span class="dial-code">+246</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1284" data-country-code="vg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag vg"></div>
-                                        </div><span class="country-name">British Virgin Islands</span><span class="dial-code">+1284</span>
-                                    </li>
-                                    <li class="country" data-dial-code="673" data-country-code="bn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bn"></div>
-                                        </div><span class="country-name">Brunei</span><span class="dial-code">+673</span>
-                                    </li>
-                                    <li class="country" data-dial-code="359" data-country-code="bg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bg"></div>
-                                        </div><span class="country-name">Bulgaria (България)</span><span class="dial-code">+359</span>
-                                    </li>
-                                    <li class="country" data-dial-code="226" data-country-code="bf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bf"></div>
-                                        </div><span class="country-name">Burkina Faso</span><span class="dial-code">+226</span>
-                                    </li>
-                                    <li class="country" data-dial-code="257" data-country-code="bi">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bi"></div>
-                                        </div><span class="country-name">Burundi (Uburundi)</span><span class="dial-code">+257</span>
-                                    </li>
-                                    <li class="country" data-dial-code="855" data-country-code="kh">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kh"></div>
-                                        </div><span class="country-name">Cambodia (កម្ពុជា)</span><span class="dial-code">+855</span>
-                                    </li>
-                                    <li class="country" data-dial-code="237" data-country-code="cm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cm"></div>
-                                        </div><span class="country-name">Cameroon (Cameroun)</span><span class="dial-code">+237</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1" data-country-code="ca">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ca"></div>
-                                        </div><span class="country-name">Canada</span><span class="dial-code">+1</span>
-                                    </li>
-                                    <li class="country" data-dial-code="238" data-country-code="cv">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cv"></div>
-                                        </div><span class="country-name">Cape Verde (Kabu Verdi)</span><span class="dial-code">+238</span>
-                                    </li>
-                                    <li class="country" data-dial-code="599" data-country-code="bq">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bq"></div>
-                                        </div><span class="country-name">Caribbean Netherlands</span><span class="dial-code">+599</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1345" data-country-code="ky">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ky"></div>
-                                        </div><span class="country-name">Cayman Islands</span><span class="dial-code">+1345</span>
-                                    </li>
-                                    <li class="country" data-dial-code="236" data-country-code="cf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cf"></div>
-                                        </div><span class="country-name">Central African Republic (République centrafricaine)</span><span class="dial-code">+236</span>
-                                    </li>
-                                    <li class="country" data-dial-code="235" data-country-code="td">
-                                        <div class="flag-box">
-                                            <div class="iti-flag td"></div>
-                                        </div><span class="country-name">Chad (Tchad)</span><span class="dial-code">+235</span>
-                                    </li>
-                                    <li class="country" data-dial-code="56" data-country-code="cl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cl"></div>
-                                        </div><span class="country-name">Chile</span><span class="dial-code">+56</span>
-                                    </li>
-                                    <li class="country" data-dial-code="86" data-country-code="cn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cn"></div>
-                                        </div><span class="country-name">China (中国)</span><span class="dial-code">+86</span>
-                                    </li>
-                                    <li class="country" data-dial-code="61" data-country-code="cx">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cx"></div>
-                                        </div><span class="country-name">Christmas Island</span><span class="dial-code">+61</span>
-                                    </li>
-                                    <li class="country" data-dial-code="61" data-country-code="cc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cc"></div>
-                                        </div><span class="country-name">Cocos (Keeling) Islands</span><span class="dial-code">+61</span>
-                                    </li>
-                                    <li class="country" data-dial-code="57" data-country-code="co">
-                                        <div class="flag-box">
-                                            <div class="iti-flag co"></div>
-                                        </div><span class="country-name">Colombia</span><span class="dial-code">+57</span>
-                                    </li>
-                                    <li class="country" data-dial-code="269" data-country-code="km">
-                                        <div class="flag-box">
-                                            <div class="iti-flag km"></div>
-                                        </div><span class="country-name">Comoros (&#8235;جزر القمر&#8236;&lrm;)</span><span class="dial-code">+269</span>
-                                    </li>
-                                    <li class="country" data-dial-code="243" data-country-code="cd">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cd"></div>
-                                        </div><span class="country-name">Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)</span><span class="dial-code">+243</span>
-                                    </li>
-                                    <li class="country" data-dial-code="242" data-country-code="cg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cg"></div>
-                                        </div><span class="country-name">Congo (Republic) (Congo-Brazzaville)</span><span class="dial-code">+242</span>
-                                    </li>
-                                    <li class="country" data-dial-code="682" data-country-code="ck">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ck"></div>
-                                        </div><span class="country-name">Cook Islands</span><span class="dial-code">+682</span>
-                                    </li>
-                                    <li class="country" data-dial-code="506" data-country-code="cr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cr"></div>
-                                        </div><span class="country-name">Costa Rica</span><span class="dial-code">+506</span>
-                                    </li>
-                                    <li class="country" data-dial-code="225" data-country-code="ci">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ci"></div>
-                                        </div><span class="country-name">Côte d’Ivoire</span><span class="dial-code">+225</span>
-                                    </li>
-                                    <li class="country" data-dial-code="385" data-country-code="hr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag hr"></div>
-                                        </div><span class="country-name">Croatia (Hrvatska)</span><span class="dial-code">+385</span>
-                                    </li>
-                                    <li class="country" data-dial-code="53" data-country-code="cu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cu"></div>
-                                        </div><span class="country-name">Cuba</span><span class="dial-code">+53</span>
-                                    </li>
-                                    <li class="country" data-dial-code="599" data-country-code="cw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cw"></div>
-                                        </div><span class="country-name">Curaçao</span><span class="dial-code">+599</span>
-                                    </li>
-                                    <li class="country" data-dial-code="357" data-country-code="cy">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cy"></div>
-                                        </div><span class="country-name">Cyprus (Κύπρος)</span><span class="dial-code">+357</span>
-                                    </li>
-                                    <li class="country" data-dial-code="420" data-country-code="cz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag cz"></div>
-                                        </div><span class="country-name">Czech Republic (Česká republika)</span><span class="dial-code">+420</span>
-                                    </li>
-                                    <li class="country" data-dial-code="45" data-country-code="dk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag dk"></div>
-                                        </div><span class="country-name">Denmark (Danmark)</span><span class="dial-code">+45</span>
-                                    </li>
-                                    <li class="country" data-dial-code="253" data-country-code="dj">
-                                        <div class="flag-box">
-                                            <div class="iti-flag dj"></div>
-                                        </div><span class="country-name">Djibouti</span><span class="dial-code">+253</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1767" data-country-code="dm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag dm"></div>
-                                        </div><span class="country-name">Dominica</span><span class="dial-code">+1767</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1" data-country-code="do">
-                                        <div class="flag-box">
-                                            <div class="iti-flag do"></div>
-                                        </div><span class="country-name">Dominican Republic (República Dominicana)</span><span class="dial-code">+1</span>
-                                    </li>
-                                    <li class="country" data-dial-code="593" data-country-code="ec">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ec"></div>
-                                        </div><span class="country-name">Ecuador</span><span class="dial-code">+593</span>
-                                    </li>
-                                    <li class="country" data-dial-code="20" data-country-code="eg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag eg"></div>
-                                        </div><span class="country-name">Egypt (&#8235;مصر&#8236;&lrm;)</span><span class="dial-code">+20</span>
-                                    </li>
-                                    <li class="country" data-dial-code="503" data-country-code="sv">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sv"></div>
-                                        </div><span class="country-name">El Salvador</span><span class="dial-code">+503</span>
-                                    </li>
-                                    <li class="country" data-dial-code="240" data-country-code="gq">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gq"></div>
-                                        </div><span class="country-name">Equatorial Guinea (Guinea Ecuatorial)</span><span class="dial-code">+240</span>
-                                    </li>
-                                    <li class="country" data-dial-code="291" data-country-code="er">
-                                        <div class="flag-box">
-                                            <div class="iti-flag er"></div>
-                                        </div><span class="country-name">Eritrea</span><span class="dial-code">+291</span>
-                                    </li>
-                                    <li class="country" data-dial-code="372" data-country-code="ee">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ee"></div>
-                                        </div><span class="country-name">Estonia (Eesti)</span><span class="dial-code">+372</span>
-                                    </li>
-                                    <li class="country" data-dial-code="251" data-country-code="et">
-                                        <div class="flag-box">
-                                            <div class="iti-flag et"></div>
-                                        </div><span class="country-name">Ethiopia</span><span class="dial-code">+251</span>
-                                    </li>
-                                    <li class="country" data-dial-code="500" data-country-code="fk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag fk"></div>
-                                        </div><span class="country-name">Falkland Islands (Islas Malvinas)</span><span class="dial-code">+500</span>
-                                    </li>
-                                    <li class="country" data-dial-code="298" data-country-code="fo">
-                                        <div class="flag-box">
-                                            <div class="iti-flag fo"></div>
-                                        </div><span class="country-name">Faroe Islands (Føroyar)</span><span class="dial-code">+298</span>
-                                    </li>
-                                    <li class="country" data-dial-code="679" data-country-code="fj">
-                                        <div class="flag-box">
-                                            <div class="iti-flag fj"></div>
-                                        </div><span class="country-name">Fiji</span><span class="dial-code">+679</span>
-                                    </li>
-                                    <li class="country" data-dial-code="358" data-country-code="fi">
-                                        <div class="flag-box">
-                                            <div class="iti-flag fi"></div>
-                                        </div><span class="country-name">Finland (Suomi)</span><span class="dial-code">+358</span>
-                                    </li>
-                                    <li class="country" data-dial-code="33" data-country-code="fr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag fr"></div>
-                                        </div><span class="country-name">France</span><span class="dial-code">+33</span>
-                                    </li>
-                                    <li class="country" data-dial-code="594" data-country-code="gf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gf"></div>
-                                        </div><span class="country-name">French Guiana (Guyane française)</span><span class="dial-code">+594</span>
-                                    </li>
-                                    <li class="country" data-dial-code="689" data-country-code="pf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pf"></div>
-                                        </div><span class="country-name">French Polynesia (Polynésie française)</span><span class="dial-code">+689</span>
-                                    </li>
-                                    <li class="country" data-dial-code="241" data-country-code="ga">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ga"></div>
-                                        </div><span class="country-name">Gabon</span><span class="dial-code">+241</span>
-                                    </li>
-                                    <li class="country" data-dial-code="220" data-country-code="gm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gm"></div>
-                                        </div><span class="country-name">Gambia</span><span class="dial-code">+220</span>
-                                    </li>
-                                    <li class="country" data-dial-code="995" data-country-code="ge">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ge"></div>
-                                        </div><span class="country-name">Georgia (საქართველო)</span><span class="dial-code">+995</span>
-                                    </li>
-                                    <li class="country" data-dial-code="49" data-country-code="de">
-                                        <div class="flag-box">
-                                            <div class="iti-flag de"></div>
-                                        </div><span class="country-name">Germany (Deutschland)</span><span class="dial-code">+49</span>
-                                    </li>
-                                    <li class="country" data-dial-code="233" data-country-code="gh">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gh"></div>
-                                        </div><span class="country-name">Ghana (Gaana)</span><span class="dial-code">+233</span>
-                                    </li>
-                                    <li class="country" data-dial-code="350" data-country-code="gi">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gi"></div>
-                                        </div><span class="country-name">Gibraltar</span><span class="dial-code">+350</span>
-                                    </li>
-                                    <li class="country" data-dial-code="30" data-country-code="gr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gr"></div>
-                                        </div><span class="country-name">Greece (Ελλάδα)</span><span class="dial-code">+30</span>
-                                    </li>
-                                    <li class="country" data-dial-code="299" data-country-code="gl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gl"></div>
-                                        </div><span class="country-name">Greenland (Kalaallit Nunaat)</span><span class="dial-code">+299</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1473" data-country-code="gd">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gd"></div>
-                                        </div><span class="country-name">Grenada</span><span class="dial-code">+1473</span>
-                                    </li>
-                                    <li class="country" data-dial-code="590" data-country-code="gp">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gp"></div>
-                                        </div><span class="country-name">Guadeloupe</span><span class="dial-code">+590</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1671" data-country-code="gu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gu"></div>
-                                        </div><span class="country-name">Guam</span><span class="dial-code">+1671</span>
-                                    </li>
-                                    <li class="country" data-dial-code="502" data-country-code="gt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gt"></div>
-                                        </div><span class="country-name">Guatemala</span><span class="dial-code">+502</span>
-                                    </li>
-                                    <li class="country" data-dial-code="44" data-country-code="gg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gg"></div>
-                                        </div><span class="country-name">Guernsey</span><span class="dial-code">+44</span>
-                                    </li>
-                                    <li class="country" data-dial-code="224" data-country-code="gn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gn"></div>
-                                        </div><span class="country-name">Guinea (Guinée)</span><span class="dial-code">+224</span>
-                                    </li>
-                                    <li class="country" data-dial-code="245" data-country-code="gw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gw"></div>
-                                        </div><span class="country-name">Guinea-Bissau (Guiné Bissau)</span><span class="dial-code">+245</span>
-                                    </li>
-                                    <li class="country" data-dial-code="592" data-country-code="gy">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gy"></div>
-                                        </div><span class="country-name">Guyana</span><span class="dial-code">+592</span>
-                                    </li>
-                                    <li class="country" data-dial-code="509" data-country-code="ht">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ht"></div>
-                                        </div><span class="country-name">Haiti</span><span class="dial-code">+509</span>
-                                    </li>
-                                    <li class="country" data-dial-code="504" data-country-code="hn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag hn"></div>
-                                        </div><span class="country-name">Honduras</span><span class="dial-code">+504</span>
-                                    </li>
-                                    <li class="country" data-dial-code="852" data-country-code="hk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag hk"></div>
-                                        </div><span class="country-name">Hong Kong (香港)</span><span class="dial-code">+852</span>
-                                    </li>
-                                    <li class="country" data-dial-code="36" data-country-code="hu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag hu"></div>
-                                        </div><span class="country-name">Hungary (Magyarország)</span><span class="dial-code">+36</span>
-                                    </li>
-                                    <li class="country" data-dial-code="354" data-country-code="is">
-                                        <div class="flag-box">
-                                            <div class="iti-flag is"></div>
-                                        </div><span class="country-name">Iceland (Ísland)</span><span class="dial-code">+354</span>
-                                    </li>
-                                    <li class="country active" data-dial-code="91" data-country-code="in">
-                                        <div class="flag-box">
-                                            <div class="iti-flag in"></div>
-                                        </div><span class="country-name">India (भारत)</span><span class="dial-code">+91</span>
-                                    </li>
-                                    <li class="country" data-dial-code="62" data-country-code="id">
-                                        <div class="flag-box">
-                                            <div class="iti-flag id"></div>
-                                        </div><span class="country-name">Indonesia</span><span class="dial-code">+62</span>
-                                    </li>
-                                    <li class="country" data-dial-code="98" data-country-code="ir">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ir"></div>
-                                        </div><span class="country-name">Iran (&#8235;ایران&#8236;&lrm;)</span><span class="dial-code">+98</span>
-                                    </li>
-                                    <li class="country" data-dial-code="964" data-country-code="iq">
-                                        <div class="flag-box">
-                                            <div class="iti-flag iq"></div>
-                                        </div><span class="country-name">Iraq (&#8235;العراق&#8236;&lrm;)</span><span class="dial-code">+964</span>
-                                    </li>
-                                    <li class="country" data-dial-code="353" data-country-code="ie">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ie"></div>
-                                        </div><span class="country-name">Ireland</span><span class="dial-code">+353</span>
-                                    </li>
-                                    <li class="country" data-dial-code="44" data-country-code="im">
-                                        <div class="flag-box">
-                                            <div class="iti-flag im"></div>
-                                        </div><span class="country-name">Isle of Man</span><span class="dial-code">+44</span>
-                                    </li>
-                                    <li class="country" data-dial-code="972" data-country-code="il">
-                                        <div class="flag-box">
-                                            <div class="iti-flag il"></div>
-                                        </div><span class="country-name">Israel (&#8235;ישראל&#8236;&lrm;)</span><span class="dial-code">+972</span>
-                                    </li>
-                                    <li class="country" data-dial-code="39" data-country-code="it">
-                                        <div class="flag-box">
-                                            <div class="iti-flag it"></div>
-                                        </div><span class="country-name">Italy (Italia)</span><span class="dial-code">+39</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1876" data-country-code="jm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag jm"></div>
-                                        </div><span class="country-name">Jamaica</span><span class="dial-code">+1876</span>
-                                    </li>
-                                    <li class="country" data-dial-code="81" data-country-code="jp">
-                                        <div class="flag-box">
-                                            <div class="iti-flag jp"></div>
-                                        </div><span class="country-name">Japan (日本)</span><span class="dial-code">+81</span>
-                                    </li>
-                                    <li class="country" data-dial-code="44" data-country-code="je">
-                                        <div class="flag-box">
-                                            <div class="iti-flag je"></div>
-                                        </div><span class="country-name">Jersey</span><span class="dial-code">+44</span>
-                                    </li>
-                                    <li class="country" data-dial-code="962" data-country-code="jo">
-                                        <div class="flag-box">
-                                            <div class="iti-flag jo"></div>
-                                        </div><span class="country-name">Jordan (&#8235;الأردن&#8236;&lrm;)</span><span class="dial-code">+962</span>
-                                    </li>
-                                    <li class="country" data-dial-code="7" data-country-code="kz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kz"></div>
-                                        </div><span class="country-name">Kazakhstan (Казахстан)</span><span class="dial-code">+7</span>
-                                    </li>
-                                    <li class="country" data-dial-code="254" data-country-code="ke">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ke"></div>
-                                        </div><span class="country-name">Kenya</span><span class="dial-code">+254</span>
-                                    </li>
-                                    <li class="country" data-dial-code="686" data-country-code="ki">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ki"></div>
-                                        </div><span class="country-name">Kiribati</span><span class="dial-code">+686</span>
-                                    </li>
-                                    <li class="country" data-dial-code="383" data-country-code="xk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag xk"></div>
-                                        </div><span class="country-name">Kosovo</span><span class="dial-code">+383</span>
-                                    </li>
-                                    <li class="country" data-dial-code="965" data-country-code="kw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kw"></div>
-                                        </div><span class="country-name">Kuwait (&#8235;الكويت&#8236;&lrm;)</span><span class="dial-code">+965</span>
-                                    </li>
-                                    <li class="country" data-dial-code="996" data-country-code="kg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kg"></div>
-                                        </div><span class="country-name">Kyrgyzstan (Кыргызстан)</span><span class="dial-code">+996</span>
-                                    </li>
-                                    <li class="country" data-dial-code="856" data-country-code="la">
-                                        <div class="flag-box">
-                                            <div class="iti-flag la"></div>
-                                        </div><span class="country-name">Laos (ລາວ)</span><span class="dial-code">+856</span>
-                                    </li>
-                                    <li class="country" data-dial-code="371" data-country-code="lv">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lv"></div>
-                                        </div><span class="country-name">Latvia (Latvija)</span><span class="dial-code">+371</span>
-                                    </li>
-                                    <li class="country" data-dial-code="961" data-country-code="lb">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lb"></div>
-                                        </div><span class="country-name">Lebanon (&#8235;لبنان&#8236;&lrm;)</span><span class="dial-code">+961</span>
-                                    </li>
-                                    <li class="country" data-dial-code="266" data-country-code="ls">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ls"></div>
-                                        </div><span class="country-name">Lesotho</span><span class="dial-code">+266</span>
-                                    </li>
-                                    <li class="country" data-dial-code="231" data-country-code="lr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lr"></div>
-                                        </div><span class="country-name">Liberia</span><span class="dial-code">+231</span>
-                                    </li>
-                                    <li class="country" data-dial-code="218" data-country-code="ly">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ly"></div>
-                                        </div><span class="country-name">Libya (&#8235;ليبيا&#8236;&lrm;)</span><span class="dial-code">+218</span>
-                                    </li>
-                                    <li class="country" data-dial-code="423" data-country-code="li">
-                                        <div class="flag-box">
-                                            <div class="iti-flag li"></div>
-                                        </div><span class="country-name">Liechtenstein</span><span class="dial-code">+423</span>
-                                    </li>
-                                    <li class="country" data-dial-code="370" data-country-code="lt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lt"></div>
-                                        </div><span class="country-name">Lithuania (Lietuva)</span><span class="dial-code">+370</span>
-                                    </li>
-                                    <li class="country" data-dial-code="352" data-country-code="lu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lu"></div>
-                                        </div><span class="country-name">Luxembourg</span><span class="dial-code">+352</span>
-                                    </li>
-                                    <li class="country" data-dial-code="853" data-country-code="mo">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mo"></div>
-                                        </div><span class="country-name">Macau (澳門)</span><span class="dial-code">+853</span>
-                                    </li>
-                                    <li class="country" data-dial-code="389" data-country-code="mk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mk"></div>
-                                        </div><span class="country-name">Macedonia (FYROM) (Македонија)</span><span class="dial-code">+389</span>
-                                    </li>
-                                    <li class="country" data-dial-code="261" data-country-code="mg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mg"></div>
-                                        </div><span class="country-name">Madagascar (Madagasikara)</span><span class="dial-code">+261</span>
-                                    </li>
-                                    <li class="country" data-dial-code="265" data-country-code="mw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mw"></div>
-                                        </div><span class="country-name">Malawi</span><span class="dial-code">+265</span>
-                                    </li>
-                                    <li class="country" data-dial-code="60" data-country-code="my">
-                                        <div class="flag-box">
-                                            <div class="iti-flag my"></div>
-                                        </div><span class="country-name">Malaysia</span><span class="dial-code">+60</span>
-                                    </li>
-                                    <li class="country" data-dial-code="960" data-country-code="mv">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mv"></div>
-                                        </div><span class="country-name">Maldives</span><span class="dial-code">+960</span>
-                                    </li>
-                                    <li class="country" data-dial-code="223" data-country-code="ml">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ml"></div>
-                                        </div><span class="country-name">Mali</span><span class="dial-code">+223</span>
-                                    </li>
-                                    <li class="country" data-dial-code="356" data-country-code="mt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mt"></div>
-                                        </div><span class="country-name">Malta</span><span class="dial-code">+356</span>
-                                    </li>
-                                    <li class="country" data-dial-code="692" data-country-code="mh">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mh"></div>
-                                        </div><span class="country-name">Marshall Islands</span><span class="dial-code">+692</span>
-                                    </li>
-                                    <li class="country" data-dial-code="596" data-country-code="mq">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mq"></div>
-                                        </div><span class="country-name">Martinique</span><span class="dial-code">+596</span>
-                                    </li>
-                                    <li class="country" data-dial-code="222" data-country-code="mr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mr"></div>
-                                        </div><span class="country-name">Mauritania (&#8235;موريتانيا&#8236;&lrm;)</span><span class="dial-code">+222</span>
-                                    </li>
-                                    <li class="country" data-dial-code="230" data-country-code="mu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mu"></div>
-                                        </div><span class="country-name">Mauritius (Moris)</span><span class="dial-code">+230</span>
-                                    </li>
-                                    <li class="country" data-dial-code="262" data-country-code="yt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag yt"></div>
-                                        </div><span class="country-name">Mayotte</span><span class="dial-code">+262</span>
-                                    </li>
-                                    <li class="country" data-dial-code="52" data-country-code="mx">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mx"></div>
-                                        </div><span class="country-name">Mexico (México)</span><span class="dial-code">+52</span>
-                                    </li>
-                                    <li class="country" data-dial-code="691" data-country-code="fm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag fm"></div>
-                                        </div><span class="country-name">Micronesia</span><span class="dial-code">+691</span>
-                                    </li>
-                                    <li class="country" data-dial-code="373" data-country-code="md">
-                                        <div class="flag-box">
-                                            <div class="iti-flag md"></div>
-                                        </div><span class="country-name">Moldova (Republica Moldova)</span><span class="dial-code">+373</span>
-                                    </li>
-                                    <li class="country" data-dial-code="377" data-country-code="mc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mc"></div>
-                                        </div><span class="country-name">Monaco</span><span class="dial-code">+377</span>
-                                    </li>
-                                    <li class="country" data-dial-code="976" data-country-code="mn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mn"></div>
-                                        </div><span class="country-name">Mongolia (Монгол)</span><span class="dial-code">+976</span>
-                                    </li>
-                                    <li class="country" data-dial-code="382" data-country-code="me">
-                                        <div class="flag-box">
-                                            <div class="iti-flag me"></div>
-                                        </div><span class="country-name">Montenegro (Crna Gora)</span><span class="dial-code">+382</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1664" data-country-code="ms">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ms"></div>
-                                        </div><span class="country-name">Montserrat</span><span class="dial-code">+1664</span>
-                                    </li>
-                                    <li class="country" data-dial-code="212" data-country-code="ma">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ma"></div>
-                                        </div><span class="country-name">Morocco (&#8235;المغرب&#8236;&lrm;)</span><span class="dial-code">+212</span>
-                                    </li>
-                                    <li class="country" data-dial-code="258" data-country-code="mz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mz"></div>
-                                        </div><span class="country-name">Mozambique (Moçambique)</span><span class="dial-code">+258</span>
-                                    </li>
-                                    <li class="country" data-dial-code="95" data-country-code="mm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mm"></div>
-                                        </div><span class="country-name">Myanmar (Burma) (မြန်မာ)</span><span class="dial-code">+95</span>
-                                    </li>
-                                    <li class="country" data-dial-code="264" data-country-code="na">
-                                        <div class="flag-box">
-                                            <div class="iti-flag na"></div>
-                                        </div><span class="country-name">Namibia (Namibië)</span><span class="dial-code">+264</span>
-                                    </li>
-                                    <li class="country" data-dial-code="674" data-country-code="nr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag nr"></div>
-                                        </div><span class="country-name">Nauru</span><span class="dial-code">+674</span>
-                                    </li>
-                                    <li class="country" data-dial-code="977" data-country-code="np">
-                                        <div class="flag-box">
-                                            <div class="iti-flag np"></div>
-                                        </div><span class="country-name">Nepal (नेपाल)</span><span class="dial-code">+977</span>
-                                    </li>
-                                    <li class="country" data-dial-code="31" data-country-code="nl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag nl"></div>
-                                        </div><span class="country-name">Netherlands (Nederland)</span><span class="dial-code">+31</span>
-                                    </li>
-                                    <li class="country" data-dial-code="687" data-country-code="nc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag nc"></div>
-                                        </div><span class="country-name">New Caledonia (Nouvelle-Calédonie)</span><span class="dial-code">+687</span>
-                                    </li>
-                                    <li class="country" data-dial-code="64" data-country-code="nz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag nz"></div>
-                                        </div><span class="country-name">New Zealand</span><span class="dial-code">+64</span>
-                                    </li>
-                                    <li class="country" data-dial-code="505" data-country-code="ni">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ni"></div>
-                                        </div><span class="country-name">Nicaragua</span><span class="dial-code">+505</span>
-                                    </li>
-                                    <li class="country" data-dial-code="227" data-country-code="ne">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ne"></div>
-                                        </div><span class="country-name">Niger (Nijar)</span><span class="dial-code">+227</span>
-                                    </li>
-                                    <li class="country" data-dial-code="234" data-country-code="ng">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ng"></div>
-                                        </div><span class="country-name">Nigeria</span><span class="dial-code">+234</span>
-                                    </li>
-                                    <li class="country" data-dial-code="683" data-country-code="nu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag nu"></div>
-                                        </div><span class="country-name">Niue</span><span class="dial-code">+683</span>
-                                    </li>
-                                    <li class="country" data-dial-code="672" data-country-code="nf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag nf"></div>
-                                        </div><span class="country-name">Norfolk Island</span><span class="dial-code">+672</span>
-                                    </li>
-                                    <li class="country" data-dial-code="850" data-country-code="kp">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kp"></div>
-                                        </div><span class="country-name">North Korea (조선 민주주의 인민 공화국)</span><span class="dial-code">+850</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1670" data-country-code="mp">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mp"></div>
-                                        </div><span class="country-name">Northern Mariana Islands</span><span class="dial-code">+1670</span>
-                                    </li>
-                                    <li class="country" data-dial-code="47" data-country-code="no">
-                                        <div class="flag-box">
-                                            <div class="iti-flag no"></div>
-                                        </div><span class="country-name">Norway (Norge)</span><span class="dial-code">+47</span>
-                                    </li>
-                                    <li class="country" data-dial-code="968" data-country-code="om">
-                                        <div class="flag-box">
-                                            <div class="iti-flag om"></div>
-                                        </div><span class="country-name">Oman (&#8235;عُمان&#8236;&lrm;)</span><span class="dial-code">+968</span>
-                                    </li>
-                                    <li class="country" data-dial-code="92" data-country-code="pk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pk"></div>
-                                        </div><span class="country-name">Pakistan (&#8235;پاکستان&#8236;&lrm;)</span><span class="dial-code">+92</span>
-                                    </li>
-                                    <li class="country" data-dial-code="680" data-country-code="pw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pw"></div>
-                                        </div><span class="country-name">Palau</span><span class="dial-code">+680</span>
-                                    </li>
-                                    <li class="country" data-dial-code="970" data-country-code="ps">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ps"></div>
-                                        </div><span class="country-name">Palestine (&#8235;فلسطين&#8236;&lrm;)</span><span class="dial-code">+970</span>
-                                    </li>
-                                    <li class="country" data-dial-code="507" data-country-code="pa">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pa"></div>
-                                        </div><span class="country-name">Panama (Panamá)</span><span class="dial-code">+507</span>
-                                    </li>
-                                    <li class="country" data-dial-code="675" data-country-code="pg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pg"></div>
-                                        </div><span class="country-name">Papua New Guinea</span><span class="dial-code">+675</span>
-                                    </li>
-                                    <li class="country" data-dial-code="595" data-country-code="py">
-                                        <div class="flag-box">
-                                            <div class="iti-flag py"></div>
-                                        </div><span class="country-name">Paraguay</span><span class="dial-code">+595</span>
-                                    </li>
-                                    <li class="country" data-dial-code="51" data-country-code="pe">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pe"></div>
-                                        </div><span class="country-name">Peru (Perú)</span><span class="dial-code">+51</span>
-                                    </li>
-                                    <li class="country" data-dial-code="63" data-country-code="ph">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ph"></div>
-                                        </div><span class="country-name">Philippines</span><span class="dial-code">+63</span>
-                                    </li>
-                                    <li class="country" data-dial-code="48" data-country-code="pl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pl"></div>
-                                        </div><span class="country-name">Poland (Polska)</span><span class="dial-code">+48</span>
-                                    </li>
-                                    <li class="country" data-dial-code="351" data-country-code="pt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pt"></div>
-                                        </div><span class="country-name">Portugal</span><span class="dial-code">+351</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1" data-country-code="pr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pr"></div>
-                                        </div><span class="country-name">Puerto Rico</span><span class="dial-code">+1</span>
-                                    </li>
-                                    <li class="country" data-dial-code="974" data-country-code="qa">
-                                        <div class="flag-box">
-                                            <div class="iti-flag qa"></div>
-                                        </div><span class="country-name">Qatar (&#8235;قطر&#8236;&lrm;)</span><span class="dial-code">+974</span>
-                                    </li>
-                                    <li class="country" data-dial-code="262" data-country-code="re">
-                                        <div class="flag-box">
-                                            <div class="iti-flag re"></div>
-                                        </div><span class="country-name">Réunion (La Réunion)</span><span class="dial-code">+262</span>
-                                    </li>
-                                    <li class="country" data-dial-code="40" data-country-code="ro">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ro"></div>
-                                        </div><span class="country-name">Romania (România)</span><span class="dial-code">+40</span>
-                                    </li>
-                                    <li class="country" data-dial-code="7" data-country-code="ru">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ru"></div>
-                                        </div><span class="country-name">Russia (Россия)</span><span class="dial-code">+7</span>
-                                    </li>
-                                    <li class="country" data-dial-code="250" data-country-code="rw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag rw"></div>
-                                        </div><span class="country-name">Rwanda</span><span class="dial-code">+250</span>
-                                    </li>
-                                    <li class="country" data-dial-code="590" data-country-code="bl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag bl"></div>
-                                        </div><span class="country-name">Saint Barthélemy (Saint-Barthélemy)</span><span class="dial-code">+590</span>
-                                    </li>
-                                    <li class="country" data-dial-code="290" data-country-code="sh">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sh"></div>
-                                        </div><span class="country-name">Saint Helena</span><span class="dial-code">+290</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1869" data-country-code="kn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kn"></div>
-                                        </div><span class="country-name">Saint Kitts and Nevis</span><span class="dial-code">+1869</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1758" data-country-code="lc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lc"></div>
-                                        </div><span class="country-name">Saint Lucia</span><span class="dial-code">+1758</span>
-                                    </li>
-                                    <li class="country" data-dial-code="590" data-country-code="mf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag mf"></div>
-                                        </div><span class="country-name">Saint Martin (Saint-Martin (partie française))</span><span class="dial-code">+590</span>
-                                    </li>
-                                    <li class="country" data-dial-code="508" data-country-code="pm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag pm"></div>
-                                        </div><span class="country-name">Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)</span><span class="dial-code">+508</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1784" data-country-code="vc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag vc"></div>
-                                        </div><span class="country-name">Saint Vincent and the Grenadines</span><span class="dial-code">+1784</span>
-                                    </li>
-                                    <li class="country" data-dial-code="685" data-country-code="ws">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ws"></div>
-                                        </div><span class="country-name">Samoa</span><span class="dial-code">+685</span>
-                                    </li>
-                                    <li class="country" data-dial-code="378" data-country-code="sm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sm"></div>
-                                        </div><span class="country-name">San Marino</span><span class="dial-code">+378</span>
-                                    </li>
-                                    <li class="country" data-dial-code="239" data-country-code="st">
-                                        <div class="flag-box">
-                                            <div class="iti-flag st"></div>
-                                        </div><span class="country-name">São Tomé and Príncipe (São Tomé e Príncipe)</span><span class="dial-code">+239</span>
-                                    </li>
-                                    <li class="country" data-dial-code="966" data-country-code="sa">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sa"></div>
-                                        </div><span class="country-name">Saudi Arabia (&#8235;المملكة العربية السعودية&#8236;&lrm;)</span><span class="dial-code">+966</span>
-                                    </li>
-                                    <li class="country" data-dial-code="221" data-country-code="sn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sn"></div>
-                                        </div><span class="country-name">Senegal (Sénégal)</span><span class="dial-code">+221</span>
-                                    </li>
-                                    <li class="country" data-dial-code="381" data-country-code="rs">
-                                        <div class="flag-box">
-                                            <div class="iti-flag rs"></div>
-                                        </div><span class="country-name">Serbia (Србија)</span><span class="dial-code">+381</span>
-                                    </li>
-                                    <li class="country" data-dial-code="248" data-country-code="sc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sc"></div>
-                                        </div><span class="country-name">Seychelles</span><span class="dial-code">+248</span>
-                                    </li>
-                                    <li class="country" data-dial-code="232" data-country-code="sl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sl"></div>
-                                        </div><span class="country-name">Sierra Leone</span><span class="dial-code">+232</span>
-                                    </li>
-                                    <li class="country" data-dial-code="65" data-country-code="sg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sg"></div>
-                                        </div><span class="country-name">Singapore</span><span class="dial-code">+65</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1721" data-country-code="sx">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sx"></div>
-                                        </div><span class="country-name">Sint Maarten</span><span class="dial-code">+1721</span>
-                                    </li>
-                                    <li class="country" data-dial-code="421" data-country-code="sk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sk"></div>
-                                        </div><span class="country-name">Slovakia (Slovensko)</span><span class="dial-code">+421</span>
-                                    </li>
-                                    <li class="country" data-dial-code="386" data-country-code="si">
-                                        <div class="flag-box">
-                                            <div class="iti-flag si"></div>
-                                        </div><span class="country-name">Slovenia (Slovenija)</span><span class="dial-code">+386</span>
-                                    </li>
-                                    <li class="country" data-dial-code="677" data-country-code="sb">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sb"></div>
-                                        </div><span class="country-name">Solomon Islands</span><span class="dial-code">+677</span>
-                                    </li>
-                                    <li class="country" data-dial-code="252" data-country-code="so">
-                                        <div class="flag-box">
-                                            <div class="iti-flag so"></div>
-                                        </div><span class="country-name">Somalia (Soomaaliya)</span><span class="dial-code">+252</span>
-                                    </li>
-                                    <li class="country" data-dial-code="27" data-country-code="za">
-                                        <div class="flag-box">
-                                            <div class="iti-flag za"></div>
-                                        </div><span class="country-name">South Africa</span><span class="dial-code">+27</span>
-                                    </li>
-                                    <li class="country" data-dial-code="82" data-country-code="kr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag kr"></div>
-                                        </div><span class="country-name">South Korea (대한민국)</span><span class="dial-code">+82</span>
-                                    </li>
-                                    <li class="country" data-dial-code="211" data-country-code="ss">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ss"></div>
-                                        </div><span class="country-name">South Sudan (&#8235;جنوب السودان&#8236;&lrm;)</span><span class="dial-code">+211</span>
-                                    </li>
-                                    <li class="country" data-dial-code="34" data-country-code="es">
-                                        <div class="flag-box">
-                                            <div class="iti-flag es"></div>
-                                        </div><span class="country-name">Spain (España)</span><span class="dial-code">+34</span>
-                                    </li>
-                                    <li class="country" data-dial-code="94" data-country-code="lk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag lk"></div>
-                                        </div><span class="country-name">Sri Lanka (ශ්&zwj;රී ලංකාව)</span><span class="dial-code">+94</span>
-                                    </li>
-                                    <li class="country" data-dial-code="249" data-country-code="sd">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sd"></div>
-                                        </div><span class="country-name">Sudan (&#8235;السودان&#8236;&lrm;)</span><span class="dial-code">+249</span>
-                                    </li>
-                                    <li class="country" data-dial-code="597" data-country-code="sr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sr"></div>
-                                        </div><span class="country-name">Suriname</span><span class="dial-code">+597</span>
-                                    </li>
-                                    <li class="country" data-dial-code="47" data-country-code="sj">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sj"></div>
-                                        </div><span class="country-name">Svalbard and Jan Mayen</span><span class="dial-code">+47</span>
-                                    </li>
-                                    <li class="country" data-dial-code="268" data-country-code="sz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sz"></div>
-                                        </div><span class="country-name">Swaziland</span><span class="dial-code">+268</span>
-                                    </li>
-                                    <li class="country" data-dial-code="46" data-country-code="se">
-                                        <div class="flag-box">
-                                            <div class="iti-flag se"></div>
-                                        </div><span class="country-name">Sweden (Sverige)</span><span class="dial-code">+46</span>
-                                    </li>
-                                    <li class="country" data-dial-code="41" data-country-code="ch">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ch"></div>
-                                        </div><span class="country-name">Switzerland (Schweiz)</span><span class="dial-code">+41</span>
-                                    </li>
-                                    <li class="country" data-dial-code="963" data-country-code="sy">
-                                        <div class="flag-box">
-                                            <div class="iti-flag sy"></div>
-                                        </div><span class="country-name">Syria (&#8235;سوريا&#8236;&lrm;)</span><span class="dial-code">+963</span>
-                                    </li>
-                                    <li class="country" data-dial-code="886" data-country-code="tw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tw"></div>
-                                        </div><span class="country-name">Taiwan (台灣)</span><span class="dial-code">+886</span>
-                                    </li>
-                                    <li class="country" data-dial-code="992" data-country-code="tj">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tj"></div>
-                                        </div><span class="country-name">Tajikistan</span><span class="dial-code">+992</span>
-                                    </li>
-                                    <li class="country" data-dial-code="255" data-country-code="tz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tz"></div>
-                                        </div><span class="country-name">Tanzania</span><span class="dial-code">+255</span>
-                                    </li>
-                                    <li class="country" data-dial-code="66" data-country-code="th">
-                                        <div class="flag-box">
-                                            <div class="iti-flag th"></div>
-                                        </div><span class="country-name">Thailand (ไทย)</span><span class="dial-code">+66</span>
-                                    </li>
-                                    <li class="country" data-dial-code="670" data-country-code="tl">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tl"></div>
-                                        </div><span class="country-name">Timor-Leste</span><span class="dial-code">+670</span>
-                                    </li>
-                                    <li class="country" data-dial-code="228" data-country-code="tg">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tg"></div>
-                                        </div><span class="country-name">Togo</span><span class="dial-code">+228</span>
-                                    </li>
-                                    <li class="country" data-dial-code="690" data-country-code="tk">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tk"></div>
-                                        </div><span class="country-name">Tokelau</span><span class="dial-code">+690</span>
-                                    </li>
-                                    <li class="country" data-dial-code="676" data-country-code="to">
-                                        <div class="flag-box">
-                                            <div class="iti-flag to"></div>
-                                        </div><span class="country-name">Tonga</span><span class="dial-code">+676</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1868" data-country-code="tt">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tt"></div>
-                                        </div><span class="country-name">Trinidad and Tobago</span><span class="dial-code">+1868</span>
-                                    </li>
-                                    <li class="country" data-dial-code="216" data-country-code="tn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tn"></div>
-                                        </div><span class="country-name">Tunisia (&#8235;تونس&#8236;&lrm;)</span><span class="dial-code">+216</span>
-                                    </li>
-                                    <li class="country" data-dial-code="90" data-country-code="tr">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tr"></div>
-                                        </div><span class="country-name">Turkey (Türkiye)</span><span class="dial-code">+90</span>
-                                    </li>
-                                    <li class="country" data-dial-code="993" data-country-code="tm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tm"></div>
-                                        </div><span class="country-name">Turkmenistan</span><span class="dial-code">+993</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1649" data-country-code="tc">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tc"></div>
-                                        </div><span class="country-name">Turks and Caicos Islands</span><span class="dial-code">+1649</span>
-                                    </li>
-                                    <li class="country" data-dial-code="688" data-country-code="tv">
-                                        <div class="flag-box">
-                                            <div class="iti-flag tv"></div>
-                                        </div><span class="country-name">Tuvalu</span><span class="dial-code">+688</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1340" data-country-code="vi">
-                                        <div class="flag-box">
-                                            <div class="iti-flag vi"></div>
-                                        </div><span class="country-name">U.S. Virgin Islands</span><span class="dial-code">+1340</span>
-                                    </li>
-                                    <li class="country" data-dial-code="256" data-country-code="ug">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ug"></div>
-                                        </div><span class="country-name">Uganda</span><span class="dial-code">+256</span>
-                                    </li>
-                                    <li class="country" data-dial-code="380" data-country-code="ua">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ua"></div>
-                                        </div><span class="country-name">Ukraine (Україна)</span><span class="dial-code">+380</span>
-                                    </li>
-                                    <li class="country" data-dial-code="971" data-country-code="ae">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ae"></div>
-                                        </div><span class="country-name">United Arab Emirates (&#8235;الإمارات العربية المتحدة&#8236;&lrm;)</span><span class="dial-code">+971</span>
-                                    </li>
-                                    <li class="country" data-dial-code="44" data-country-code="gb">
-                                        <div class="flag-box">
-                                            <div class="iti-flag gb"></div>
-                                        </div><span class="country-name">United Kingdom</span><span class="dial-code">+44</span>
-                                    </li>
-                                    <li class="country" data-dial-code="1" data-country-code="us">
-                                        <div class="flag-box">
-                                            <div class="iti-flag us"></div>
-                                        </div><span class="country-name">United States</span><span class="dial-code">+1</span>
-                                    </li>
-                                    <li class="country" data-dial-code="598" data-country-code="uy">
-                                        <div class="flag-box">
-                                            <div class="iti-flag uy"></div>
-                                        </div><span class="country-name">Uruguay</span><span class="dial-code">+598</span>
-                                    </li>
-                                    <li class="country" data-dial-code="998" data-country-code="uz">
-                                        <div class="flag-box">
-                                            <div class="iti-flag uz"></div>
-                                        </div><span class="country-name">Uzbekistan (Oʻzbekiston)</span><span class="dial-code">+998</span>
-                                    </li>
-                                    <li class="country" data-dial-code="678" data-country-code="vu">
-                                        <div class="flag-box">
-                                            <div class="iti-flag vu"></div>
-                                        </div><span class="country-name">Vanuatu</span><span class="dial-code">+678</span>
-                                    </li>
-                                    <li class="country" data-dial-code="39" data-country-code="va">
-                                        <div class="flag-box">
-                                            <div class="iti-flag va"></div>
-                                        </div><span class="country-name">Vatican City (Città del Vaticano)</span><span class="dial-code">+39</span>
-                                    </li>
-                                    <li class="country" data-dial-code="58" data-country-code="ve">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ve"></div>
-                                        </div><span class="country-name">Venezuela</span><span class="dial-code">+58</span>
-                                    </li>
-                                    <li class="country" data-dial-code="84" data-country-code="vn">
-                                        <div class="flag-box">
-                                            <div class="iti-flag vn"></div>
-                                        </div><span class="country-name">Vietnam (Việt Nam)</span><span class="dial-code">+84</span>
-                                    </li>
-                                    <li class="country" data-dial-code="681" data-country-code="wf">
-                                        <div class="flag-box">
-                                            <div class="iti-flag wf"></div>
-                                        </div><span class="country-name">Wallis and Futuna</span><span class="dial-code">+681</span>
-                                    </li>
-                                    <li class="country" data-dial-code="212" data-country-code="eh">
-                                        <div class="flag-box">
-                                            <div class="iti-flag eh"></div>
-                                        </div><span class="country-name">Western Sahara (&#8235;الصحراء الغربية&#8236;&lrm;)</span><span class="dial-code">+212</span>
-                                    </li>
-                                    <li class="country" data-dial-code="967" data-country-code="ye">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ye"></div>
-                                        </div><span class="country-name">Yemen (&#8235;اليمن&#8236;&lrm;)</span><span class="dial-code">+967</span>
-                                    </li>
-                                    <li class="country" data-dial-code="260" data-country-code="zm">
-                                        <div class="flag-box">
-                                            <div class="iti-flag zm"></div>
-                                        </div><span class="country-name">Zambia</span><span class="dial-code">+260</span>
-                                    </li>
-                                    <li class="country" data-dial-code="263" data-country-code="zw">
-                                        <div class="flag-box">
-                                            <div class="iti-flag zw"></div>
-                                        </div><span class="country-name">Zimbabwe</span><span class="dial-code">+263</span>
-                                    </li>
-                                    <li class="country" data-dial-code="358" data-country-code="ax">
-                                        <div class="flag-box">
-                                            <div class="iti-flag ax"></div>
-                                        </div><span class="country-name">Åland Islands</span><span class="dial-code">+358</span>
-                                    </li>
-                                </ul>
-                            </div><input type="tel" id="tel" name="phone" class="mt-10 mb-10" data-error="Valid Phone please" placeholder="Phone*" pattern="^[+]*\d{10,15}$" required="" autocomplete="off">
-                        </div><br>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email_id" class="mt-10 mb-10" data-error="Valid Email please" placeholder="Email*" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="query" class="mt-10 mb-10" placeholder="Query">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <input type="hidden" name="project_name" value="">
-                    <input type="hidden" name="CountryCode" id="CountryCode" value="+91">
-                    <input type="hidden" name="proj_id" value="">
-                    <input type="hidden" name="project_id" value="">
-                    <input type="hidden" name="source-url" value="www.casagrand.co.in/apartments-villas-plots/ongoing-projects/">
-                    <input type="hidden" name="site-url" value="www.casagrand.co.in">
-                    <input type="hidden" name="srd" value="">
-                    <input type="hidden" name="mobile_d" class="mobile_d" value="Desktop Enquiry">
-                    <input type="submit" class="btn-brochure AvenirLTStdHeavy color-fff fs-16 enq-now disabled" value="Submit">
-                </form>
-            </div>
-        </div>
-    </div>
-
     <section class="bg-f5f5f5">
         <div class="container">
             <div class="row" id="result">
@@ -1306,60 +35,325 @@
                             <!-- main -->
                             <div class="row mt-5 mb-5">
                                 <?php
-                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
-                                    $onGoingArray = $conn->query($sql);
-                            
-                                    if ($onGoingArray->num_rows > 0) {                                
-                                        while($onGoing = $onGoingArray->fetch_assoc()) { ?>
+                                $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
+                                $onGoingArray = $conn->query($sql);
 
-                                            <div class="col-12 col-sm-4 mb-sm-30 project-list-holder">
-                                                <div class="project-list-image card"> <a href="#"><img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>"></a></div>
+                                if ($onGoingArray->num_rows > 0) {
+                                    while ($onGoing = $onGoingArray->fetch_assoc()) { ?>
 
-                                                <div class="bg-fff opensansregular">
-                                                    <h4 class="fs-18 tab-proj-title project-details AvenirLTStdHeavy"><?php echo $onGoing['project_name']; ?></h4>
-                                                    <p class="color-666 pt-3 fs-16 project-details text-left lh-30">
-                                                        <img class="icon ml-1" src="wp-content/themes/img/map.png">                                                        
-                                                        <span class="proj-detail"><?php echo $onGoing['address_line_2']; ?></span>
-                                                    </p>
-                                                    <p class="fs-16 project-details color-666 d-block text-left lh-30">
-                                                        <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png">
-                                                        <span class="proj-detail">-</span>
-                                                    </p>
-                                                    <p class="text-left project-details  pb-3 fs-16 color-666 d-block lh-30">
-                                                        <img class="icon" style="margin-left: 7px;" src="wp-content/themes/img/rupees.png">                                                    
-                                                        <span class="proj-detail">-</span>
-                                                    </p>
+                                        <div class="col-12 col-sm-4 mb-sm-30 project-list-holder">
+                                            <div class="project-list-image card"> <a href="#"><img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>"></a></div>
 
-                                                    <p class="d-flex">
-                                                        <!-- <a href="javascript:void(0);" data-toggle="modal" data-proj_id="" data-project_name="" data-project_id="" data-target="#modal_enq_project" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure proj-btn">Download Brochure</a> -->
-                                                        <a href="<?php echo $onGoing['pdf_link']; ?>" target="_blank" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure-Boulevard proj-btn">Download Brochure</a>
-                                                        <a class="color-fff fs-16 proj-btn btn-details AvenirLTStdLight btn" href="#" >View Details </a>
-                                                    </p>
-                                                </div>
+                                            <div class="bg-fff opensansregular">
+                                                <h4 class="fs-18 tab-proj-title project-details AvenirLTStdHeavy"><?php echo $onGoing['project_name']; ?></h4>
+                                                <p class="color-666 pt-3 fs-16 project-details text-left lh-30">
+                                                    <img class="icon ml-1" src="wp-content/themes/img/map.png">
+                                                    <span class="proj-detail"><?php echo $onGoing['address_line_2']; ?></span>
+                                                </p>
+                                                <p class="fs-16 project-details color-666 d-block text-left lh-30">
+                                                    <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png">
+                                                    <span class="proj-detail">-</span>
+                                                </p>
+                                                <p class="text-left project-details  pb-3 fs-16 color-666 d-block lh-30">
+                                                    <img class="icon" style="margin-left: 7px;" src="wp-content/themes/img/rupees.png">
+                                                    <span class="proj-detail">-</span>
+                                                </p>
+
+                                                <p class="d-flex">
+                                                    <!-- <a href="javascript:void(0);" data-toggle="modal" data-proj_id="" data-project_name="" data-project_id="" data-target="#modal_enq_project" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure proj-btn">Download Brochure</a> -->
+                                                    <a href="<?php echo $onGoing['pdf_link']; ?>" target="_blank" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure-Boulevard proj-btn">Download Brochure</a>
+                                                    <a class="color-fff fs-16 proj-btn btn-details AvenirLTStdLight btn" href="#">View Details </a>
+                                                </p>
                                             </div>
-                                            <?php 
-                                        } 
-                                    } 
-                                    else{ ?>
-                                            <div class="col-12 col-sm-4 mb-sm-30 project-list-holder mx-auto">
-                                                <div class="bg-fff opensansregular">
-                                                    <h4>No Projects Available</h4>
-                                                </div>
-                                            </div>
-                                        <?php
-                                    } ?>
+                                        </div>
+                                    <?php
+                                    }
+                                } else { ?>
+                                    <div class="col-12 col-sm-4 mb-sm-30 project-list-holder mx-auto">
+                                        <div class="bg-fff opensansregular">
+                                            <h4>No Projects Available</h4>
+                                        </div>
+                                    </div>
+                                <?php
+                                } ?>
                             </div>
                             <!-- row -->
                         </div>
-                        <div role="tabpanel" class="tab-pane fade AvenirLTStd55Roman_5173 house-type-tab" id="map-view">
+                        <div role="tabpanel" class="tab-pane AvenirLTStd55Roman_5173 house-type-tab active" id="map-view">
                             <div class="col-12 col-md-12 mb-5 mt-5 map-holder">
-                                <div class="acf-map" style="width:100%;height:700px">
-                                    <div class="marker" data-lat="13.0776445" data-lng="77.6579225">
-                                        <h4>Casagrand Boulevard</h4>
-                                        <p class="address">Casagrand Boulevard
-                                            <br>Hennur Main Road,
-                                            <br>Bengaluru, 560077
-                                        </p><a class="d-block p-2 text-center yw-btn fs-14" href="https://www.casagrand.co.in/residential/ongoing-projects-bangalore-hennur-main-road/casagrand-boulevard/">View Project</a>
+                                <div class="acf-map" style="width: 100%; height: 700px; position: relative; overflow: hidden;">
+                                    <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+                                        <div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">
+                                            <div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;">
+                                                <div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
+                                                    <div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+                                                        <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                                                            <div style="position: absolute; z-index: 992; transform: matrix(1, 0, 0, 1, -224, -158);">
+                                                                <div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                                <div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;">
+                                                                    <div style="width: 256px; height: 256px;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
+                                                    <div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
+                                                    <div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+                                                        <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+                                                            <div style="position: absolute; z-index: 992; transform: matrix(1, 0, 0, 1, -224, -158);">
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -256px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 0px;"></div>
+                                                                <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 256px;"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -181px; top: -299px; z-index: -256;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 283px; top: -265px; z-index: -222;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -310px; top: 74px; z-index: 117;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 275px; top: -287px; z-index: -244;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 286px; top: -264px; z-index: -221;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 276px; top: -298px; z-index: -255;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 279px; top: -267px; z-index: -224;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -297px; top: 75px; z-index: 118;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 275px; top: -286px; z-index: -243;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 281px; top: -259px; z-index: -216;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 287px; top: -265px; z-index: -222;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 288px; top: -267px; z-index: -224;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 289px; top: -256px; z-index: -213;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 275px; top: -300px; z-index: -257;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 277px; top: -306px; z-index: -263;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 285px; top: -255px; z-index: -212;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 255px; top: -262px; z-index: -219;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 276px; top: -287px; z-index: -244;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 288px; top: -310px; z-index: -267;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 289px; top: -256px; z-index: -213;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 275px; top: -286px; z-index: -243;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 284px; top: -258px; z-index: -215;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 243px; top: -291px; z-index: -248;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 243px; top: -291px; z-index: -248;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 265px; top: -278px; z-index: -235;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 265px; top: -278px; z-index: -235;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 265px; top: -278px; z-index: -235;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 261px; top: -271px; z-index: -228;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 288px; top: -277px; z-index: -234;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 286px; top: -287px; z-index: -244;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 247px; top: -293px; z-index: -250;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 233px; top: -261px; z-index: -218;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 294px; top: -289px; z-index: -246;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: 288px; top: -273px; z-index: -230;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -322px; top: 88px; z-index: 131;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -308px; top: 95px; z-index: 138;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -186px; top: -303px; z-index: -260;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -304px; top: 87px; z-index: 130;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -161px; top: -253px; z-index: -210;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -305px; top: 87px; z-index: 130;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -295px; top: 69px; z-index: 112;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -218px; top: 223px; z-index: 266;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                    </div>
+                                                    <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                                                        <div style="position: absolute; z-index: 992; transform: matrix(1, 0, 0, 1, -224, -158);">
+                                                            <div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i183!3i119!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=59927" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i183!3i118!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=49522" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i182!3i118!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=59903" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i182!3i119!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=70308" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i184!3i119!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=49546" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i184!3i120!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=120490" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i184!3i118!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=39141" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i183!3i120!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=130871" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i181!3i120!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=20562" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i182!3i120!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=10181" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i181!3i119!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=80689" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i181!3i118!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=70284" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i185!3i118!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=28760" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i185!3i119!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=39165" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                            <div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i8!2i185!3i120!4i256!2m3!1e0!2sm!3i528250016!3m12!2sen-IN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0&amp;key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&amp;token=110109" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0; transition-duration: 0.8s;">
+                                                    <p class="gm-style-pbt">Use ctrl + scroll to zoom the map</p>
+                                                </div>
+                                                <div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;">
+                                                    <div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
+                                                        <div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div>
+                                                        <div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div>
+                                                        <div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -181px; top: -299px; z-index: -256;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap0" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap0" id="gmimap0"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 283px; top: -265px; z-index: -222;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap1" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap1" id="gmimap1"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -310px; top: 74px; z-index: 117;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap2" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap2" id="gmimap2"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 275px; top: -287px; z-index: -244;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap3" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap3" id="gmimap3"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 286px; top: -264px; z-index: -221;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap4" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap4" id="gmimap4"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 276px; top: -298px; z-index: -255;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap5" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap5" id="gmimap5"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 279px; top: -267px; z-index: -224;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap6" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap6" id="gmimap6"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -297px; top: 75px; z-index: 118;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap7" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap7" id="gmimap7"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 275px; top: -286px; z-index: -243;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap8" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap8" id="gmimap8"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 281px; top: -259px; z-index: -216;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap9" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap9" id="gmimap9"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 287px; top: -265px; z-index: -222;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap10" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap10" id="gmimap10"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 288px; top: -267px; z-index: -224;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap11" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap11" id="gmimap11"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 289px; top: -256px; z-index: -213;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap12" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap12" id="gmimap12"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 275px; top: -300px; z-index: -257;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap13" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap13" id="gmimap13"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 277px; top: -306px; z-index: -263;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap14" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap14" id="gmimap14"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 285px; top: -255px; z-index: -212;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap15" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap15" id="gmimap15"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 255px; top: -262px; z-index: -219;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap16" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap16" id="gmimap16"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 276px; top: -287px; z-index: -244;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap17" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap17" id="gmimap17"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 288px; top: -310px; z-index: -267;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap18" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap18" id="gmimap18"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 289px; top: -256px; z-index: -213;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap19" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap19" id="gmimap19"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 275px; top: -286px; z-index: -243;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap20" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap20" id="gmimap20"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 284px; top: -258px; z-index: -215;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap21" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap21" id="gmimap21"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 243px; top: -291px; z-index: -248;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap22" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap22" id="gmimap22"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 243px; top: -291px; z-index: -248;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap23" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap23" id="gmimap23"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 265px; top: -278px; z-index: -235;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap24" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap24" id="gmimap24"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 265px; top: -278px; z-index: -235;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap25" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap25" id="gmimap25"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 265px; top: -278px; z-index: -235;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap26" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap26" id="gmimap26"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 261px; top: -271px; z-index: -228;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap27" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap27" id="gmimap27"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 288px; top: -277px; z-index: -234;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap28" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap28" id="gmimap28"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 286px; top: -287px; z-index: -244;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap29" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap29" id="gmimap29"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 247px; top: -293px; z-index: -250;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap30" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap30" id="gmimap30"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 233px; top: -261px; z-index: -218;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap31" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap31" id="gmimap31"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 294px; top: -289px; z-index: -246;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap32" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap32" id="gmimap32"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: 288px; top: -273px; z-index: -230;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap33" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap33" id="gmimap33"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -322px; top: 88px; z-index: 131;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap34" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap34" id="gmimap34"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -308px; top: 95px; z-index: 138;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap35" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap35" id="gmimap35"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -186px; top: -303px; z-index: -260;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap36" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap36" id="gmimap36"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -304px; top: 87px; z-index: 130;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap37" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap37" id="gmimap37"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -161px; top: -253px; z-index: -210;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap38" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap38" id="gmimap38"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -305px; top: 87px; z-index: 130;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap39" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap39" id="gmimap39"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -295px; top: 69px; z-index: 112;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap40" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap40" id="gmimap40"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                            <div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.0001; left: -218px; top: 223px; z-index: 266;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap41" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap41" id="gmimap41"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" tabindex="-1" title="" style="cursor: pointer; touch-action: none;"></map></div>
+                                                        </div>
+                                                        <div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div><iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe>
+                                            <div>
+                                                <div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;">
+                                                    <div class="gm-style-mtc" style="float: left; position: relative;"><button draggable="false" title="Show street map" aria-label="Show street map" type="button" aria-pressed="true" style="background: none padding-box rgb(255, 255, 255); display: table-cell; border: 0px; margin: 0px; padding: 0px 17px; text-transform: none; -webkit-appearance: none; position: relative; cursor: pointer; user-select: none; direction: ltr; overflow: hidden; text-align: center; height: 40px; vertical-align: middle; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; font-size: 18px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 37px; font-weight: 500;">Map</button>
+                                                        <div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 40px; text-align: left; display: none;">
+                                                            <div draggable="false" title="Show street map with terrain" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span aria-label="Show street map with terrain" role="checkbox" tabindex="0" aria-checked="false" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gm-style-mtc" style="float: left; position: relative;"><button draggable="false" title="Show satellite imagery" aria-label="Show satellite imagery" type="button" aria-pressed="false" style="background: none padding-box rgb(255, 255, 255); display: table-cell; border: 0px; margin: 0px; padding: 0px 17px; text-transform: none; -webkit-appearance: none; position: relative; cursor: pointer; user-select: none; direction: ltr; overflow: hidden; text-align: center; height: 40px; vertical-align: middle; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; font-size: 18px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 66px;">Satellite</button>
+                                                        <div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 40px; text-align: left; display: none;">
+                                                            <div draggable="false" title="Show imagery with street names" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span aria-label="Show imagery with street names" role="checkbox" tabindex="0" aria-checked="true" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; text-transform: none; -webkit-appearance: none; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div>
+                                                <div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="40" controlheight="153" style="margin: 10px; user-select: none; position: absolute; bottom: 167px; right: 40px;">
+                                                    <div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;">
+                                                        <div style="width: 40px; height: 40px;"><button draggable="false" title="Rotate map 90 degrees" aria-label="Rotate map 90 degrees" type="button" class="gm-control-active" style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; text-transform: none; -webkit-appearance: none; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><button draggable="false" title="Tilt map" aria-label="Tilt map" type="button" class="gm-tilt gm-control-active" style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; -webkit-appearance: none; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"></button></div>
+                                                    </div>
+                                                    <div class="gm-svpc" dir="ltr" title="Drag Pegman onto the map to open Street View" controlwidth="40" controlheight="40" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;">
+                                                        <div style="position: absolute; left: 50%; top: 50%;"></div>
+                                                        <div style="position: absolute; left: 50%; top: 50%;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2223%22%20height%3D%2238%22%20viewBox%3D%220%200%2023%2038%22%3E%0A%3Cpath%20d%3D%22M16.6%2C38.1h-5.5l-0.2-2.9-0.2%2C2.9h-5.5L5%2C25.3l-0.8%2C2a1.53%2C1.53%2C0%2C0%2C1-1.9.9l-1.2-.4a1.58%2C1.58%2C0%2C0%2C1-1-1.9v-0.1c0.3-.9%2C3.1-11.2%2C3.1-11.2a2.66%2C2.66%2C0%2C0%2C1%2C2.3-2l0.6-.5a6.93%2C6.93%2C0%2C0%2C1%2C4.7-12%2C6.8%2C6.8%2C0%2C0%2C1%2C4.9%2C2%2C7%2C7%2C0%2C0%2C1%2C2%2C4.9%2C6.65%2C6.65%2C0%2C0%2C1-2.2%2C5l0.7%2C0.5a2.78%2C2.78%2C0%2C0%2C1%2C2.4%2C2s2.9%2C11.2%2C2.9%2C11.3a1.53%2C1.53%2C0%2C0%2C1-.9%2C1.9l-1.3.4a1.63%2C1.63%2C0%2C0%2C1-1.9-.9l-0.7-1.8-0.1%2C12.7h0Zm-3.6-2h1.7L14.9%2C20.3l1.9-.3%2C2.4%2C6.3%2C0.3-.1c-0.2-.8-0.8-3.2-2.8-10.9a0.63%2C0.63%2C0%2C0%2C0-.6-0.5h-0.6l-1.1-.9h-1.9l-0.3-2a4.83%2C4.83%2C0%2C0%2C0%2C3.5-4.7A4.78%2C4.78%200%200%2C0%2011%202.3H10.8a4.9%2C4.9%2C0%2C0%2C0-1.4%2C9.6l-0.3%2C2h-1.9l-1%2C.9h-0.6a0.74%2C0.74%2C0%2C0%2C0-.6.5c-2%2C7.5-2.7%2C10-3%2C10.9l0.3%2C0.1%2C2.5-6.3%2C1.9%2C0.3%2C0.2%2C15.8h1.6l0.6-8.4a1.52%2C1.52%2C0%2C0%2C1%2C1.5-1.4%2C1.5%2C1.5%2C0%2C0%2C1%2C1.5%2C1.4l0.9%2C8.4h0Zm-10.9-9.6h0Zm17.5-.1h0Z%22%20style%3D%22fill%3A%23333%3Bopacity%3A0.7%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M5.9%2C13.6l1.1-.9h7.8l1.2%2C0.9%22%20style%3D%22fill%3A%23ce592c%22%2F%3E%0A%3Cellipse%20cx%3D%2210.9%22%20cy%3D%2213.1%22%20rx%3D%222.7%22%20ry%3D%220.3%22%20style%3D%22fill%3A%23ce592c%3Bopacity%3A0.5%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M20.6%2C26.1l-2.9-11.3a1.71%2C1.71%2C0%2C0%2C0-1.6-1.2H5.7a1.69%2C1.69%2C0%2C0%2C0-1.5%2C1.3l-3.1%2C11.3a0.61%2C0.61%2C0%2C0%2C0%2C.3.7l1.1%2C0.4a0.61%2C0.61%2C0%2C0%2C0%2C.7-0.3l2.7-6.7%2C0.2%2C16.8h3.6l0.6-9.3a0.47%2C0.47%2C0%2C0%2C1%2C.44-0.5h0.06c0.4%2C0%2C.4.2%2C0.5%2C0.5l0.6%2C9.3h3.6L15.7%2C20.3l2.5%2C6.6a0.52%2C0.52%2C0%2C0%2C0%2C.66.31h0l1.2-.4a0.57%2C0.57%2C0%2C0%2C0%2C.5-0.7h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3Cpath%20d%3D%22M7%2C13.6l3.9%2C6.7%2C3.9-6.7%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%2F%3E%0A%3Ccircle%20cx%3D%2210.9%22%20cy%3D%227%22%20r%3D%225.9%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3C%2Fsvg%3E%0A" aria-label="Street View Pegman Control" style="height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2224px%22%20height%3D%2238px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2024%2038%22%3E%0A%3Cpath%20d%3D%22M22%2C26.6l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L6.6%2C21l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%2F%3E%22%0A%3C%2Fsvg%3E%0A%0A" aria-label="Pegman is on top of the Map" style="display: none; height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2240px%22%20height%3D%2250px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2040%2050%22%3E%0A%3Cpath%20d%3D%22M34.00%2C-30.40l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C-36.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Zm1.2%2C59.1-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C24.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C38.80h-4a1.64%2C1.64%2C0%2C0%2C1-1.4-1.1l-3.1-8a0.9%2C0.9%2C0%2C0%2C1-.5.1l-1.4.1a1.62%2C1.62%2C0%2C0%2C1-1.6-1.4l-1.1-13.1%2C1.6-1.3a6.87%2C6.87%2C0%2C0%2C1-3-4.6A7.14%2C7.14%200%200%2C1%202%204a7.6%2C7.6%2C0%2C0%2C1%2C4.7-3.1%2C7.14%2C7.14%2C0%2C0%2C1%2C5.5%2C1.1%2C7.28%2C7.28%2C0%2C0%2C1%2C2.3%2C9.6l2.1-.1%2C0.1%2C1c0%2C0.2.1%2C0.5%2C0.1%2C0.8a2.41%2C2.41%2C0%2C0%2C1%2C1%2C1s1.9%2C3.2%2C2.8%2C4.9c0.7%2C1.2%2C2.1%2C4.2%2C2.8%2C5.9a2.1%2C2.1%2C0%2C0%2C1-.8%2C2.6l-0.6.4a1.63%2C1.63%2C0%2C0%2C1-1.5.2l-0.6-.3a8.93%2C8.93%2C0%2C0%2C0%2C.5%2C1.3%2C7.91%2C7.91%2C0%2C0%2C0%2C1.8%2C2.6l0.6%2C0.3v4.6l-4.5-.1a7.32%2C7.32%2C0%2C0%2C1-2.5-1.5l-0.4%2C3.6h0Zm-10-19.2%2C3.5%2C9.8%2C2.9%2C7.5h1.6V35l-1.9-9.4%2C3.1%2C5.4a8.24%2C8.24%2C0%2C0%2C0%2C3.8%2C3.8h2.1v-1.4a14%2C14%2C0%2C0%2C1-2.2-3.1%2C44.55%2C44.55%2C0%2C0%2C1-2.2-8l-1.3-6.3%2C3.2%2C5.6c0.6%2C1.1%2C2.1%2C3.6%2C2.8%2C4.9l0.6-.4c-0.8-1.6-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a0.54%2C0.54%2C0%2C0%2C0-.4-0.3l-0.7-.1-0.1-.7a4.33%2C4.33%2C0%2C0%2C0-.1-0.5l-5.3.3%2C2.2-1.9a4.3%2C4.3%2C0%2C0%2C0%2C.9-1%2C5.17%2C5.17%2C0%2C0%2C0%2C.8-4%2C5.67%2C5.67%2C0%2C0%2C0-2.2-3.4%2C5.09%2C5.09%2C0%2C0%2C0-4-.8%2C5.67%2C5.67%2C0%2C0%2C0-3.4%2C2.2%2C5.17%2C5.17%2C0%2C0%2C0-.8%2C4%2C5.67%2C5.67%2C0%2C0%2C0%2C2.2%2C3.4%2C3.13%2C3.13%2C0%2C0%2C0%2C1%2C.5l1.6%2C0.6-3.2%2C2.6%2C1%2C11.5h0.4l-0.3-8.2h0Z%22%20style%3D%22fill%3A%23333%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M3.35%2C15.90l1.1%2C12.5a0.39%2C0.39%2C0%2C0%2C0%2C.36.42l0.14%2C0%2C1.4-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-3.3-8.6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M5.20%2C28.80l1.1-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-1.2-3.1Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.40%2C35.70l-3.8-1.2-2.7-7.8L12.00%2C15.5l3.4-2.9c0.2%2C2.4%2C2.2%2C14.1%2C3.7%2C17.1%2C0%2C0%2C1.3%2C2.6%2C2.3%2C3.1v2.9m-8.4-8.1-2-.3%2C2.5%2C10.1%2C0.9%2C0.4v-2.9%22%20style%3D%22fill%3A%23e5892b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M17.80%2C25.40c-0.4-1.5-.7-3.1-1.1-4.8-0.1-.4-0.1-0.7-0.2-1.1l-1.1-2-1.7-1.6s0.9%2C5%2C2.4%2C7.1a19.12%2C19.12%2C0%2C0%2C0%2C1.7%2C2.4h0Z%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M14.40%2C37.80h-3a0.43%2C0.43%2C0%2C0%2C1-.4-0.4l-3-7.8-1.7-4.8-3-9%2C8.9-.4s2.9%2C11.3%2C4.3%2C14.4c1.9%2C4.1%2C3.1%2C4.7%2C5%2C5.8h-3.2s-4.1-1.2-5.9-7.7a0.59%2C0.59%2C0%2C0%2C0-.6-0.4%2C0.62%2C0.62%2C0%2C0%2C0-.3.7s0.5%2C2.4.9%2C3.6a34.87%2C34.87%2C0%2C0%2C0%2C2%2C6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C12.70l-3.3%2C2.9-8.9.4%2C3.3-2.7%22%20style%3D%22fill%3A%23ce592b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9.10%2C21.10l1.4-6.2-5.9.5%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.00%2C13.5a4.75%2C4.75%2C0%2C0%2C1-2.6%2C1.1c-1.5.3-2.9%2C0.2-2.9%2C0s1.1-.6%2C2.7-1%22%20style%3D%22fill%3A%23bb3d19%22%3E%3C%2Fpath%3E%0A%3Ccircle%20cx%3D%227.92%22%20cy%3D%228.19%22%20r%3D%226.3%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fcircle%3E%0A%3Cpath%20d%3D%22M4.70%2C13.60a6.21%2C6.21%2C0%2C0%2C0%2C8.4-1.9v-0.1a8.89%2C8.89%2C0%2C0%2C1-8.4%2C2h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.20%2C27.20l0.6-.4a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3c-0.7-1.5-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15a1.68%2C1.68%2C0%2C0%2C0-.4%2C2.1s2.3%2C3.9%2C3.1%2C5.3c0.6%2C1%2C2.1%2C3.7%2C2.9%2C5.1a0.94%2C0.94%2C0%2C0%2C0%2C1.24.49l0.16-.09h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M19.40%2C19.80c-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15-0.3.3c1.1%2C1.5%2C2.9%2C3.8%2C3.9%2C5.4%2C1.1%2C1.8%2C2.9%2C5%2C3.8%2C6.7l0.1-.1a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3%2C57.67%2C57.67%2C0%2C0%2C0-2.7-5.6h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A" aria-label="Street View Pegman Control" style="display: none; height: 40px; width: 40px; position: absolute; transform: translate(-60%, -45%); pointer-events: none;"></div>
+                                                    </div>
+                                                    <div class="gmnoprint" controlwidth="40" controlheight="81" style="position: absolute; left: 0px; top: 72px;">
+                                                        <div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; -webkit-appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button>
+                                                            <div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; -webkit-appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=11.708427,78.575913&amp;z=8&amp;t=m&amp;hl=en-IN&amp;gl=US&amp;mapclient=apiv3" title="Open this area in Google Maps (opens a new window)" style="position: static; overflow: visible; float: none; display: inline;">
+                                                        <div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                                    </a></div>
+                                            </div>
+                                            <div></div>
+                                            <div>
+                                                <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 176px; bottom: 0px; width: 125px;">
+                                                    <div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;">
+                                                        <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                            <div style="width: 1px;"></div>
+                                                            <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                                                        </div>
+                                                        <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2020 Google</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 102px; bottom: 0px;">
+                                                    <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                        <div style="width: 1px;"></div>
+                                                        <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                                                    </div>
+                                                    <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-IN_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div>
+                                                </div>
+                                                <div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;">
+                                                    <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                        <div style="width: 1px;"></div>
+                                                        <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                                                    </div>
+                                                    <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" dir="ltr" href="https://www.google.com/maps/@11.7084268,78.575913,8z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div>
+                                                </div>
+                                                <div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
+                                                    <div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2020 Google</div>
+                                                </div>
+                                            </div>
+                                            <div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 390px; top: 260px;">
+                                                <div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Map Data</div>
+                                                <div style="font-size: 13px;">Map data ©2020 Google</div><button draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; -webkit-appearance: none; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
