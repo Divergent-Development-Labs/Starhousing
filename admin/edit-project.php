@@ -77,9 +77,9 @@
                                                         <label class="col-md-3 col-sm-3 col-form-label">Project Type</label>
                                                         <div class="col-md-9">
                                                             <select class="form-control" name="projectType" required>
-                                                                <option disabled <?php echo ($row['project_status'] == '') ? 'selected' : '';?> >Select Type</option>
-                                                                <option value="1" <?php echo ($row['project_status'] == '1') ? 'selected' : '';?> >Villa</option>
-                                                                <option value="2" <?php echo ($row['project_status'] == '2') ? 'selected' : '';?> >Plot</option>
+                                                                <option disabled <?php echo ($row['project_type'] == '') ? 'selected' : '';?> >Select Type</option>
+                                                                <option value="1" <?php echo ($row['project_type'] == '1') ? 'selected' : '';?> >Star Luxor Home</option>
+                                                                <option value="2" <?php echo ($row['project_type'] == '2') ? 'selected' : '';?> >Plot</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -98,7 +98,7 @@
                                                     <div class="form-group row">
                                                         <label class="col-md-3 col-sm-3 col-form-label">Image Link</label>
                                                         <div class="col-md-9">                                            
-                                                            <input  value="<?php echo $row['img_link'];?>" type="text" name="imgLink" class="form-control" 
+                                                            <input  value="<?php echo ($row['img_link'] != '') ? "https://drive.google.com/file/d/".$row['img_link']."/view?usp=sharing" : ''; ?>" type="text" name="imgLink" class="form-control" 
                                                                     placeholder="Enter Project Image Link"/>
                                                         </div>
                                                     </div>

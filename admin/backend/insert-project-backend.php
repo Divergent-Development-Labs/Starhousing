@@ -13,8 +13,20 @@
         $state = mysqli_real_escape_string($conn, $_POST["state"]);
         $pin_code = mysqli_real_escape_string($conn, $_POST["pinCode"]);
         
+        function get_string_between($string, $start, $end){
+            $string = ' ' . $string;
+            $ini = strpos($string, $start);
+            if ($ini == 0) return '';
+            $ini += strlen($start);
+            $len = strpos($string, $end, $ini) - $ini;
+            return substr($string, $ini, $len);
+        }
+        
+        $fullstring = $img_link;
+        $parsed_img_link = get_string_between($fullstring, 'file/d/', '/view?');
+
         // echo $username, $password;
-        $sql = "INSERT INTO `project` (`project_name`, `project_type`, `project_status`, `img_link`, `pdf_link`, `address_line_1`, `address_line_2`, `district`, `state`, `pin_code`) VALUES ('$project_name', '$project_type', '$project_status', '$img_link', '$pdf_link', '$address_line_1', '$address_line_2', '$district', '$state', '$pin_code')";
+        $sql = "INSERT INTO `project` (`project_name`, `project_type`, `project_status`, `img_link`, `pdf_link`, `address_line_1`, `address_line_2`, `district`, `state`, `pin_code`) VALUES ('$project_name', '$project_type', '$project_status', '$parsed_img_link', '$pdf_link', '$address_line_1', '$address_line_2', '$district', '$state', '$pin_code')";
         if ($conn->query($sql) === TRUE) {
             $last_id = $conn->insert_id;
             $_SESSION["msg"] = 'Project added Successfull. Project id : ' . $last_id;

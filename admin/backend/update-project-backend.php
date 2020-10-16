@@ -22,7 +22,19 @@
         
         echo $id, $project_name;
 
-        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `img_link` = '$img_link', `pdf_link` = '$pdf_link', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
+        function get_string_between($string, $start, $end){
+            $string = ' ' . $string;
+            $ini = strpos($string, $start);
+            if ($ini == 0) return '';
+            $ini += strlen($start);
+            $len = strpos($string, $end, $ini) - $ini;
+            return substr($string, $ini, $len);
+        }
+        
+        $fullstring = $img_link;
+        $parsed_img_link = get_string_between($fullstring, 'file/d/', '/view?');
+
+        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `img_link` = '$parsed_img_link', `pdf_link` = '$pdf_link', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
         if ($conn->query($sql) === TRUE) {
             $_SESSION["msg"] = 'Project "' . $project_name . '" Details updated Successfully';
             header('Location: ../edit-project.php?id='.$id);
