@@ -49,7 +49,7 @@
         echo $parsed_youtube_link;
         
         // echo $username, $password;
-        $sql = "INSERT INTO `project` (`project_name`, `project_type`, `bhk_or_sqft`, `project_status`, `img_link`, `pdf_link`, `sitemap_link`, `youtube_link`, `anamatics`, `address_line_1`, `address_line_2`, `district`, `state`, `pin_code`) VALUES ('$project_name', '$project_type', '$bhk_or_sqft', '$project_status', '$parsed_img_link', '$pdf_link', '$parsed_sitemap_link', '$parsed_youtube_link', '$address_line_1', '$address_line_2', '$district', '$state', '$pin_code')";
+        $sql = "INSERT INTO `project` (`project_name`, `project_type`, `bhk_or_sqft`, `project_status`, `img_link`, `pdf_link`, `sitemap_link`, `youtube_link`, `anamatics`, `address_line_1`, `address_line_2`, `district`, `state`, `pin_code`) VALUES ('$project_name', '$project_type', '$bhk_or_sqft', '$project_status', '$parsed_img_link', '$pdf_link', '$parsed_sitemap_link', '$parsed_youtube_link', '$anamatics', '$address_line_1', '$address_line_2', '$district', '$state', '$pin_code')";
         if ($conn->query($sql) === TRUE) {
             $last_id = $conn->insert_id;
             $_SESSION["msg"] = 'Project added Successfull. Project id : ' . $last_id;
