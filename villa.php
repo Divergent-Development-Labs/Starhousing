@@ -104,7 +104,7 @@ $result = $project->get_result();
         <section class="pt-40 bg-f5f5f5" style="position:relative; " id="project_video">
             <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-30 pb-20 text-center">Project Video</h4>
             <div class="container-fluid text-center">
-                <iframe width="100%" height="398" src="<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
+                <iframe width="100%" height="398" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
             </div>
         </section>
 

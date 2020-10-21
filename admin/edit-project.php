@@ -129,7 +129,7 @@ $result = $project->get_result();
                                 <div class="form-group row">
                                     <label class="col-md-3 col-sm-3 col-form-label">Youtube Link</label>
                                     <div class="col-md-9">
-                                        <input value='<?php echo $row['youtube_link']; ?>' type="text" name="youtubeLink" class="form-control" placeholder="Enter Youtube link" />
+                                        <input value='https://youtu.be/<?php echo $row['youtube_link']; ?>' type="text" name="youtubeLink" class="form-control" placeholder="Enter Youtube link" />
                                     </div>
                                 </div>                                
                             </div>
