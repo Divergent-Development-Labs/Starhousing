@@ -1,6 +1,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="admin/assets/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="admin/assets/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="wp-content/themes/css/font-awesome.min.css">
 	<title>Promoters | Real estate company | Land sales | Villas | Construction &amp; Building</title>
 
@@ -31,7 +31,7 @@
 	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/css/bootstrap.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='swiper-css' href='wp-content/themes/css/swiper.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='animate-css' href='wp-content/themes/css/animate.min.css' type='text/css' media='1' />
-	<!-- <link rel='stylesheet' id='font-awesome-css' href='wp-content/themes/css/font-awesome.min.css' type='text/css' media='1' /> -->
+	<link rel='stylesheet' id='font-awesome-css' href='wp-content/themes/css/font-awesome.min.css' type='text/css' media='1' />
 	<link rel='stylesheet' id='padd-mar-css' href='wp-content/themes/css/padd-mar.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='intlTelInput-css' href='wp-content/themes/css/intlTelInput.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='Starhousing2020-style-css' href='wp-content/themes/style.css' type='text/css' media='all' />

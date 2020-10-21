@@ -102,3 +102,7 @@ td.serialNo {
     }
 
 }
+
+iframe{
+    width: 100% !important;
+}

@@ -3,14 +3,14 @@
 <?php
 
 if (isset($_GET['id'])) {
-    if (!($_GET['id'])) {
+    if (!($_GET['id']) || ($_GET['id'] == '')) {
         header('Location: index.php');
     } else {
         $q = intval($_GET['id']);
         $sql = "SELECT * FROM `project` WHERE `id`='$q'";
     }
 } else if (isset($_GET['name'])) {
-    if (!($_GET['name'])) {
+    if (!($_GET['name']) || ($_GET['name'] == '')) {
         header('Location: index.php');
     } else {
         $n = $_GET['name'];
@@ -78,11 +78,19 @@ $result = $project->get_result();
                                 <div class="form-group row">
                                     <label class="col-md-3 col-sm-3 col-form-label">Project Type</label>
                                     <div class="col-md-9">
-                                        <select class="form-control" name="projectType" required>
+                                        <select class="form-control projectType" name="projectType" required>
                                             <option disabled <?php echo ($row['project_type'] == '') ? 'selected' : ''; ?>>Select Type</option>
-                                            <option value="1" <?php echo ($row['project_type'] == '1') ? 'selected' : ''; ?>>Star Luxor Home</option>
+                                            <option value="1" <?php echo ($row['project_type'] == '1') ? 'selected' : ''; ?>>Villa</option>
                                             <option value="2" <?php echo ($row['project_type'] == '2') ? 'selected' : ''; ?>>Plot</option>
                                         </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row bhkOrSqftTypeDiv">
+                                    <label class="col-md-3 col-sm-3 col-form-label bhkOrSqftTypeLabel"><?php echo $row['project_type'] == '1' ? 'BHK' : 'Sqft';?> Value</label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="bhkOrSqftType" class="project form-control bhkOrSqftTypeValue" placeholder="Enter <?php echo $row['projet_type'] == '1' ? 'BHK' : 'Sqft';?> Value " value="<?php echo $row['bhk_or_sqft']; ?>" />
+                                        <span class="text-danger"></span>
                                     </div>
                                 </div>
 
@@ -190,7 +198,8 @@ $result = $project->get_result();
     </div>
 </div>
 <?php include 'footer.php'; ?>
-<script src="custom/js/project.js"></script>
+<!-- <script src="custom/js/project.js"></script> -->
+<script src="custom/js/edit-project.js"></script>
 
 
 <!--tinymce js-->

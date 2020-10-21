@@ -37,15 +37,17 @@ $(document).ready(function() {
     });
 
     $('.projectType').off('change').on('change', ()=>{
+
         let typeValue = event.target.value;
+        $('.bhkOrSqftTypeDiv').removeClass('d-none');
 
         if(typeValue == 1){
-            $('.bhkTypeDiv').removeClass('d-none');
-            $('.sqftTypeDiv').addClass('d-none');
+            $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener BHK value');
+            $('.bhkOrSqftTypeLabel').html('BHK value');            
         }
         else{
-            $('.sqftTypeDiv').removeClass('d-none');
-            $('.bhkTypeDiv').addClass('d-none');        
+            $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener Sqft value');
+            $('.bhkOrSqftTypeLabel').html('Sqft value');            
         }
 
         console.log(event.target.value);

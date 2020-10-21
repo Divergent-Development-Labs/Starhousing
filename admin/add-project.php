@@ -45,13 +45,13 @@
                                 <div class="col-md-9">
                                     <select class="form-control projectType" name="projectType" required>
                                         <option disabled selected>Select</option>
-                                        <option value="1">Star Luxor Home</option>
+                                        <option value="1">Villa</option>
                                         <option value="2">Plot</option>
                                     </select>
                                 </div>
                             </div>
 
-                            <div class="form-group row d-none  bhkTypeDiv">
+                            <!-- <div class="form-group row d-none  bhkTypeDiv">
                                 <label class="col-md-3 col-sm-3 col-form-label">BHK Type</label>
                                 <div class="col-md-9">
                                     <select class="form-control bhkType" name="bhkType">
@@ -62,22 +62,13 @@
                                         <option value="4">4 BHK</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="form-group row d-none sqftTypeDiv">
-                                <label class="col-md-3 col-sm-3 col-form-label">Sqft Type</label>
-                                <div class="col-md-9 row pr-0">
-                                    <div class="col-sm-6">
-                                        <input type="text" name="sqftValue" class="project form-control" placeholder="Enter Sqrt Value" />
-                                        <span class="text-danger"></span>
-                                    </div>
-                                    <div class="col-sm-6 pr-0">
-                                        <select class="form-control sqftType" name="sqftType">
-                                            <option disabled selected>Select</option>
-                                            <option value="1">Sqft</option>
-                                            <option value="2">Sqft onwards</option>
-                                        </select>
-                                    </div>
+                            <div class="form-group row d-none bhkOrSqftTypeDiv">
+                                <label class="col-md-3 col-sm-3 col-form-label bhkOrSqftTypeLabel">BHK Type</label>
+                                <div class="col-md-9">
+                                    <input type="text" name="bhkOrSqftType" class="project form-control bhkOrSqftTypeValue" placeholder="Enter BHK Value" />
+                                    <span class="text-danger"></span>
                                 </div>
                             </div>
 

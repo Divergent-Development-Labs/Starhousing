@@ -23,7 +23,7 @@
 							}
 
 							echo '<li><span>';
-							echo ($project['project_type'] == 1) ? "Star Luxor Home " : "PLot ";
+							echo ($project['project_type'] == 1) ? "Villa " : "PLot ";
 							echo $project['project_name'];
 							echo '</span></li>';
 							$c++;
