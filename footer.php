@@ -62,7 +62,7 @@
 							<div class="getintouch_seo">
 								<div>
 									<span style="font-weight:bold; font-size:15px;">About Starhousing</span><br>
-									We guarantee your satisfaction through a tradition of trust since 1991 by extending our hands as 41 branches all over Tamilnadu.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</div>
 							</div>
 						</div>
@@ -75,7 +75,7 @@
 			</div>
 
 		</div>
-		<div id="sticky-slideout" class="sticky-btns" style="z-index:9999">
+		<!-- <div id="sticky-slideout" class="sticky-btns" style="z-index:9999">
 			<a href="#overview" class="text-center fixed-btn d-none d-sm-none d-md-block d-lg-block" style="background-color: #fcbb55;color:#fff;padding:5px;"><i class="fa fa-phone fs-30 " style="border: 2px solid #fff;border-radius: 50%;padding: 5px 9px;" aria-hidden="true"></i></a>
 			<div class="div-to-extend">
 				<div class="extend-content">
@@ -99,7 +99,7 @@
 				</div>
 				<a class="close-extend">X</a>
 			</div>
-		</div>
+		</div> -->
 		<script type='text/javascript' src='wp-content/themes/js/bootstrap.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/swiper.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/validator.min.js'></script>

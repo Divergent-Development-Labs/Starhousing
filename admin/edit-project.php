@@ -31,7 +31,13 @@ $result = $project->get_result();
 ?>
 <!Doctype html>
 <html>
-<?php include 'head.php'; ?>
+<head>
+    <?php include 'head.php'; ?>
+
+    <!-- Summernote css -->
+    <link href="assets/libs/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" id="u0" href="assets/libs/tinymce/skins/ui/oxide/skin.min.css">
+</head>
 <?php include 'body.php'; ?>
 <!-- start page title -->
 <div class="row">
@@ -99,13 +105,27 @@ $result = $project->get_result();
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">PDF-Link</label>
+                                    <label class="col-md-3 col-sm-3 col-form-label">PDF Link</label>
                                     <div class="col-md-9">
                                         <input value="<?php echo $row['pdf_link']; ?>" type="text" name="pdfLink" class="form-control" placeholder="Enter Project pdf link" />
                                     </div>
                                 </div>
 
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-sm-3 col-form-label">Sitemap Link</label>
+                                    <div class="col-md-9">
+                                        <input value="<?php echo ($row['sitemap_link'] != '') ? "https://drive.google.com/file/d/" . $row['sitemap_link'] . "/view?usp=sharing" : ''; ?>" type="text" name="sitemapLink" class="form-control" placeholder="Enter Sitemap Link" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-sm-3 col-form-label">Youtube Link</label>
+                                    <div class="col-md-9">
+                                        <input value='<?php echo $row['youtube_link']; ?>' type="text" name="youtubeLink" class="form-control" placeholder="Enter Youtube link" />
+                                    </div>
+                                </div>                                
                             </div>
+
                             <div class="col-lg-6">
                                 <div class="form-group row">
                                     <label class="col-md-3 col-sm-3 col-form-label">Address Line 1</label>
@@ -141,6 +161,17 @@ $result = $project->get_result();
                             </div>
                         </div>
 
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Anamatics</h4>        
+                                        <textarea id="elm1" name="anamatics"><?php echo $row['anamatics']; ?></textarea>                                        
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
                         <div class="card-footer form-group mb-0 text-right">
                             <div>
                                 <button type="submit" class="btn btn-success waves-effect waves-light mr-1" id="updateBtn" name="updateBtn">
@@ -160,6 +191,17 @@ $result = $project->get_result();
 </div>
 <?php include 'footer.php'; ?>
 <script src="custom/js/project.js"></script>
+
+
+<!--tinymce js-->
+<script src="assets/libs/tinymce/tinymce.min.js"></script>
+
+<!-- Summernote js -->
+<script src="assets/libs/summernote/summernote-bs4.min.js"></script>
+
+<!-- init js -->
+<script src="assets/js/pages/form-editor.init.js"></script>
+
 <?php include 'datatables.php' ?>
 
 </body>

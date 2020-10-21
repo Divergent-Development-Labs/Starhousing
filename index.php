@@ -448,17 +448,17 @@
 				<div class="col-lg-9 col-md-9 col-sm-12">
 					<div class="ha_items_list ha_items_list_1 clearfix">
 						<div class="ha_item">
-							<img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/home-icon-black.png" alt="" />
+							<img src="#" alt="" />
 							<div class="clearfix"></div>
 							<span>Designing and innovating <br />great homes</span>
 						</div>
 						<div class="ha_item">
-							<img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/group-icon-black.png" alt="" />
+							<img src="#" alt="" />
 							<div class="clearfix"></div>
 							<span>Building aspirations <br />with our homes</span>
 						</div>
 						<div class="ha_item">
-							<img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/certificate-icon-black.png" alt="" />
+							<img src="#" alt="" />
 							<div class="clearfix"></div>
 							<span>Delivering on time, <br />every time</span>
 						</div>
@@ -470,28 +470,27 @@
 		<div class="clearfix"></div>
 		<div class="home_about_floats_wrap clearfix">
 			<div class="home_about_left">
-				<p>Casagrand Builder Private Limited is a real estate enterprise committed to building aspirations and delivering value. In the last fifteen years, we have developed over 20 million sqft of prime residential real estate across Chennai, Bengaluru, and Coimbatore. Over 17,000 happy families across 100+ landmark properties stand testimony to our commitment.</p>
-				<p>In the sixteenth year of our journey, we at Casagrand are all set to progress further forward with projects worth over ₹6500 crores in the pipeline.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<div class="clearfix"></div>
 				<div class="ha_items_list ha_items_list_2 clearfix">
 					<div class="ha_item">
-						<img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/landmarks-icon-black.png" alt="" />
+						<img src="#" alt="" />
 						<span>100+ <br />Landmarks</span>
 					</div>
 					<div class="ha_item">
-						<img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/smile-icon-black.png" alt="" />
+						<img src="#" alt="" />
 						<span>17000+ <br />Happy Customers</span>
 					</div>
 					<div class="ha_item">
-						<img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/sq-feet-icon-black.png" alt="" />
+						<img src="#" alt="" />
 						<span>20 Million+ <br />sq.feet developed</span>
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<a href="https://www.casagrand.co.in/wp-content/themes/casagrand2018/images/Casagrand-Corporate-Brochure_jul.pdf" download="Casagrand Corporate Brochure" target="_blank" class="view_more_arr">View brochure</a>
+				<a href="#" download="Casagrand Corporate Brochure" target="_blank" class="view_more_arr">View brochure</a>
 			</div>
 			<div class="home_about_video_wrap">
-				<iframe width="100%" height="398" src="https://www.youtube.com/embed/nrHtreIIo04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/nrHtreIIo04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>

@@ -18,23 +18,23 @@
         <div class="abh_right">
             <h3>About Us</h3>
             <span class="abh_sub_title">South India's Leading Real Estate Company</span>
-            <p>We guarantee your satisfaction through a tradition of trust since 1991 by extending our hands as 41 branches all over Tamilnadu.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div class="clearfix"></div>
-            <div class="ha_items_list ha_items_list_2 clearfix">
+            <!-- <div class="ha_items_list ha_items_list_2 clearfix">
                 <div class="ha_item">
-                    <img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/landmarks-icon-yellow.png?v=0.1" alt="">
+                    <img src="#" alt="">
                     <span>100+ <br>Landmarks</span>
                 </div>
                 <div class="ha_item">
-                    <img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/smile-icon-yellow.png?v=0.1" alt="">
+                    <img src="#" alt="">
                     <span>17000+ <br>Happy Customers</span>
                 </div>
                 <div class="ha_item">
-                    <img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/img/sq-feet-icon-yellow.png?v=0.1" alt="">
+                    <img src="#" alt="">
                     <span>20 Million+ <br>sq.feet developed</span>
                 </div>
             </div>
-            <a href="#" download="Starhousing Corporate Brochure" target="_blank" class="view_more_arr">View corporate brochure</a>
+            <a href="#" download="Starhousing Corporate Brochure" target="_blank" class="view_more_arr">View corporate brochure</a> -->
         </div>
     </section>
 

@@ -12,7 +12,7 @@
 					<div class="navbar-brand-box col-8 col-md-3 col-lg-3 col-4">
 						<a href="index.php" class="logo">
 							<span class="">
-								<img src="admin/assets/images/logo-dark.png" alt="">
+								<img src="admin/assets/images/logo.ico" alt="">
 							</span>
 						</a>
 					</div>

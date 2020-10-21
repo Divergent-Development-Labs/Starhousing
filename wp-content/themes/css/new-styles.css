@@ -42,7 +42,7 @@ font-style: normal;
 .psa-cast-block .psa-top-bx{position: relative;margin:0 0 0 0;}
 .psa-cast-block .psa-top-bx .small-img{position: absolute;left:0;width:88px;height:88px;border-radius:50%;border:5px solid #fff;top:50%;transform: translateY(-50%);}
 .psa-cast-block .psa-top-bx .small-img img{border-radius:50%;}
-.psa-cast-block .psa-top-bx .psa-rht-lable{/*float:right;width:calc(100% - 100px);padding: 15px 18px;*/}
+/* .psa-cast-block .psa-top-bx .psa-rht-lable{float:right;width:calc(100% - 100px);padding: 15px 18px;} */
 .psa-cast-block .psa-top-bx .psa-rht-lable h3 {color: #394048;font-size: 18px;overflow: hidden;margin: 0 0 6px 0;word-wrap: break-word;font-family: 'Open Sans', sans-serif}
 .psa-cast-block .psa-top-bx .psa-rht-lable span {color: #b7b8ba;font-size: 16px;overflow: hidden;word-wrap: break-word;display: block;font-family: 'Open Sans', sans-serif}
 .psa-cast-block .psa-content{position: relative;clear: both;padding:0 18px;}
