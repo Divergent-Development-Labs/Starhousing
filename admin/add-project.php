@@ -72,7 +72,7 @@
                             <div class="form-group row d-none bhkOrSqftTypeDiv">
                                 <label class="col-md-3 col-sm-3 col-form-label bhkOrSqftTypeLabel">BHK Type</label>
                                 <div class="col-md-9">
-                                    <input type="text" name="bhkOrSqftType" class="project form-control bhkOrSqftTypeValue" placeholder="Enter BHK Value" />
+                                    <input type="text" name="bhkOrSqftType" class="project form-control bhkOrSqftTypeValue" placeholder="Enter BHK Value" required/>
                                     <span class="text-danger"></span>
                                 </div>
                             </div>
@@ -156,8 +156,19 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Anamatics</h4>        
+                                    <h4 class="card-title">Amenities</h4>        
                                     <textarea id="elm1" name="anamatics"></textarea>                                        
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sirena Features</h4>        
+                                    <textarea id="elm2" name="sirena_features"></textarea>                                        
                                 </div>
                             </div>
                         </div> <!-- end col -->

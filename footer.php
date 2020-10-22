@@ -378,6 +378,10 @@
 			display: block;
 		}
 
+		.card-img {
+			height: 240px !important;
+		}
+
 		ul {
 			list-style: none
 		}

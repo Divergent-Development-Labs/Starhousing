@@ -81,18 +81,20 @@ $result = $project->get_result();
                 <span class="breadcrumb_last" aria-current="page">Villa</span>
         </section>
 
-        <section class="project-highlights pb-40 pt-100" id="overview">
+        <section class="project-highlights pb-0 pt-100" id="overview">
             <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy">VILLA HIGHLIGHTS</h1>
             <div class="container-fluid">
-                <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 " id="chennai">
+                <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
-                        <div role="tabpanel" class="tab-pane in active" id="reasons_to_buy">
-                            <div class="row">
-                                <div class="col-12 col-md-7">
-                                    <img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>"  alt="Villa Site Map">
+                        <div role="tabpanel" class="tab-pane in active">
+                            <div class="d-sm-flex justify-content-around">
+                                <div class="<?php echo ($row['anamatics'] == '') ? 'd-none': 'd-block' ; ?>">
+                                    <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-25 pb-20 text-center">Amenities</h4>
+                                    <span class=" m-auto"><?php echo $row['anamatics']; ?></span>
                                 </div>
-                                <div class="col-12 col-md-4 m-auto">
-                                    <?php echo $row['anamatics']; ?>
+                                <div class="<?php echo ($row['sirena_features'] == '') ? 'd-none': 'd-block' ; ?>">
+                                    <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-25 pb-20 text-center">Sirena Features</h4>
+                                    <span class=" m-auto"><?php echo $row['sirena_features']; ?></span>
                                 </div>
                             </div>
                         </div>
@@ -101,13 +103,28 @@ $result = $project->get_result();
             </div>
         </section>
 
-        <section class="pt-40 bg-f5f5f5" style="position:relative; " id="project_video">
-            <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-30 pb-20 text-center">Project Video</h4>
-            <div class="container-fluid text-center">
-                <iframe width="100%" height="398" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
+        <section class="project-highlights pb-40 pt-10" id="overview2">
+            <div class="container-fluid">
+                <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 " >
+                    <div class="tab-content proj-highlights-section-tab pt-xs-30">
+                        <div role="tabpanel" class="tab-pane in active">
+                            <div class="d-sm-flex justify-content-around">
+                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none': 'd-block' ; ?> col-sm-6">
+                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 pb-sm-4 text-center text-uppercase pt-0">Sitemap</h4>
+                                    <img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>"  alt="Villa Site Map">
+                                </div>
+                                <div class="<?php echo ($row['youtube_link'] == '') ? 'd-none': 'd-block' ; ?> col-sm-6 pt-20 pb-15 pt-sm-0">
+                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 text-center text-uppercase">Project Video</h4>
+                                    <div class="w-100 h-100">
+                                        <iframe width="100%" height="100%" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
 
     <?php } ?>
     <?php include 'footer.php'; ?>

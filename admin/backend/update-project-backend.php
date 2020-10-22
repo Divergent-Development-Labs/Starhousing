@@ -26,6 +26,7 @@
         $pin_code = mysqli_real_escape_string($conn, $_POST["pinCode"]);
 
         $anamatics = mysqli_real_escape_string($conn, $_POST["anamatics"]);
+        $sirena_features = mysqli_real_escape_string($conn, $_POST["sirena_features"]);
         
         echo $id, $project_name;
 
@@ -57,7 +58,7 @@
 
         echo $parsed_youtube_link;
 
-        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `bhk_or_sqft` = '$bhk_or_sqft', `img_link` = '$parsed_img_link', `pdf_link` = '$pdf_link', `sitemap_link` = '$parsed_sitemap_link', `youtube_link` = '$parsed_youtube_link', `anamatics` = '$anamatics', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
+        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `bhk_or_sqft` = '$bhk_or_sqft', `img_link` = '$parsed_img_link', `pdf_link` = '$pdf_link', `sitemap_link` = '$parsed_sitemap_link', `youtube_link` = '$parsed_youtube_link', `anamatics` = '$anamatics', `sirena_features` = '$sirena_features', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
         if ($conn->query($sql) === TRUE) {
             $_SESSION["msg"] = 'Project "' . $project_name . '" Details updated Successfully';
             header('Location: ../project.php');

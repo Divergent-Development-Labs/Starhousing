@@ -54,8 +54,8 @@
 	<!-- Homepage search section starts here -->
 	<!-- Homepage search section ends here -->
 	<!-- Lifestyle at Casagrand starts here -->
-	<section class="life-cast-sec bg-grey-color desktop">
-		<h3 class="bg-white font-weight-bold mb-0 pb-10 text-center text-uppercase">Gallery</h3>
+	<section class="life-cast-sec bg-grey-color desktop m-3">
+		<h3 class="bg-white font-weight-bold mb-0 p-2 pb-10 text-center text-uppercase">Gallery</h3>
 
 		<div class="lco-slider">
 			<div class="loc-cast-block" style="background-image: url('admin/assets/images/Crockery.jpg');">
@@ -109,7 +109,7 @@
 						<!-- madurai main -->
 						<ul class="nav nav-tabs border-none justify-content-center" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link fs-18 active" href="#villas_madurai" role="tab" data-toggle="tab"> Villa </a>
+								<a class="nav-link fs-18 active" href="#villas_madurai" role="tab" data-toggle="tab">Villa </a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link fs-18" href="#plots_madurai" role="tab" data-toggle="tab">Plots </a>
@@ -130,16 +130,16 @@
 													<div class="prj-phase-box">
 														<div class="project_box_in">
 															<div class="imgbox">
-																<a href="<?php echo $onGoing['img_link']; ?>">
-																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive">
-																</a>
-																<a href="<?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a>
+																<span>
+																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
+																</span>
+																<!-- <a href="<!?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a> -->
 															</div>
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
-																<span class="ft-lk"><?php echo $onGoing['address_line_2']; ?></span>
-																<span class="ft-bhk">-</span>
-																<span class="ft-amt">-</span>
+																<span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span>
+																<span class="ft-bhk"><?php echo $onGoing['bhk_or_sqft']; ?> BHK</span>
+																<!-- <span class="ft-amt">-</span> -->
 																<div class="clearfix"></div>
 																<a href="villa.php?id=<?php echo $onGoing['id']; ?>" class="view_more_arr">View More</a>
 																<a href="<?php echo $onGoing['pdf_link']; ?>" target="_blank" class="download_btn_arr">Brochure</a>
@@ -147,15 +147,16 @@
 														</div>
 													</div>
 												</div>
+												<?php 
+											}
+												?>
 											</div>
 											<div class="row mb-5 view_all_proj_wrap">
 												<div class="col-12 text-center">
 													<a href="ongoing-projects.php" class="d-block m-auto AvenirLTStdHeavy btn-transparent">View all projects</a>
 												</div>
 											</div>
-
-												<?php 
-											} 
+											<?php 											
 										} 
 										else{ ?>
 												<div class="col-md-6 col-sm-6 project_item all apartment mx-auto">
@@ -183,16 +184,16 @@
 													<div class="prj-phase-box">
 														<div class="project_box_in">
 															<div class="imgbox">
-																<a href="<?php echo $onGoing['img_link']; ?>">
-																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive">
-																</a>
-																<a href="<?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a>
+																<span>
+																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
+																</span>
+																<!-- <a href="<!?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a> -->
 															</div>
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
-																<span class="ft-lk"><?php echo $onGoing['address_line_2']; ?></span>
-																<span class="ft-bhk">-</span>
-																<span class="ft-amt">-</span>
+																<span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span>
+																<span class="ft-bhk"><?php echo $onGoing['bhk_or_sqft']; ?> Sqft</span>
+																<!-- <span class="ft-amt">-</span> -->
 																<div class="clearfix"></div>
 																<a href="plot.php?id=<?php echo $onGoing['id']; ?>"  class="view_more_arr">View More</a>
 																<a href="<?php echo $onGoing['pdf_link']; ?>" target="_blank" class="download_btn_arr">Brochure</a>
@@ -200,6 +201,9 @@
 														</div>
 													</div>
 												</div>
+												<?php
+											}
+											?>
 											</div>
 											<div class="row mb-5 view_all_proj_wrap">
 												<div class="col-12 text-center">
@@ -208,7 +212,7 @@
 											</div>
 
 												<?php 
-											} 
+											
 										}
 										else{ ?>
 												<div class="col-md-6 col-sm-6 project_item all apartment mx-auto">
@@ -269,7 +273,7 @@
 			<div class="home_about_left">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<div class="clearfix"></div>
-				<div class="ha_items_list ha_items_list_2 clearfix">
+				<!-- <div class="ha_items_list ha_items_list_2 clearfix">
 					<div class="ha_item">
 						<img src="#" alt="" />
 						<span>100+ <br />Landmarks</span>
@@ -282,7 +286,7 @@
 						<img src="#" alt="" />
 						<span>20 Million+ <br />sq.feet developed</span>
 					</div>
-				</div>
+				</div> -->
 				<div class="clearfix"></div>
 				<a href="#" download="Casagrand Corporate Brochure" target="_blank" class="view_more_arr">View brochure</a>
 			</div>
