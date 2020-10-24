@@ -57,9 +57,9 @@
 
 	<section class="home_search_section">
 		<div class="container">
-			<h3>Ready to move in</h3>
 			<div class="home_form_links_row clearfix">
-				<h5 class="opensanssemibold">Most Searched Areas :</h5>
+				<h5 class="opensanssemibold">Ready to move in :</h5>
+				<!-- <h5 class="opensanssemibold">Most Searched Areas :</h5> -->
 				<?php
 				$sql2 = "SELECT * FROM `project` WHERE `project_status`='1'";
 				$projectArray = $conn->query($sql2);
