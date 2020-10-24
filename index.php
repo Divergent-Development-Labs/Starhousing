@@ -54,8 +54,32 @@
 	<!-- Homepage search section starts here -->
 	<!-- Homepage search section ends here -->
 	<!-- Lifestyle at Casagrand starts here -->
-	<section class="life-cast-sec bg-grey-color desktop m-3">
-		<h3 class="bg-white font-weight-bold mb-0 p-2 pb-10 text-center text-uppercase">Gallery</h3>
+
+	<section class="home_search_section">
+		<div class="container">
+			<h3>Ready to move in</h3>
+			<div class="home_form_links_row clearfix">
+				<h5 class="opensanssemibold">Most Searched Areas :</h5>
+				<?php
+				$sql2 = "SELECT * FROM `project` WHERE `project_status`='1'";
+				$projectArray = $conn->query($sql2);
+
+				if ($projectArray->num_rows > 0) {
+					$c = 1;
+					while ($project = $projectArray->fetch_assoc()) {
+						if ($project['address_line_2'] != '') {
+							echo '<a href="ongoing-projects.php?a='.$project['address_line_2'].'" class="separator"> '.$project['address_line_2'].' </a>';
+						}
+					}
+				}
+				?>
+			</div>
+		</div>		
+	</section>
+
+
+	<section class="life-cast-sec bg-grey-color desktop ">
+		<h3 class="bg-white font-weight-bold mb-0 p-2  text-center text-uppercase">Gallery</h3>
 
 		<div class="lco-slider">
 			<div class="loc-cast-block" style="background-image: url('admin/assets/images/Crockery.jpg');">

@@ -35,7 +35,13 @@
                             <!-- main -->
                             <div class="row mt-5 mb-5">
                                 <?php
-                                $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
+                                if (isset($_GET['a'])) {
+                                    $a = $_GET['a'];
+                                }
+                                else{
+                                    $a = '';
+                                }                                
+                                $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1' AND `address_line_2`='$a'";
                                 $onGoingArray = $conn->query($sql);
 
                                 if ($onGoingArray->num_rows > 0) {
@@ -70,7 +76,7 @@
                                     }
                                 } else { ?>
                                     <div class="col-12 col-sm-4 mb-sm-30 project-list-holder mx-auto">
-                                        <div class="bg-fff opensansregular">
+                                        <div class="bg-fff opensansregular p-4">
                                             <h4>No Projects Available</h4>
                                         </div>
                                     </div>
