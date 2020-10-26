@@ -20,6 +20,8 @@
 					<div class="avenirltstd-roman collapse navbar-collapse text-center" id="topnav-menu-content">
 						<!-- <div class="menu-primary-menu-container"> -->
 							<ul id="menu-primary-menu" class="menu mx-auto">
+								<li id="menu-item-19" class="aboutwidth menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="index.php">Home</a>
+								</li>
 								<li id="menu-item-19" class="aboutwidth menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="about-us.php">About Starhousing</a>
 								</li>
 								<li id="menu-item-4878" class="menu-item menu-item-type-taxonomy menu-item-object-projectstatus menu-item-has-children menu-item-4878"><a href="ongoing-projects.php">Ongoing Projects</a>

@@ -18,8 +18,8 @@
 					<div class="swiper-container" id="home-main-slider">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<img class="w-100 d-none d-sm-none d-md-block d-lg-block" src="https://www.casagrand.co.in/wp-content/uploads/2020/04/Desk-Banner-casagrand.jpg" />
-								<img class="w-100  d-block d-sm-block d-md-none d-lg-none" src="https://www.casagrand.co.in/wp-content/uploads/2020/04/Mob-Banner-casagrand.jpg" />
+								<img class="d-none d-sm-none d-md-block d-lg-block" style="height: 600px !important;" src="admin/assets/images/Desk-Banner-starhousing.jpg" />
+								<img class="d-block d-sm-block d-md-none d-lg-none" src="admin/assets/images/Mob-Banner-starhousing.jpg" />
 							</div>
 						</div>
 					</div>
@@ -295,7 +295,13 @@
 		<div class="clearfix"></div>
 		<div class="home_about_floats_wrap clearfix">
 			<div class="home_about_left">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Starhousing, a leading real estate player based in Madurai, is built on a legacy of tradition and is driven by the verve and vigour of youth. Starhousing is dedicated to providing premium housing solutions designed for the 21st century and is committed to exceed customers’ expectations.
+
+Starhousing specializes in development of villas with land ownership, in the form of gated communities, in growing areas across Tamil Nadu. Starhousing delivers huge value proposition to their clients by delivering quality homes backed with ‘end-to-end’ support services, interestingly at the most affordable prices.
+
+Every project of Starhousing is designed and built on a strong foundation of customer centric innovation and perfection. Featuring the latest amenities and the most modern designs, it focusses on delivering luxurious lifestyle options that are suited to the discerning homeowner. With the promoters having a background of over 25 years of experience in construction, Starhousing has been a welcome part of many new beginnings and hopes to be a part of yours as well.
+
+This has enabled us to increase building efficiency and ensure the continual comfort of its residents. We were also one of the first to incorporate eco-friendly measures like rainwater harvesting and waste recycling systems into our projects.</p>
 				<div class="clearfix"></div>
 				<!-- <div class="ha_items_list ha_items_list_2 clearfix">
 					<div class="ha_item">

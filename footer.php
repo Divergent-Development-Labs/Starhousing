@@ -62,7 +62,9 @@
 							<div class="getintouch_seo">
 								<div>
 									<span style="font-weight:bold; font-size:15px;">About Starhousing</span><br>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									Starhousing, a leading real estate player based in Madurai, is built on a legacy of tradition and is driven by the verve and vigour of youth. Starhousing is dedicated to providing premium housing solutions designed for the 21st century and is committed to exceed customers’ expectations.
+
+Starhousing specializes in development of villas with land ownership, in the form of gated communities, in growing areas across Tamil Nadu. Starhousing delivers huge value proposition to their clients by delivering quality homes backed with ‘end-to-end’ support services, interestingly at the most affordable prices.
 								</div>
 							</div>
 						</div>
