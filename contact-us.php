@@ -11,7 +11,7 @@
 
     <?php include 'top_bar.php'; ?>
 
-    <section class="cs-cont-map-sec clearfix">
+    <section class="cs-cont-map-sec clearfix h-auto">
         <div class="cs-cont-dtls-left" style="background-image: url(admin/assets/images/map-layer-1.jpg);">
             <h2>Contact Us</h2>
             <div class="text-warning">
@@ -25,8 +25,8 @@
                 <span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn  text-white">Jemibalamkt2010@gmail.com</a></span><br>
             </div>
         </div>
-        <div class="cs-cont-dtls-right h-auto ">
-            <div class="card m-auto p-4"  style="background-color: #f2f2f2;">
+        <div class="cs-cont-dtls-right ">
+            <div class="card m-md-3 my-auto p-4"  style="background-color: #f2f2f2;">
                 <form action="mail.php">
                     <div class="form-group">
                         <label for="fname">First Name</label>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="form-group">
                         <label for="subject">Message</label>
-                        <textarea name="form_message" class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
+                        <textarea name="form_message" class="form-control" id="" cols="30" rows="5" placeholder="Write your message here."></textarea>
                     </div>
                         <input type="submit" value="Send Message" name="submit" class="w-100 btn btn-danger" >
                 </form>
