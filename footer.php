@@ -46,7 +46,7 @@
 							MADURAI
 						</div> -->
 						<div class="off_add">
-							<p class="mb-0">Plot Number: 22,<br>Lake Area Main Road,<br>Uthangudi<br>Madurai - 625 107<br> Tamil Nadu, India
+							<p class="mb-0">22,<br>Lake Area Main Road,<br>Uthangudi<br>Madurai - 625 107<br> Tamil Nadu, India
 								<div class="chennais"><span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn">+91-97877 73834</a></span></span></div>
 								<div class="chennais"><span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:Jemibalamkt2010@gmail.com" class="ybtn">Jemibalamkt2010@gmail.com</a></span></div>								
 						</div>
@@ -62,9 +62,15 @@
 							<div class="getintouch_seo">
 								<div>
 									<span style="font-weight:bold; font-size:15px;">About Starhousing</span><br>
-									Starhousing, a leading real estate player based in Madurai, is built on a legacy of tradition and is driven by the verve and vigour of youth. Starhousing is dedicated to providing premium housing solutions designed for the 21st century and is committed to exceed customers’ expectations.
-
-Starhousing specializes in development of villas with land ownership, in the form of gated communities, in growing areas across Tamil Nadu. Starhousing delivers huge value proposition to their clients by delivering quality homes backed with ‘end-to-end’ support services, interestingly at the most affordable prices.
+										Star Housing started at 2010 and growing gradually along with People’s trust. In real estate field Trust is more important, which has been provided by viewers such You to us. One of the leading Plot promoters | Villas | Constructor at Madurai. We have successfully completed many projects at VNCT Nagar | JP Nagar | Sathuragiri | Iswarya Lakshmi nagar and so on. We work according to Customers need. Services provided by Star housing - Plots | Villas | only Construction work | construct a gated community. Kindly visit Gallery for Ongoing and Completed projects of Star housing. Projects which we handle are more than 150 cents to 400 cents. Prior and post registration, all documents will be handed over with filing system. Processing of Documents related to Land registration and construction work will be executed at the earliest by our Team.
+									<br>
+									<br>
+									<span style="font-weight: bold; font-size:15px;">Our Team</span>
+									<br>
+										Our MD – Mr. BalaShankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
+										MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
+										We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
+										Our new office constructed at Lake Area near Meenakshi Mission Hospital has luxury rooms for guests and clients with few amenities | food | conference hall for private meeting.
 								</div>
 							</div>
 						</div>
@@ -143,14 +149,14 @@ Starhousing specializes in development of villas with land ownership, in the for
 			<div class="lf_left lf_menu_wrap float-left">
 				<div class="menu-lower-footer-menu-container">
 					<ul id="menu-lower-footer-menu" class="menu">
-						<li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us/">About us</a></li>
-						<li id="menu-item-52134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52134"><a href="channel-partner/">Channel Partners</a></li>
+						<li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li>
+						<!-- <li id="menu-item-52134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52134"><a href="channel-partner/">Channel Partners</a></li>
 						<li id="menu-item-52135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52135"><a href="media/press-release/">Media</a></li>
 						<li id="menu-item-52659" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52659"><a href="blog/">Blog</a></li>
 						<li id="menu-item-52137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52137"><a href="testimonials/">Testimonials</a></li>
 						<li id="menu-item-52138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52138"><a href="http://www.cgreferral.com/">Referrals</a></li>
 						<li id="menu-item-52139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52139"><a href="nri/">NRI</a></li>
-						<li id="menu-item-52141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52141"><a href="helpful-tools/">Helpful Tools</a></li>
+						<li id="menu-item-52141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52141"><a href="helpful-tools/">Helpful Tools</a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -655,6 +661,6 @@ Starhousing specializes in development of villas with land ownership, in the for
 			}, 5000);
 			setTimeout(function() {
 				$('#firstcity_anim_wrap').fadeOut(300);
-			}, 1000);
+			}, 5000);
 		}
 	</script>

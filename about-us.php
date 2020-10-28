@@ -13,18 +13,12 @@
 
     <section class="banner-holder clearfix" id="about_banner_holder">
         <div class="abh_left my-4">
-            <img src="https://www.casagrand.co.in/wp-content/uploads/2020/07/about-main-img.jpg" class="w-100">
+            <img src="admin/assets/images/about-main-img.jpg" class="w-100">
         </div>
         <div class="abh_right">
             <h3>About Us</h3>
             <span class="abh_sub_title">South India's Leading Real Estate Company</span>
-            <p>Starhousing, a leading real estate player based in Madurai, is built on a legacy of tradition and is driven by the verve and vigour of youth. Starhousing is dedicated to providing premium housing solutions designed for the 21st century and is committed to exceed customers’ expectations.
-
-Starhousing specializes in development of villas with land ownership, in the form of gated communities, in growing areas across Tamil Nadu. Starhousing delivers huge value proposition to their clients by delivering quality homes backed with ‘end-to-end’ support services, interestingly at the most affordable prices.
-
-Every project of Starhousing is designed and built on a strong foundation of customer centric innovation and perfection. Featuring the latest amenities and the most modern designs, it focusses on delivering luxurious lifestyle options that are suited to the discerning homeowner. With the promoters having a background of over 25 years of experience in construction, Starhousing has been a welcome part of many new beginnings and hopes to be a part of yours as well.
-
-This has enabled us to increase building efficiency and ensure the continual comfort of its residents. We were also one of the first to incorporate eco-friendly measures like rainwater harvesting and waste recycling systems into our projects.</p>
+            <p>Star Housing started at 2010 and growing gradually along with People’s trust. In real estate field Trust is more important, which has been provided by viewers such You to us. One of the leading Plot promoters | Villas | Constructor at Madurai. We have successfully completed many projects at VNCT Nagar | JP Nagar | Sathuragiri | Iswarya Lakshmi nagar and so on. We work according to Customers need. Services provided by Star housing - Plots | Villas | only Construction work | construct a gated community. Kindly visit Gallery for Ongoing and Completed projects of Star housing. Projects which we handle are more than 150 cents to 400 cents. Prior and post registration, all documents will be handed over with filing system. Processing of Documents related to Land registration and construction work will be executed at the earliest by our Team.</p>            
             <div class="clearfix"></div>
             <!-- <div class="ha_items_list ha_items_list_2 clearfix">
                 <div class="ha_item">
@@ -43,7 +37,22 @@ This has enabled us to increase building efficiency and ensure the continual com
             <a href="#" download="Starhousing Corporate Brochure" target="_blank" class="view_more_arr">View corporate brochure</a> -->
         </div>
     </section>
-
+    <section class="banner-holder clearfix" id="about_banner_holder">
+        <div class="abh_left my-4 w-100">
+        <div class="abh_right w-100">
+        <h3>Our Team</h3>
+        
+        <!-- <span class="abh_sub_title">Our Team</span> -->
+            <p>										
+                Our MD – Mr. BalaShankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
+                MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
+                We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
+                Our new office constructed at Lake Area near Meenakshi Mission Hospital has luxury rooms for guests and clients with few amenities | food | conference hall for private meeting.
+            </p>
+        
+        </div>
+        </div>
+    </section>
     <?php include 'footer.php'; ?>
 
 </body>

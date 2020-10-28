@@ -204,7 +204,7 @@
                     var originIcon = 'https://chart.googleapis.com/chart?' + 'chst=d_map_pin_letter&chld=D|FF0000|000000';
                     var destinationIcon = 'https://chart.googleapis.com/chart?' + 'chst=d_map_pin_letter&chld=D|FF0000|000000';
                     /* var originIcon = {
-                      url: 'https://www.casagrand.co.in/wp-content/themes/casagrand2018/images/10_-_Map_marker-512.png',
+                      url: 'https://www.starhousing.co.in/wp-content/themes/starhousing2018/images/10_-_Map_marker-512.png',
                       // This marker is 20 pixels wide by 32 pixels high.
                       size: new google.maps.Size(20, 32),
                       // The origin for this image is (0, 0).
@@ -260,7 +260,7 @@
                             var marker_o = new google.maps.Marker({
                                 position:origin1,
                                 map: map,
-                                icon: 'https://www.casagrand.co.in/wp-content/themes/casagrand2018/images/iconfinder_map-marker_2990871.png',
+                                icon: 'https://www.starhousing.co.in/wp-content/themes/starhousing2018/images/iconfinder_map-marker_2990871.png',
                                 title: proj_name,
                             });
                             google.maps.event.addListener(marker_o, 'click', (function(marker_o, i) {
@@ -295,7 +295,7 @@
                                               directionsDisplay.setDirections(result);
                                             }
                                           });
-                                         infowindow.setContent('<b>'+name[j]+'</b><br>'+vicinity[j]+'<br><br> <img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/images/565346-maps-and-transport.png" height="18px" width="19px"> '+results[j].distance.text +'<br><img src="https://www.casagrand.co.in/wp-content/themes/casagrand2018/images/41.png" height="20px" width="19px"> '+results[j].duration.text);
+                                         infowindow.setContent('<b>'+name[j]+'</b><br>'+vicinity[j]+'<br><br> <img src="https://www.starhousing.co.in/wp-content/themes/starhousing2018/images/565346-maps-and-transport.png" height="18px" width="19px"> '+results[j].distance.text +'<br><img src="https://www.starhousing.co.in/wp-content/themes/starhousing2018/images/41.png" height="20px" width="19px"> '+results[j].duration.text);
                                          infowindow.open(map, marker);
                                      }
                                 })(marker, j));

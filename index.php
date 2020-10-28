@@ -42,7 +42,7 @@
 				</div>
 				<div class="col-md-11">
 					<h5>Thank you for visiting The Star Housing website.</h5>
-					<p>By using or accessing the website, you agree to the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist's impression and are an indicative of the actual designs. In no event will the Company, its management, its associated companies and /or its employees be liable for the claim made by the users including seeking any cancellation for any of the inaccuracies in the information provided on this website, though all efforts have to be made to ensure accuracy. Please note that by sharing any of your contact details on the website, you are authorizing the CASAGRAND team to provide information on our projects over Calls, SMS & Emails. To find out more about projects/developments, please call 9962944444 or visit our sales office during working hours and get in touch with authorized CASAGRAND sales representative.</p>
+					<p>By using or accessing the website, you agree to the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist's impression and are an indicative of the actual designs. In no event will the Company, its management, its associated companies and /or its employees be liable for the claim made by the users including seeking any cancellation for any of the inaccuracies in the information provided on this website, though all efforts have to be made to ensure accuracy. Please note that by sharing any of your contact details on the website, you are authorizing the STARHOUSING team to provide information on our projects over Calls, SMS & Emails. To find out more about projects/developments, please call 9962944444 or visit our sales office during working hours and get in touch with authorized STARHOUSING sales representative.</p>
 				</div>
 			</div>
 		</div>
@@ -53,11 +53,15 @@
 
 	<!-- Homepage search section starts here -->
 	<!-- Homepage search section ends here -->
-	<!-- Lifestyle at Casagrand starts here -->
+	<!-- Lifestyle at STARHOUSING starts here -->
 
 	<section class="home_search_section">
 		<div class="container">
 			<div class="home_form_links_row clearfix">
+				<span style="font-weight: bold; font-size: 16px;"> 
+					Home | Land | Shelter – A dream for all people which can be fulfilled by Star Housing at Temple City. Who wants to miss a chance when you get a modern Villas at an affordable cost at the prime locations and easily accessible to all essentials. This is what we do at Star Housing. 
+				</span>
+				<p style="font-weight: bold; font-size: 18px;" class="animate__heartBeat text-danger text-uppercase">* (Bank Loans can be arranged) *</p>
 				<h5 class="opensanssemibold">Ready to move in :</h5>
 				<!-- <h5 class="opensanssemibold">Most Searched Areas :</h5> -->
 				<?php
@@ -116,7 +120,7 @@
 			<button type="button" data-role="none" id="nxtarrow" aria-label="Next" role="button" style="display: block;"></button>
 		</div>
 	</section>
-	<!-- Lifestyle at Casagrand ends here -->
+	<!-- Lifestyle at Starhousing ends here -->
 
 	<section class="pb-20 pt-50 bg-fbfbfb bg-building bg-grey-color" id="new_home_projects">
 
@@ -295,13 +299,7 @@
 		<div class="clearfix"></div>
 		<div class="home_about_floats_wrap clearfix">
 			<div class="home_about_left">
-				<p>Starhousing, a leading real estate player based in Madurai, is built on a legacy of tradition and is driven by the verve and vigour of youth. Starhousing is dedicated to providing premium housing solutions designed for the 21st century and is committed to exceed customers’ expectations.
-
-Starhousing specializes in development of villas with land ownership, in the form of gated communities, in growing areas across Tamil Nadu. Starhousing delivers huge value proposition to their clients by delivering quality homes backed with ‘end-to-end’ support services, interestingly at the most affordable prices.
-
-Every project of Starhousing is designed and built on a strong foundation of customer centric innovation and perfection. Featuring the latest amenities and the most modern designs, it focusses on delivering luxurious lifestyle options that are suited to the discerning homeowner. With the promoters having a background of over 25 years of experience in construction, Starhousing has been a welcome part of many new beginnings and hopes to be a part of yours as well.
-
-This has enabled us to increase building efficiency and ensure the continual comfort of its residents. We were also one of the first to incorporate eco-friendly measures like rainwater harvesting and waste recycling systems into our projects.</p>
+				<p>Star Housing started at 2010 and growing gradually along with People’s trust. In real estate field Trust is more important, which has been provided by viewers such You to us. One of the leading Plot promoters | Villas | Constructor at Madurai. We have successfully completed many projects at VNCT Nagar | JP Nagar | Sathuragiri | Iswarya Lakshmi nagar and so on. We work according to Customers need. Services provided by Star housing - Plots | Villas | only Construction work | construct a gated community. Kindly visit Gallery for Ongoing and Completed projects of Star housing. Projects which we handle are more than 150 cents to 400 cents. Prior and post registration, all documents will be handed over with filing system. Processing of Documents related to Land registration and construction work will be executed at the earliest by our Team.</p>
 				<div class="clearfix"></div>
 				<!-- <div class="ha_items_list ha_items_list_2 clearfix">
 					<div class="ha_item">
@@ -318,7 +316,7 @@ This has enabled us to increase building efficiency and ensure the continual com
 					</div>
 				</div> -->
 				<div class="clearfix"></div>
-				<a href="#" download="Casagrand Corporate Brochure" target="_blank" class="view_more_arr">View brochure</a>
+				<!-- <a href="#" download="Starhousing Corporate Brochure" target="_blank" class="view_more_arr">View brochure</a> -->
 			</div>
 			<div class="home_about_video_wrap">
 				<iframe width="100%" height="398" src="https://www.youtube.com/embed/nrHtreIIo04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                

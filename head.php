@@ -63,7 +63,6 @@
 			"useSVG": "1",
 			"loopAtEnd": "0",
 			"woocommerce_gallery": "0",
-			// "ajaxurl": "https:\/\/www.casagrand.co.in\/wp-admin\/admin-ajax.php",
 			"nonce": "b6af0ca191"
 		};
 		/* ]]> */

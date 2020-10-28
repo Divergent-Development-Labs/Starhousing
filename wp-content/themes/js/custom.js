@@ -726,7 +726,7 @@ jQuery(document).ready(function($){
 	$(function() {
 		$('#breadcrumbs').each(function() {
 		   var $this = $(this);
-		  $this.html($this.html().replace('<a href="https://www.casagrand.co.in/residential/%locations%/">Projects</a> | ', ''));
+		  $this.html($this.html().replace('<a href="https://www.starhousing.co.in/residential/%locations%/">Projects</a> | ', ''));
 		});
 	  
 	});	
