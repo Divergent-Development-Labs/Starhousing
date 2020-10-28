@@ -22,29 +22,29 @@
                 <p style="font-weight: bold; font-size: 20px;">Tamil Nadu, India</p>
                 <br>
                 <span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn  text-white">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn  text-white">+91-97877 73834</a></span></span>
-                <span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:Jemibalamkt2010@gmail.com" class="ybtn  text-white">Jemibalamkt2010@gmail.com</a></span><br>
+                <span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn  text-white">Jemibalamkt2010@gmail.com</a></span><br>
             </div>
         </div>
         <div class="cs-cont-dtls-right h-auto ">
             <div class="card m-auto p-4"  style="background-color: #f2f2f2;">
-                <form action="/action_page.php">
+                <form action="mail.php">
                     <div class="form-group">
                         <label for="fname">First Name</label>
-                        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input class="form-control" type="text" id="form_name" name="firstname" placeholder="Your name..">
                     </div>
                     <div class="form-group">
-                        <label for="lname">Last Name</label>
-                        <input class="form-control"  type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="lname">Subject</label>
+                        <input name="form_subject" type="text" class="form-control" placeholder="Subject">
                     </div>
                     <div class="form-group">
-                        <label for="mnumber">Mobile Number</label>
-                        <input class="form-control"  type="number" id="mnumber" name="mnumber" placeholder="Your Mobile Number..">
+                        <label for="mnumber">Email</label>
+                        <input name="form_email" type="email" class="form-control" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <textarea  class="form-control"  id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <label for="subject">Message</label>
+                        <textarea name="form_message" class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
                     </div>
-                        <input type="submit" value="Submit" class="w-100 btn btn-danger" >
+                        <input type="submit" value="Send Message" name="submit" class="w-100 btn btn-danger" >
                 </form>
             </div>
         </div>

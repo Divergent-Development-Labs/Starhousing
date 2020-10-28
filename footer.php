@@ -48,7 +48,7 @@
 						<div class="off_add">
 							<p class="mb-0">22,<br>Lake Area Main Road,<br>Uthangudi<br>Madurai - 625 107<br> Tamil Nadu, India
 								<div class="chennais"><span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn">+91-97877 73834</a></span></span></div>
-								<div class="chennais"><span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:Jemibalamkt2010@gmail.com" class="ybtn">Jemibalamkt2010@gmail.com</a></span></div>								
+								<div class="chennais"><span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn">Jemibalamkt2010@gmail.com</a></span></div>								
 						</div>
 					</div>
 				</div>
