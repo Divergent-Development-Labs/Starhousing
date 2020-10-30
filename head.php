@@ -8,7 +8,7 @@
 
 	<meta name="description" content="Promoters | Real estate company | Land sales | Villas | Construction &amp; Building" />
 
-	<link rel='dns-prefetch' href='//maps.googleapis.com' />
+	<!-- <link rel='dns-prefetch' href='//maps.googleapis.com' /> -->
 	<link rel='dns-prefetch' href='//s.w.org' />
 
 	<style type="text/css">
@@ -43,7 +43,7 @@
 	</script>
     
 	<script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
+	<!-- <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script> -->
 	<script type='text/javascript' src='wp-content/plugins/responsive-lightbox/assets/swipebox/jquery.swipebox.min.js'></script>
 	<script type='text/javascript' src='wp-content/plugins/responsive-lightbox/assets/infinitescroll/infinite-scroll.min.js'></script>
 

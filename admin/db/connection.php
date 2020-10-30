@@ -2,18 +2,17 @@
 
 //Local
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "star_db";
-
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "star_db";
 
 //Production
 
-// $servername = "localhost";
-// $username = "eakmartc_star";
-// $password = "@Starhousing2020";
-// $dbname = "eakmartc_star_db";
+$servername = "localhost";
+$username = "eakmartc_star";
+$password = "@Starhousing2020";
+$dbname = "eakmartc_star_db";
 
 // Create connection
 $conn =mysqli_connect($servername, $username, $password, $dbname);
