@@ -2,7 +2,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <link rel="stylesheet" type="text/css" href="admin/assets/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="wp-content/themes/css/font-awesome.min.css">
-	<title>Promoters | Real estate company | Land sales | Villas | Construction &amp; Building</title>
+	<title>Plot Promoters in Madurai | Real estate company | Land sales | Villas | Construction &amp; Building</title>
 
 	<link rel="shortcut icon" href="admin/assets/images/favicon.ico">
 

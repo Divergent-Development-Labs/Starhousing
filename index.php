@@ -83,7 +83,7 @@
 
 
 	<section class="life-cast-sec bg-grey-color desktop ">
-		<h3 class="bg-white font-weight-bold mb-0 p-2  text-center text-uppercase">Gallery</h3>
+		<h3 class="bg-white font-weight-bold mb-0 p-2  text-center text-uppercase">HOW IT IS INSIDE STARHOUSING VILLA</h3>
 
 		<div class="lco-slider">
 			<div class="loc-cast-block" style="background-image: url('admin/assets/images/Crockery.jpg');">
@@ -273,23 +273,19 @@
 			<span class="ha_sub_heading">South India's Leading Real Estate Company</span>
 			<div class="clearfix"></div>
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12"></div>
-				<div class="col-lg-9 col-md-9 col-sm-12">
-					<div class="ha_items_list ha_items_list_1 clearfix">
+				<div class="col-12">
+					<div class="list-inline-item ha_items_list ha_items_list_1 clearfix">
 						<div class="ha_item">
-							<img src="#" alt="" />
 							<div class="clearfix"></div>
-							<span>Designing and innovating <br />great homes</span>
+							<span>TRUST</span>
 						</div>
 						<div class="ha_item">
-							<img src="#" alt="" />
 							<div class="clearfix"></div>
-							<span>Building aspirations <br />with our homes</span>
+							<span>TIMELY DELIVERY</span>
 						</div>
 						<div class="ha_item">
-							<img src="#" alt="" />
 							<div class="clearfix"></div>
-							<span>Delivering on time, <br />every time</span>
+							<span>QUALITY</span>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -326,6 +322,97 @@
 	<!-- About US section ends here -->
 
 	<?php include 'home_popping_image.php'; ?>
+	<footer class="fs-10 fw-bold">
+		<div class="container">
+			<label class="primary-color fs-30 AvenirLTStdHeavy">Our Projects</label>
+			<div class="row mb-3">
+				<span class="col-md-3 col-6">OTTAKADAI</span>
+				<span class="col-md-3 col-6">VNCT NAGAR</span>
+				<span class="col-md-3 col-6">JP NAGAR</span>
+				<span class="col-md-3 col-6">ISWARYA LAKSHMI NAGAR</span>
+			</div>
+			<!-- <div class="row">
+				<?php
+					$sql2 = "SELECT * FROM `project` WHERE `project_status`='1'";
+					$projectArray = $conn->query($sql2);
+
+					if ($projectArray->num_rows > 0) {
+						$c = 1;
+						while ($project = $projectArray->fetch_assoc()) {
+
+							if ($c == 1) {
+								echo '	<div class="col-12 col-md-3">
+											<ul class="link_row_1">';
+							}
+
+							if (($c % 5) == 0) {
+									echo '		</ul>
+											</div>
+											<div class="col-12 col-md-3">
+												<ul class="link_row_1">';
+							}
+
+							echo '<li><span>';
+							echo ($project['project_type'] == 1) ? "Villa " : "PLot ";
+							echo $project['project_name'];
+							echo '</span></li>';
+							$c++;
+
+						}
+						echo '</ul></div>';
+
+					}
+				?>
+				<div class="col-12 col-md-3">
+					<ul class="link_row_1">
+					</ul>
+				</div>
+			</div> -->
+			<label class="primary-color fs-30 AvenirLTStdHeavy">Get in touch</label>
+			<div class="row ">
+				<div class="col-12 pb-3">
+					<div class="office_address">
+						<!-- <div class="off_location AvenirLTStdHeavy text-bold">
+							MADURAI
+						</div> -->
+						<div class="off_add">
+							<p class="mb-0">22,<br>Lake Area Main Road,<br>Uthangudi<br>Madurai - 625 107<br> Tamil Nadu, India
+								<div class="chennais"><span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn">+91-97877 73834</a></span></span></div>
+								<div class="chennais"><span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn">Jemibalamkt2010@gmail.com</a></span></div>								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row ">
+				<div class="col-12">
+					<p>
+						<div class="foo_row4">
+							<!-- <div class="getintouch_seo">
+								<div>
+									<span style="font-weight:bold; font-size:15px;">About Starhousing</span><br>
+										Star Housing started at 2010 and growing gradually along with People’s trust. In real estate field Trust is more important, which has been provided by viewers such You to us. One of the leading Plot promoters | Villas | Constructor at Madurai. We have successfully completed many projects at VNCT Nagar | JP Nagar | Sathuragiri | Iswarya Lakshmi nagar and so on. We work according to Customers need. Services provided by Star housing - Plots | Villas | only Construction work | construct a gated community. Kindly visit Gallery for Ongoing and Completed projects of Star housing. Projects which we handle are more than 150 cents to 400 cents. Prior and post registration, all documents will be handed over with filing system. Processing of Documents related to Land registration and construction work will be executed at the earliest by our Team.
+									<br>
+									<br>
+									<span style="font-weight: bold; font-size:15px;">Our Team</span>
+									<br>
+										Our MD – Mr. BalaShankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
+										MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
+										We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
+										Our new office constructed at Lake Area near Meenakshi Mission Hospital has luxury rooms for guests and clients with few amenities | food | conference hall for private meeting.
+								</div>
+							</div> -->
+						</div>
+					</p>
+					<p></p>
+
+				</div>
+				<!-- <div class="col-md-12 text-center">
+					<a href="terms-and-condition/" class="float-left text-left primary-color AvenirLTStdHeavy">TERMS AND CONDITIONS</a> <span class="float-left" style="color:#818282">&nbsp;&nbsp;&nbsp; &copy; 2020 Starhousing </div> -->
+			</div>
+
+		</div>
 	<?php include 'footer.php'; ?>
 
 </body>

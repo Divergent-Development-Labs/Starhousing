@@ -11,13 +11,13 @@
 
     <?php include 'top_bar.php'; ?>
 
-    <section class="container-fluid breadcrumb-section single_p float-left p-0">
+    <!-- <section class="container-fluid breadcrumb-section single_p float-left p-0">
         <p id="breadcrumbs"><span><span><a href="index.php">Home</a> | <span><span class="breadcrumb_last" aria-current="page">Completed projects</span></span></span></span></p>
-    </section>
+    </section> -->
 
     <div class="container">
         <div class="col-12 m-0 color-666 AvenirLTStdLight fw-bold text-center fs-16 fs-xs-14">
-            <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy">PROJECTS IN <span class="text-uppercase">Completed projects</span></h1>
+            <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy"> <span class="text-uppercase">Completed projects</span></h1>
         </div>
     </div>
 

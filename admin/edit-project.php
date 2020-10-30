@@ -184,7 +184,7 @@ $result = $project->get_result();
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Sirena Features</h4>        
+                                        <h4 class="card-title">Salient Features</h4>        
                                         <textarea id="elm2" name="sirena_features"><?php echo $row['sirena_features']; ?></textarea>                                        
                                     </div>
                                 </div>

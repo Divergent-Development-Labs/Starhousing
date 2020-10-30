@@ -93,7 +93,7 @@ $result = $project->get_result();
                                     <?php echo $row['anamatics']; ?>
                                 </div>
                                 <div class="<?php echo ($row['sirena_features'] == '') ? 'd-none': 'd-block' ; ?>">
-                                    <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-25 pb-20 text-center">Sirena Features</h4>
+                                    <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-25 pb-20 text-center">Salient Features</h4>
                                     <?php echo $row['sirena_features']; ?>
                                 </div>
                             </div>
