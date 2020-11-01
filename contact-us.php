@@ -28,11 +28,11 @@
             </div>
         </div>
         <div class="cs-cont-dtls-right ">
-            <div class="card m-md-3 my-auto p-4"  style="background-color: #f2f2f2;">
-                <form action="mail.php">
+            <div class="card mx-md-3 mt-0 px-4 py-3"  style="background-color: #f2f2f2;">
+                <form action="mail.php" method="post">
                     <div class="form-group">
                         <label for="fname">First Name</label>
-                        <input class="form-control" type="text" id="form_name" name="firstname" placeholder="Your name.." required>
+                        <input class="form-control" type="text" id="form_name" name="form_name" placeholder="Your name.." required>
                     </div>
                     <div class="form-group">
                         <label for="form_subject">Subject</label>

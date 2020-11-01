@@ -42,7 +42,11 @@
 				</div>
 				<div class="col-md-11">
 					<h5>Thank you for visiting The Star Housing website.</h5>
-					<p>By using or accessing the website, you agree to the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist's impression and are an indicative of the actual designs. In no event will the Company, its management, its associated companies and /or its employees be liable for the claim made by the users including seeking any cancellation for any of the inaccuracies in the information provided on this website, though all efforts have to be made to ensure accuracy. Please note that by sharing any of your contact details on the website, you are authorizing the STARHOUSING team to provide information on our projects over Calls, SMS & Emails. To find out more about projects/developments, please call 9962944444 or visit our sales office during working hours and get in touch with authorized STARHOUSING sales representative.</p>
+					<p>By using or accessing the website, you agree to the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist's impression and are an indicative of the actual designs. In no event will the Company, its management, its associated companies and /or its employees be liable for the claim made by the users including seeking any cancellation for any of the inaccuracies in the information provided on this website, though all efforts have to be made to ensure accuracy. Please note that by sharing any of your contact details on the website, you are authorizing the STARHOUSING team to provide information on our projects over Calls, SMS & Emails. To find out more about projects/developments, please call
+					<a href="tel:+9197877 00111" class="ybtn color-010101 text-nowrap">+91-97877 00111</a>
+					<span> | </span>
+                    <a href="tel:+919787773834" class="ybtn color-010101 text-nowrap">+91-97877 73834</a>
+ 					 or visit our sales office during working hours and get in touch with authorized STARHOUSING sales representative.</p>
 				</div>
 			</div>
 		</div>

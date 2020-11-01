@@ -1,10 +1,3 @@
-	<!-- Google Tag Manager (noscript) -->
-	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DDCRW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-	<!-- End Google Tag Manager (noscript) -->
-	<!-- Google Tag Manager (noscript) -->
-	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9WZ3QM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-	<!-- End Google Tag Manager (noscript) -->
-
 	<!-- <header class="primary-header container-fluid"> -->
 		<div class="container ml-0">
 			<!-- <div class="row AvenirLTStd55Roman_5173"> -->
@@ -21,15 +14,15 @@
 					<div class="avenirltstd-roman collapse navbar-collapse text-center" id="topnav-menu-content">
 						<!-- <div class="menu-primary-menu-container"> -->
 							<ul id="menu-primary-menu" class="menu ">
-								<li id="menu-item-19" class="aboutwidth menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="index.php">Home</a>
+								<li ><a href="index.php">Home</a>
 								</li>
-								<li id="menu-item-19" class="aboutwidth menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="about-us.php">About Starhousing</a>
+								<li ><a href="about-us.php">About Starhousing</a>
 								</li>
-								<li id="menu-item-4878" class="menu-item menu-item-type-taxonomy menu-item-object-projectstatus menu-item-has-children menu-item-4878"><a href="ongoing-projects.php">Ongoing Projects</a>
+								<li ><a href="ongoing-projects.php">Ongoing Projects</a>
 								</li>
-								<li id="menu-item-5837" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-has-children menu-item-5837"><a href="completed-projects.php">Completed Projects</a>								
+								<li><a href="completed-projects.php">Completed Projects</a>								
 								</li>
-								<li id="menu-item-34814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34814"><a href="contact-us.php">Contact Us</a></li>
+								<li><a href="contact-us.php">Contact Us</a></li>
 							</ul>
 						<!-- </div> -->
 					</div>

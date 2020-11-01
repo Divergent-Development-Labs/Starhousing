@@ -1,29 +1,4 @@
 
-		<!-- <div id="sticky-slideout" class="sticky-btns" style="z-index:9999">
-			<a href="#overview" class="text-center fixed-btn d-none d-sm-none d-md-block d-lg-block" style="background-color: #fcbb55;color:#fff;padding:5px;"><i class="fa fa-phone fs-30 " style="border: 2px solid #fff;border-radius: 50%;padding: 5px 9px;" aria-hidden="true"></i></a>
-			<div class="div-to-extend">
-				<div class="extend-content">
-					<span class="form-header text-uppercase fs-20 AvenirLTStdHeavy">Call us</span>
-					<div class="col-12 pt-10">
-						<div class="header_call_us fs-16">
-							<div class="chennai_call">
-								<p class="label_city">Chennai<br><a href="tel:+919962944444" class="color-fff">99629 44444</a></p>
-							</div>
-							<div class="coimbatore_call">
-								<p class="label_city">Coimbatore<br><a href="tel:+917299370000" class="color-fff">72993 70000 </a></p>
-							</div>
-							<div class="bangalore_call">
-								<p class="label_city">Bangalore<br><a href="tel:+919886888880" class="color-fff">98868 88880</a></p>
-							</div>
-							<div class="nri_call">
-								<p class="label_city">NRI <br><a href="tel:+919176344444" class="color-fff">91763 44444</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a class="close-extend">X</a>
-			</div>
-		</div> -->
 		<script type='text/javascript' src='wp-content/themes/js/bootstrap.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/swiper.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/validator.min.js'></script>
