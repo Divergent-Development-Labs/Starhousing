@@ -3,7 +3,7 @@
         <div class="chen-wrap">
             <div class="chen-box-4">
                 <div class="imgbox hidden animate__animated">
-                    <img src="admin/assets/images/Star_luxor_logo.jpg" alt="Star Housing" class="img-responsive">
+                    <img src="admin/assets/images/starhousing_transition.jpg" alt="Star Housing" class="img-responsive">
                 </div>
             </div>
         </div>

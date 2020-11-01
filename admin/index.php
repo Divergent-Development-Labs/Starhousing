@@ -35,7 +35,8 @@
                                     <a href="index.php">
                                         <div class="avatar-lg h-auto mb-4 profile-user-wid w-lg">
                                             <span class="avatar-title rounded-circle bg-light">
-                                                <img src="assets/images/logo.png" alt="" class="rounded-circle w-100" height="90">
+                                                <!-- <img src="assets/images/logo.png" alt="" class="rounded-circle w-100" height="90"> -->
+                                                <img src="assets/images/logo_1.png" alt="" class="rounded-circle w-100" height="90">
                                             </span>
                                         </div>
                                     </a>

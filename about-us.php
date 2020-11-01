@@ -13,13 +13,19 @@
 
     <section class="banner-holder clearfix row m-0" id="about_banner_holder">
         <div class="col-lg-6 p-4">
-            <img src="admin/assets/images/about-main-img.jpg" class="w-100" style="max-height: 600px;">
+            <img src="admin/assets/images/starhousing_transition.jpg" class="w-100" style="max-height: 600px;">
         </div>
         <div class="abh_right col-12 col-lg-6 p-5">
             <h3>About Us</h3>
             <span class="abh_sub_title">South India's Leading Real Estate Company</span>
             <p>Star Housing started at 2010 and growing gradually along with People’s trust. In real estate field Trust is more important, which has been provided by viewers such You to us. One of the leading Plot promoters | Villas | Constructor at Madurai. We have successfully completed many projects at VNCT Nagar | JP Nagar | Sathuragiri | Iswarya Lakshmi nagar and so on. We work according to Customers need. Services provided by Star housing - Plots | Villas | only Construction work | construct a gated community. Kindly visit Gallery for Ongoing and Completed projects of Star housing. Projects which we handle are more than 150 cents to 400 cents. Prior and post registration, all documents will be handed over with filing system. Processing of Documents related to Land registration and construction work will be executed at the earliest by our Team.</p>            
             <div class="clearfix"></div>
+        </div>
+    </section>
+    <section class="banner-holder clearfix row m-0" id="about_banner_holder">
+        <div class="col-lg-6 mx-auto p-2">
+            <h3 class="font-weight-bold text-center">OUR MD</h3>
+            <img src="admin/assets/images/md_pic.jpg" class="w-100" style="max-height: 600px;">
         </div>
     </section>
     <section class="banner-holder clearfix row  m-0" id="about_banner_holder">

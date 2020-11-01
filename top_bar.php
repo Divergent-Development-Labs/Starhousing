@@ -12,14 +12,15 @@
 					<div class="navbar-brand-box col-8 col-md-3 col-lg-3 col-4">
 						<a href="index.php" class="logo">
 							<span class="">
-								<img src="admin/assets/images/logo.ico" alt="">
+								<!-- <img src="admin/assets/images/logo.ico" alt=""> -->
+								<img src="admin/assets/images/logo_1.ico" alt="" style="height: 110px;">
 							</span>
 						</a>
 					</div>
 
 					<div class="avenirltstd-roman collapse navbar-collapse text-center" id="topnav-menu-content">
 						<!-- <div class="menu-primary-menu-container"> -->
-							<ul id="menu-primary-menu" class="menu mx-auto">
+							<ul id="menu-primary-menu" class="menu ">
 								<li id="menu-item-19" class="aboutwidth menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="index.php">Home</a>
 								</li>
 								<li id="menu-item-19" class="aboutwidth menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="about-us.php">About Starhousing</a>

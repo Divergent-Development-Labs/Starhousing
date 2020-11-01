@@ -6,7 +6,7 @@
 
 	<link rel="shortcut icon" href="admin/assets/images/favicon.ico">
 
-	<meta name="description" content="Promoters | Real estate company | Land sales | Villas | Construction &amp; Building" />
+	<meta name="description" content="Plot Promoters in Madurai" />
 
 	<!-- <link rel='dns-prefetch' href='//maps.googleapis.com' /> -->
 	<link rel='dns-prefetch' href='//s.w.org' />

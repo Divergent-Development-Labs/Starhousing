@@ -65,7 +65,7 @@
 			<div class="lf_left lf_menu_wrap float-left">
 				<div class="menu-lower-footer-menu-container">
 					<ul id="menu-lower-footer-menu" class="menu">
-						<li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li>
+						<!-- <li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li> -->
 						<!-- <li id="menu-item-52134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52134"><a href="channel-partner/">Channel Partners</a></li>
 						<li id="menu-item-52135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52135"><a href="media/press-release/">Media</a></li>
 						<li id="menu-item-52659" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52659"><a href="blog/">Blog</a></li>
