@@ -72,7 +72,7 @@
                         <div class="mt-5 text-center">
                             
                             <div>
-                                <p>© 2020 Star Housing. <a href="https://d-devlabs.com/" style="color: #74788d;" >Developed by Divergent Development Labs</a></p>
+                                <p>© 2020 Star Housing. <a href="kvncloud.com" style="color: #74788d;" >Developed by KVN Cloud</a></p>
                             </div>
                         </div>
 
