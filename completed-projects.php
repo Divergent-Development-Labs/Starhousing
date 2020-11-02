@@ -63,10 +63,10 @@
                                                     <span class="proj-detail">-</span>
                                                 </p>
 
-                                                <p class="d-flex">
+                                                <p class="d-sm-flex">
                                                     <!-- <a href="javascript:void(0);" data-toggle="modal" data-proj_id="" data-project_name="" data-project_id="" data-target="#modal_enq_project" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure proj-btn">Download Brochure</a> -->
-                                                    <a href="<?php echo $completed['pdf_link']; ?>" target="_blank" class="btn btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure-Boulevard proj-btn">Download Brochure</a>
-                                                    <a class="color-fff fs-16 proj-btn btn-details AvenirLTStdLight btn" href="villa.php?id=<?php echo $completed['id']; ?>" >View Details </a>
+                                                    <a href="<?php echo $completed['pdf_link']; ?>" target="_blank" class="w-100 btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure-Boulevard proj-btn">Download Brochure</a>
+                                                    <a class="color-fff fs-16 proj-btn btn-details AvenirLTStdLight w-btn100" href="villa.php?id=<?php echo $completed['id']; ?>" >View Details </a>
                                                 </p>
                                             </div>
                                         </div>
@@ -110,10 +110,10 @@
                                                     <span class="proj-detail">-</span>
                                                 </p>
 
-                                                <p class="d-flex">
+                                                <p class="d-sm-flex">
                                                     <!-- <a href="javascript:void(0);" data-toggle="modal" data-proj_id="" data-project_name="" data-project_id="" data-target="#modal_enq_project" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure proj-btn">Download Brochure</a> -->
-                                                    <a href="<?php echo $completed['pdf_link']; ?>" target="_blank" class="btn btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure-Boulevard proj-btn">Download Brochure</a>
-                                                    <a class="color-fff fs-16 proj-btn btn-details AvenirLTStdLight btn" href="plot.php?id=<?php echo $completed['id']; ?>">View Details </a>
+                                                    <a href="<?php echo $completed['pdf_link']; ?>" target="_blank" class="w-100 btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure-Boulevard proj-btn">Download Brochure</a>
+                                                    <a class="color-fff fs-16 proj-btn btn-details AvenirLTStdLight w-100" href="plot.php?id=<?php echo $completed['id']; ?>">View Details </a>
                                                 </p>
                                             </div>
                                         </div>

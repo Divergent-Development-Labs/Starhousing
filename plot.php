@@ -66,22 +66,22 @@ $result = $project->get_result();
                 </div>
             </div>
         </section>
-
+<!-- 
         <section class="container-fluid breadcrumb-section single_p float-left p-0">
             <p id="breadcrumbs">
                 <span><a href="index.php">Home</a> | </span>
-                <?php if($row['project_status'] == '1'){ ?>
+                <!?php if($row['project_status'] == '1'){ ?>
                     <span><a href="ongoing-projects.php">Ongoing Projects</a> | </span>
-                    <?php 
+                    <!?php 
                 }
                 else{ ?>
                     <span><a href="completed-projects.php">Completed Projects</a> | </span>
-                    <?php
+                    <!?php
                 } ?>
                 <span class="breadcrumb_last" aria-current="page">Plot</span>
-        </section>
+        </section> -->
 
-        <section class="project-highlights pb-0 pt-100" id="overview">
+        <section class="project-highlights pb-0 pt-50" id="overview">
             <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy">PLOT HIGHLIGHTS</h1>
             <div class="container-fluid">
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 " >
@@ -103,6 +103,11 @@ $result = $project->get_result();
             </div>
         </section>
 
+        <div class=" <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">
+            <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Gallery</h4>            
+            <iframe src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" height="300px" width="100%" class="mx-auto <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>" title="Iframe Example"></iframe>
+        </div>
+        
         <section class="project-highlights pb-40 pt-10" id="overview2">
             <div class="container-fluid">
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">

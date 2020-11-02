@@ -105,33 +105,6 @@ $result = $project->get_result();
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">Image Link</label>
-                                    <div class="col-md-9">
-                                        <input value="<?php echo ($row['img_link'] != '') ? "https://drive.google.com/file/d/" . $row['img_link'] . "/view?usp=sharing" : ''; ?>" type="text" name="imgLink" class="form-control" placeholder="Enter Project Image Link" />
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">PDF Link</label>
-                                    <div class="col-md-9">
-                                        <input value="<?php echo $row['pdf_link']; ?>" type="text" name="pdfLink" class="form-control" placeholder="Enter Project pdf link" />
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">Sitemap Link</label>
-                                    <div class="col-md-9">
-                                        <input value="<?php echo ($row['sitemap_link'] != '') ? "https://drive.google.com/file/d/" . $row['sitemap_link'] . "/view?usp=sharing" : ''; ?>" type="text" name="sitemapLink" class="form-control" placeholder="Enter Sitemap Link" />
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">Youtube Link</label>
-                                    <div class="col-md-9">
-                                        <input value='https://youtu.be/<?php echo $row['youtube_link']; ?>' type="text" name="youtubeLink" class="form-control" placeholder="Enter Youtube link" />
-                                    </div>
-                                </div>                                
                             </div>
 
                             <div class="col-lg-6">
@@ -154,19 +127,58 @@ $result = $project->get_result();
                                         <input value="<?php echo $row['district']; ?>" type="text" name="district" class="form-control" placeholder="Enter Project District" />
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">State</label>
-                                    <div class="col-md-9">
-                                        <input value="<?php echo $row['state']; ?>" type="text" name="state" class="form-control" placeholder="Enter Project State" />
+                                <div class="row">
+                                    <div class="form-group row col-6">
+                                        <label class="col-md-3 col-sm-3 col-form-label">State</label>
+                                        <div class="col-md-9">
+                                            <input value="<?php echo $row['state']; ?>" type="text" name="state" class="form-control" placeholder="Enter Project State" />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-sm-3 col-form-label">Pin Code</label>
-                                    <div class="col-md-9">
-                                        <input value="<?php echo $row['pin_code']; ?>" type="text" class="form-control" name="pinCode" data-parsley-length="[6,6]" maxlength="6" placeholder="Enter Pin Code" />
+                                    <div class="form-group row col-6">
+                                        <label class="col-md-4 col-sm-4 col-form-label text-right">Pin Code</label>
+                                        <div class="col-md-8">
+                                            <input value="<?php echo $row['pin_code']; ?>" type="text" class="form-control" name="pinCode" data-parsley-length="[6,6]" maxlength="6" placeholder="Enter Pin Code" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div>                                
+                            <div class="form-group row">
+                                <label class="col-md-3 col-sm-3 col-form-label">Image Link</label>
+                                <div class="col-md-9">
+                                    <input value="<?php echo ($row['img_link'] != '') ? "https://drive.google.com/file/d/" . $row['img_link'] . "/view?usp=sharing" : ''; ?>" type="text" name="imgLink" class="form-control" placeholder="Enter Project Image Link" />
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-md-3 col-sm-3 col-form-label">Gallery Link</label>
+                                <div class="col-md-9">
+                                    <input value="<?php echo ($row['gallery_link'] != '') ? "https://drive.google.com/drive/folders/" . $row['gallery_link'] . "?usp=sharing" : ''; ?>" type="text" name="galleryLink" class="form-control" placeholder="Enter Project Gallery Link" />
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-md-3 col-sm-3 col-form-label">PDF Link</label>
+                                <div class="col-md-9">
+                                    <input value="<?php echo $row['pdf_link']; ?>" type="text" name="pdfLink" class="form-control" placeholder="Enter Project pdf link" />
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-md-3 col-sm-3 col-form-label">Sitemap Link</label>
+                                <div class="col-md-9">
+                                    <input value="<?php echo ($row['sitemap_link'] != '') ? "https://drive.google.com/file/d/" . $row['sitemap_link'] . "/view?usp=sharing" : ''; ?>" type="text" name="sitemapLink" class="form-control" placeholder="Enter Sitemap Link" />
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-md-3 col-sm-3 col-form-label">Youtube Link</label>
+                                <div class="col-md-9">
+                                    <input value='https://youtu.be/<?php echo $row['youtube_link']; ?>' type="text" name="youtubeLink" class="form-control" placeholder="Enter Youtube link" />
+                                </div>
+                            </div>                                
                         </div>
 
                         <div class="row">

@@ -26,6 +26,7 @@ $result = $project->get_result();
 
 <head>
     <?php include 'head.php'; ?>
+    
 </head>
 
 <body data-rsssl=1 class="home page-template page-template-front-page page-template-front-page-php page page-id-15">
@@ -48,7 +49,7 @@ $result = $project->get_result();
                             <div class="bg-fff text-center p-3 mb-20 fs-13">
                                 <div class="row">
                                     <div class="col-12 text-center pb-10 text-uppercase GeorgiaRegularfont fw-bold">
-                                        <img src="admin/assets/images/Star_luxor_logo.jpg"  alt="Villa" class="float-md-left" style=" max-width: 173px;">
+                                        <img src="admin/assets/images/Star_luxor_logo.jpg" alt="Villa" class="float-md-left" style=" max-width: 173px;">
                                     </div>
                                 </div>
                                 <ul class="text-left ul-project-quick-description color-666">
@@ -58,7 +59,7 @@ $result = $project->get_result();
                             </div>
                             <div class="row bg-37393e project-btns mb-10">
                                 <div class="col-12 col-sm-4 mb-md-20 mb-10">
-                                    <a class="d-block text-center AvenirLTStdHeavy color-444 w-100 fs-13 proj-details-more pt-1 pb-1 " target="_blank" href="<?php echo $row['pdf_link']; ?>" >Brochure</a>
+                                    <a class="d-block text-center AvenirLTStdHeavy color-444 w-100 fs-13 proj-details-more pt-1 pb-1 " target="_blank" href="<?php echo $row['pdf_link']; ?>">Brochure</a>
                                 </div>
                             </div>
                         </div>
@@ -67,33 +68,32 @@ $result = $project->get_result();
             </div>
         </section>
 
-        <section class="container-fluid breadcrumb-section single_p float-left p-0">
+        <!-- <section class="container-fluid breadcrumb-section single_p float-left p-0">
             <p id="breadcrumbs">
                 <span><a href="index.php">Home</a> | </span>
-                <?php if($row['project_status'] == '1'){ ?>
+                <!?php if ($row['project_status'] == '1') { ?>
                     <span><a href="ongoing-projects.php">Ongoing Projects</a> | </span>
-                    <?php 
-                }
-                else{ ?>
+                <!?php
+                } else { ?>
                     <span><a href="completed-projects.php">Completed Projects</a> | </span>
-                    <?php
+                <!?php
                 } ?>
                 <span class="breadcrumb_last" aria-current="page">Villa</span>
-        </section>
+        </section> -->
 
-        <section class="project-highlights pb-0 pt-100" id="overview">
+        <section class="project-highlights pb-0 pt-50" id="overview">
             <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy">VILLA HIGHLIGHTS</h1>
             <div class="container-fluid">
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
                         <div role="tabpanel" class="tab-pane in active">
                             <div class="d-sm-flex justify-content-around">
-                                <div class="<?php echo ($row['anamatics'] == '') ? 'd-none': 'd-block' ; ?>">
-                                    <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-25 pb-20 text-center">Amenities</h4>
+                                <div class="<?php echo ($row['anamatics'] == '') ? 'd-none' : 'd-block'; ?>">
+                                    <h5 class="color-444 AvenirLTStdHeavy text-uppercase fs-20 pb-20 text-center">Amenities</h5>
                                     <span class=" m-auto"><?php echo $row['anamatics']; ?></span>
                                 </div>
-                                <div class="<?php echo ($row['sirena_features'] == '') ? 'd-none': 'd-block' ; ?>">
-                                    <h4 class="color-444 AvenirLTStdHeavy text-uppercase fs-25 pb-20 text-center">Salient Features</h4>
+                                <div class="<?php echo ($row['sirena_features'] == '') ? 'd-none' : 'd-block'; ?>">
+                                    <h5 class="color-444 AvenirLTStdHeavy text-uppercase fs-20 pb-20 text-center">Salient Features</h5>
                                     <span class=" m-auto"><?php echo $row['sirena_features']; ?></span>
                                 </div>
                             </div>
@@ -102,21 +102,29 @@ $result = $project->get_result();
                 </div>
             </div>
         </section>
+        <?php     
+                // $resultPictures = 
+        ?>
+
+        <div class=" <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">
+            <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Gallery</h4>            
+            <iframe src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" height="300px" width="100%" class="mx-auto responsive-frame" title="Iframe Example"></iframe>
+        </div>
 
         <section class="project-highlights pb-40 pt-10" id="overview2">
             <div class="container-fluid">
-                <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 " >
+                <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
                         <div role="tabpanel" class="tab-pane in active">
                             <div class="d-sm-flex justify-content-around">
-                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none': 'd-block' ; ?> col-sm-6">
-                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 pb-sm-4 text-center text-uppercase pt-0">Sitemap</h4>
-                                    <img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>"  alt="Villa Site Map">
+                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-6">
+                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
+                                    <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
                                 </div>
-                                <div class="<?php echo ($row['youtube_link'] == '') ? 'd-none': 'd-block' ; ?> col-sm-6 pt-20 pb-15 pt-sm-0">
+                                <div class="<?php echo ($row['youtube_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-6 pt-20 pb-15 pt-sm-0">
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 text-center text-uppercase">Project Video</h4>
                                     <div class="w-100 h-100">
-                                        <iframe width="100%" height="100%" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
+                                        <iframe width="100%" height="100%" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                                     </div>
                                 </div>
                             </div>

@@ -15,6 +15,8 @@
         $bhk_or_sqft = mysqli_real_escape_string($conn, $_POST["bhkOrSqftType"]);
 
         $img_link = mysqli_real_escape_string($conn, $_POST['imgLink']);
+        $gallery_link = mysqli_real_escape_string($conn, $_POST['galleryLink']);
+
         $pdf_link = mysqli_real_escape_string($conn, $_POST["pdfLink"]);
         $sitemap_link = mysqli_real_escape_string($conn, $_POST["sitemapLink"]);
         $youtube_link = mysqli_real_escape_string($conn, $_POST["youtubeLink"]);
@@ -52,13 +54,15 @@
 
         $parsed_img_link = get_string_between($fullstring, 'file/d/', '/view?');
 
+        $parsed_gallery_link = get_string_between($gallery_link, 'drive/folders/', '?usp=sharing');
+
         $parsed_sitemap_link = get_string_between($sitemap_link, 'file/d/', '/view?');
 
         $parsed_youtube_link = get_string($youtube_link, 'youtu.be/', '');
 
         echo $parsed_youtube_link;
 
-        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `bhk_or_sqft` = '$bhk_or_sqft', `img_link` = '$parsed_img_link', `pdf_link` = '$pdf_link', `sitemap_link` = '$parsed_sitemap_link', `youtube_link` = '$parsed_youtube_link', `anamatics` = '$anamatics', `sirena_features` = '$sirena_features', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
+        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `bhk_or_sqft` = '$bhk_or_sqft', `img_link` = '$parsed_img_link', `gallery_link` = '$parsed_gallery_link', `sitemap_link` = '$parsed_sitemap_link', `youtube_link` = '$parsed_youtube_link', `anamatics` = '$anamatics', `sirena_features` = '$sirena_features', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
         if ($conn->query($sql) === TRUE) {
             $_SESSION["msg"] = 'Project "' . $project_name . '" Details updated Successfully';
             header('Location: ../project.php');
