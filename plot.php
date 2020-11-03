@@ -121,7 +121,7 @@ $result = $project->get_result();
                                 <div class="<?php echo ($row['youtube_link'] == '') ? 'd-none': 'd-block' ; ?> col-sm-6 pt-20 pb-15 pt-sm-0">
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 text-center text-uppercase">Project Video</h4>
                                     <div class="w-100 h-100">
-                                        <iframe width="100%" height="398" src="<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
+                                        <iframe width="100%" height="398" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
                                     </div>
                                 </div>
                             </div>
