@@ -24,7 +24,7 @@
     </section>
     <section class="banner-holder clearfix row m-0" id="about_banner_holder">
         <div class="abh_left col-12 col-lg-6 p-5">
-            <h3>Our MD</h3>
+            <h3 style="font-weight: 600;">OUR MD</h3>
             <p>Our MD – Mr. BalaSankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
                 MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
                 We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
