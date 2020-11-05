@@ -23,9 +23,17 @@
         </div>
     </section>
     <section class="banner-holder clearfix row m-0" id="about_banner_holder">
-        <div class="col-lg-6 mx-auto p-2">
-            <h3 class="font-weight-bold text-center">OUR MD</h3>
+        <div class="col-lg-6 p-2">
             <img src="admin/assets/images/md_pic.jpg" class="w-100" style="max-height: 600px;">
+        </div>
+        <div class="abh_right col-12 col-lg-6 p-5">
+            <h3>Our MD</h3>
+            <p>Our MD – Mr. BalaSankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
+                MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
+                We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
+                Our new office constructed at Lake Area near Meenakshi Mission Hospital has luxury rooms for guests and clients with few amenities | food | conference hall for private meeting.
+            </p>     
+            <div class="clearfix"></div>
         </div>
     </section>
     <section class="banner-holder clearfix row  m-0" id="about_banner_holder">
@@ -34,13 +42,8 @@
         </div>
         <div class="abh_right col-12 col-lg-6 p-5">
             <h3>Our Team</h3>
-            <span class="abh_sub_title">STAR HOUSING VISION Shelter to everyone</span>
-            <span class="abh_sub_title">MISSION To be number one real estate organisation in TamilNadu</span>    
-            <p>Our MD – Mr. BalaShankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
-                MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
-                We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
-                Our new office constructed at Lake Area near Meenakshi Mission Hospital has luxury rooms for guests and clients with few amenities | food | conference hall for private meeting.
-            </p>     
+            <span class="abh_sub_title">STAR HOUSING VISION - Shelter to everyone</span>
+            <span class="abh_sub_title">STAR HOUSING MISSION - To be number one real estate organisation in TamilNadu</span>    
             <div class="clearfix"></div>
         </div>
     </section>

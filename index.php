@@ -401,7 +401,7 @@
 									<br>
 									<span style="font-weight: bold; font-size:15px;">Our Team</span>
 									<br>
-										Our MD – Mr. BalaShankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
+										Our MD – Mr. BalaSankar have great experience in real estate business for more than 15 years. His dedication towards fulfilling customer requirements makes him unique in the field. Fast delivery of documents and keys to clients makes them happier.
 										MD’s wife Mrs. B. Logeswari Vice President of Star Housing is a special boost to our Team.
 										We have a team of 10 Marketing staff | 5 support staff | Legal team | Administration | Engineers for construction | surveyors for exact land measurements | labour team for construction work 
 										Our new office constructed at Lake Area near Meenakshi Mission Hospital has luxury rooms for guests and clients with few amenities | food | conference hall for private meeting.
