@@ -128,6 +128,13 @@
                     </div>
                     <div>
                         <div class="form-group row">
+                            <label class="col-md-3 col-sm-3 col-form-label">Location Link</label>
+                            <div class="col-md-9">
+                                <input type="text" name="locationLink" class="form-control" placeholder="Enter Project Location Link" />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label class="col-md-3 col-sm-3 col-form-label">Image Link</label>
                             <div class="col-md-9">
                                 <input type="text" name="imgLink" class="form-control" placeholder="Enter Project Image Link" />

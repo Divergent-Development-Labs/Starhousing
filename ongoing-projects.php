@@ -52,10 +52,12 @@
 
                                             <div class="bg-fff opensansregular">
                                                 <h4 class="fs-18 tab-proj-title project-details AvenirLTStdHeavy"><?php echo $onGoing['project_name']; ?></h4>
-                                                <p class="color-666 pt-3 fs-16 project-details text-left lh-30">
-                                                    <img class="icon ml-1" src="wp-content/themes/img/map.png">
-                                                    <span class="proj-detail"><?php echo $onGoing['address_line_2']; ?></span>
-                                                </p>
+                                                <a href="<?php echo $onGoing['location_link']; ?>" target="_blank" >
+                                                    <p class="color-666 pt-3 fs-16 project-details text-left lh-30">
+                                                        <img class="icon ml-1" src="wp-content/themes/img/map.png">
+                                                        <span class="proj-detail"><?php echo $onGoing['address_line_2']; ?></span>
+                                                    </p>
+                                                </a>
                                                 <p class="fs-16 project-details color-666 d-block text-left lh-30">
                                                     <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png">
                                                     <span class="proj-detail">-</span>
@@ -100,10 +102,12 @@
 
                                             <div class="bg-fff opensansregular">
                                                 <h4 class="fs-18 tab-proj-title project-details AvenirLTStdHeavy"><?php echo $onGoing['project_name']; ?></h4>
-                                                <p class="color-666 pt-3 fs-16 project-details text-left lh-30">
-                                                    <img class="icon ml-1" src="wp-content/themes/img/map.png">
-                                                    <span class="proj-detail"><?php echo $onGoing['address_line_2']; ?></span>
-                                                </p>
+                                                <a href="<?php echo $onGoing['location_link']; ?>" target="_blank" >
+                                                    <p class="color-666 pt-3 fs-16 project-details text-left lh-30">
+                                                        <img class="icon ml-1" src="wp-content/themes/img/map.png">
+                                                        <span class="proj-detail"><?php echo $onGoing['address_line_2']; ?></span>
+                                                    </p>
+                                                </a>
                                                 <p class="fs-16 project-details color-666 d-block text-left lh-30">
                                                     <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png">
                                                     <span class="proj-detail">-</span>

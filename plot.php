@@ -57,8 +57,9 @@ $result = $project->get_result();
                                 </ul>
                             </div>
                             <div class="row bg-37393e project-btns mb-10">
-                                <div class="col-12 col-sm-4 mb-md-20 mb-10">
-                                    <a class="d-block text-center AvenirLTStdHeavy color-444 w-100 fs-13 proj-details-more pt-1 pb-1 " target="_blank" href="<?php echo $row['pdf_link']; ?>" >Brochure</a>
+                                <div class="col-12 mb-md-20 mb-10 d-sm-flex justify-content-start">
+                                    <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more mr-sm-2 my-sm-0 my-1 px-2 py-1  " target="_blank" href="<?php echo $row['pdf_link']; ?>" >Brochure</a>
+                                    <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more px-2 py-1 " target="_blank" href="<?php echo $row['location_link']; ?>" >Show in Map</a>
                                 </div>
                             </div>
                         </div>

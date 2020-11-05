@@ -169,7 +169,7 @@
 															</div>
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
-																<span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span>
+																<a href="<?php echo $onGoing['location_link']; ?>" target="_blank" ><span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span></a>
 																<span class="ft-bhk"><?php echo $onGoing['bhk_or_sqft']; ?> BHK</span>
 																<!-- <span class="ft-amt">-</span> -->
 																<div class="clearfix"></div>
@@ -223,7 +223,7 @@
 															</div>
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
-																<span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span>
+																<a href="<?php echo $onGoing['location_link']; ?>" target="_blank" ><span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span></a>
 																<span class="ft-bhk"><?php echo $onGoing['bhk_or_sqft']; ?> Sqft</span>
 																<!-- <span class="ft-amt">-</span> -->
 																<div class="clearfix"></div>
