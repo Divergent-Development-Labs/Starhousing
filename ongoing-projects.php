@@ -128,7 +128,7 @@
                                     }
                                 } else { ?>
                                     <div class="col-12 col-sm-4 mb-sm-30 project-list-holder mx-auto">
-                                        <div class="bg-fff opensansregular">
+                                        <div class="bg-fff opensansregular p-4">
                                             <h4>No Projects Available</h4>
                                         </div>
                                     </div>
