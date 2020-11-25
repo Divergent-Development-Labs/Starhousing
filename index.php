@@ -419,6 +419,8 @@
 		</div>
 	<?php include 'footer.php'; ?>
 
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+		<div class="elfsight-app-8a2777c4-a848-403a-ab11-e5b165f78952"></div>
 </body>
 
 </html>
