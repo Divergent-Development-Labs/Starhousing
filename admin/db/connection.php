@@ -2,10 +2,10 @@
 
 //Local
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "star_db";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "star_db";
 
 //Production Old
 
@@ -16,10 +16,10 @@ $dbname = "star_db";
 
 //Production New
 
-// $servername = "localhost";
-// $username = "starhous_org";
-// $password = "Star_Plot2";
-// $dbname = "starhous_bala";
+$servername = "localhost";
+$username = "starhous_org";
+$password = "Star_Plot2";
+$dbname = "starhous_bala";
 
 // Create connection
 $conn =mysqli_connect($servername, $username, $password, $dbname);
