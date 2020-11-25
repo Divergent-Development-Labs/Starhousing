@@ -2,22 +2,24 @@
 
 //Local
 
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $dbname = "star_db";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "star_db";
 
-//Production
+//Production Old
 
 // $servername = "localhost";
 // $username = "eakmartc_star";
 // $password = "@Starhousing2020";
 // $dbname = "eakmartc_star_db";
 
-$servername = "localhost";
-$username = "starhous_org";
-$password = "Star_Plot2";
-$dbname = "starhous_bala";
+//Production New
+
+// $servername = "localhost";
+// $username = "starhous_org";
+// $password = "Star_Plot2";
+// $dbname = "starhous_bala";
 
 // Create connection
 $conn =mysqli_connect($servername, $username, $password, $dbname);

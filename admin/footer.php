@@ -40,7 +40,7 @@
                         <?php 
                             if(isset($_SESSION["accessMsg"])) {
                                 ?>
-                                <div class="alert alert-danger mt-2"><i class="fa fa-warning mr-2"></i><?php  echo $_SESSION["accessMsg"]; unset($_SESSION["accessMsg"]); ?></div>
+                                <div class="alert alert-danger mt-2"><i class="bx bx-block mr-2 font-weight-bold"></i><?php  echo $_SESSION["accessMsg"]; unset($_SESSION["accessMsg"]); ?></div>
                                 <?php 
                                 
                                 } 

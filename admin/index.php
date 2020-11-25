@@ -1,7 +1,19 @@
 <?php 
     session_start();
-    if(isset($_SESSION["username"]) && ($_SESSION["username"] == 'Admin')){
-        header('Location: project.php');
+    if(isset($_SESSION["username"])){
+        include 'db/connection.php';
+        $sql = "SELECT * FROM `user` WHERE `id`='1'";    
+        $project = $conn->prepare($sql);                                                
+        $project->execute();                                                
+        $result = $project->get_result();
+
+        if($result->num_rows > 0){
+            while ($row = $result->fetch_assoc()) { 
+                if($_SESSION["username"] == ucwords($row['username'])){
+                    header('Location: project.php');
+                }
+            }
+        }
     }
 ?>
 <!Doctype html>
@@ -59,7 +71,7 @@
                                         <?php 
                                             if(isset($_SESSION["msg"])) {
                                                 ?>
-                                                <div class="alert alert-danger mt-2"><i class="fa fa-warning mr-2"></i><?php  echo $_SESSION["msg"]; unset($_SESSION["msg"]); ?></div>
+                                                <div class="alert alert-danger mt-2"><i class="bx bx-block mr-2 font-weight-bold"></i><?php  echo $_SESSION["msg"]; unset($_SESSION["msg"]); ?></div>
                                                 <?php 
                                                 
                                                 } 

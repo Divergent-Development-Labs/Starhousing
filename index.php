@@ -32,7 +32,7 @@
 	</section>
 
 
-	<section class="disclaimer-wrapper">
+	<!-- <section class="disclaimer-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1 disclaimer-title rotate">
@@ -53,7 +53,7 @@
 		<div class="col-md-12 text-center">
 			<a href="javascript:void(0);" id="hideDisclaimer" class="btn btn-primary">I AGREE</a>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Homepage search section starts here -->
 	<!-- Homepage search section ends here -->

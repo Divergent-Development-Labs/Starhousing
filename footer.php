@@ -113,18 +113,18 @@
 
 
 	<script>
-		$(document).ready(function() {
-			console.log(localStorage.getItem("visited"));
-			if (localStorage.getItem("visited") != 1) {
-				localStorage.setItem('visited', 1);
-				setTimeout(function() {
-					$('.disclaimer-wrapper').show();
-				}, 1000);
-				var d = new Date();
-				d.setTime(d.getTime() + (1 * 24 * 60 * 60 * 1000));
-				document.cookie = "visited=1; expires=" + d.toUTCString() + ";";
-			}
-		});
+		// $(document).ready(function() {
+		// 	console.log(localStorage.getItem("visited"));
+		// 	if (localStorage.getItem("visited") != 1) {
+		// 		localStorage.setItem('visited', 1);
+		// 		setTimeout(function() {
+		// 			$('.disclaimer-wrapper').show();
+		// 		}, 1000);
+		// 		var d = new Date();
+		// 		d.setTime(d.getTime() + (1 * 24 * 60 * 60 * 1000));
+		// 		document.cookie = "visited=1; expires=" + d.toUTCString() + ";";
+		// 	}
+		// });
 
 		function getCookie(cname) {
 			var name = cname + "=";

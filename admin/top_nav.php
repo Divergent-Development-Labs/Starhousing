@@ -45,8 +45,9 @@
             </div>
 
             <div class="d-flex">
-
                 <div class="dropdown d-inline-block">
+                    <a  class="btn btn-outline-primary border-0" href="profile.php" type="button"><i class="bx bx-user font-size-16 align-middle mr-1 "></i> Profile</a>
+
                     <a class="btn btn-outline-danger " href="logout.php"><i class="bx bx-power-off font-size-16 align-middle mr-1 "></i> Logout</a>                
                 </div>
 
