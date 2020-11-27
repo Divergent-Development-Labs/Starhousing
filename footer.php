@@ -40,7 +40,7 @@
 			<div class="lf_left lf_menu_wrap float-left">
 				<div class="menu-lower-footer-menu-container">
 					<ul id="menu-lower-footer-menu" class="menu">
-					Developed by <a href="kvncloud.com" class="text-white">KVN Cloud</a>
+					Developed by <a href="https://kvncloud.com/" target="_blank" class="text-white">KVN Cloud</a>
 						<!-- <li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li> -->
 						<!-- <li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li> -->
 						<!-- <li id="menu-item-52134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52134"><a href="channel-partner/">Channel Partners</a></li>
