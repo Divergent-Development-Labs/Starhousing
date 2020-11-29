@@ -120,6 +120,7 @@ font-style: normal;
 .prj-phase-box .txt-content span{color:#b7b8ba;font-size:14px;overflow: hidden;margin:0 0 15px 0;display: block;padding:0 0 0 40px;line-height: 30px;font-family: 'Open Sans', sans-serif}
 .prj-phase-box .txt-content .ft-lk{background: url(../img/location-icon.png) no-repeat left center;}
 .prj-phase-box .txt-content .ft-bhk{background: url(../img/bed-icon.png) no-repeat left center;}
+.prj-phase-box .txt-content .ft-plot{background: url(../img/plot2-icon.png) no-repeat left center;}
 .prj-phase-box .txt-content .ft-amt{background: url(../img/price-icon.png) no-repeat left center;}
 .prj-phase-box .view_more_btn{line-height: 24px;padding: 0px;font-size: 12px;border: 0px solid #ffac44;border-radius: 5px;color: #ffac44;margin-top: 15px;text-align: center;vertical-align: top;font-family: 'Open Sans', sans-serif;font-weight: 600}
 .prj-phase-box .view_more_btn1{line-height: 24px;padding: 0px;font-size: 12px;border: 0px solid #ffac44;border-radius: 5px;color: 394048;margin-top: 15px;text-align: center;vertical-align: top;font-family: 'Open Sans', sans-serif;font-weight: 600}
