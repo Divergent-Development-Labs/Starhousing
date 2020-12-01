@@ -52,7 +52,7 @@ $result = $project->get_result();
                                     </div>
                                 </div>
                                 <ul class="text-left ul-project-quick-description color-666">
-                                    <li>3 & 4 BHK Apartments </li>
+                                    <li><?php echo $row['bhk_or_sqft']; ?> Squarefeet </li>
                                     <li>Located in <?php echo $row['address_line_2']; ?> </li>
                                 </ul>
                             </div>
