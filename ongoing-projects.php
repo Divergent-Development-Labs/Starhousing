@@ -47,8 +47,8 @@
                                 if ($onGoingArray->num_rows > 0) {
                                     while ($onGoing = $onGoingArray->fetch_assoc()) { 
                                         $location_link = ($onGoing['location_link'] == '') ? '' :  $onGoing['location_link'];
-                                        $location_link_2 = ($onGoing['location_link'] == '') ? 'None' :  $onGoing['location_link'];
-                                        $show_area = ($onGoing['address_line_2'] == '') ? $location_link_2 : $onGoing['address_line_2'];
+                                        // $location_link_2 = ($onGoing['location_link'] == '') ? 'None' :  $onGoing['location_link'];
+                                        $show_area = ($onGoing['address_line_2'] == '') ? '--' : $onGoing['address_line_2'];
 
                                         ?>
 

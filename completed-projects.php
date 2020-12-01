@@ -99,8 +99,8 @@
                                 if ($completedArray->num_rows > 0) {
                                     while ($completed = $completedArray->fetch_assoc()) { 
                                         $location_link = ($completed['location_link'] == '') ? '' :  $completed['location_link'];
-                                        $location_link_2 = ($completed['location_link'] == '') ? 'None' :  $completed['location_link'];
-                                        $show_area = ($completed['address_line_2'] == '') ? $location_link_2 : $completed['address_line_2'];
+                                        // $location_link_2 = ($completed['location_link'] == '') ? 'None' :  $completed['location_link'];
+                                        $show_area = ($completed['address_line_2'] == '') ? '--' : $completed['address_line_2'];
 
                                         ?>
 
