@@ -224,7 +224,7 @@
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
 																<a href="<?php echo $onGoing['location_link']; ?>" target="_blank" ><span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span></a>
-																<span class="ft-plot"><?php echo $onGoing['bhk_or_sqft']; ?> Sqft</span>
+																<span class="ft-plot"><?php echo $onGoing['bhk_or_sqft']; ?> Cent</span>
 																<!-- <span class="ft-amt">-</span> -->
 																<div class="clearfix"></div>
 																<a href="plot.php?id=<?php echo $onGoing['id']; ?>"  class="view_more_arr">View More</a>

@@ -87,9 +87,9 @@ $result = $project->get_result();
                                 </div>
 
                                 <div class="form-group row bhkOrSqftTypeDiv">
-                                    <label class="col-md-3 col-sm-3 col-form-label bhkOrSqftTypeLabel"><?php echo $row['project_type'] == '1' ? 'BHK' : 'Sqft';?> Value</label>
+                                    <label class="col-md-3 col-sm-3 col-form-label bhkOrSqftTypeLabel"><?php echo $row['project_type'] == '1' ? 'BHK' : 'Cent';?> Value</label>
                                     <div class="col-md-9">
-                                        <input type="text" name="bhkOrSqftType" class="project form-control bhkOrSqftTypeValue" placeholder="Enter <?php echo $row['project_type'] == '1' ? 'BHK' : 'Sqft';?> Value " value="<?php echo $row['bhk_or_sqft']; ?>"  required/>
+                                        <input type="text" name="bhkOrSqftType" class="project form-control bhkOrSqftTypeValue" placeholder="Enter <?php echo $row['project_type'] == '1' ? 'BHK' : 'Cent';?> Value " value="<?php echo $row['bhk_or_sqft']; ?>"  required/>
                                         <span class="text-danger"></span>
                                     </div>
                                 </div>

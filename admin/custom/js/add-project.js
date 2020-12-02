@@ -46,8 +46,8 @@ $(document).ready(function() {
             $('.bhkOrSqftTypeLabel').html('BHK value');            
         }
         else{
-            $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener Sqft value');
-            $('.bhkOrSqftTypeLabel').html('Sqft value');            
+            $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener Cent value');
+            $('.bhkOrSqftTypeLabel').html('Cent value');            
         }
 
         console.log(event.target.value);
