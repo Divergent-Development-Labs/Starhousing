@@ -11,6 +11,7 @@
 
         $project_name = mysqli_real_escape_string($conn, $_POST["projectName"]);
         $project_type = mysqli_real_escape_string($conn, $_POST["projectType"]);
+        $centRate = mysqli_real_escape_string($conn, $_POST["centRate"]);
         $project_status = mysqli_real_escape_string($conn, $_POST["projectStatus"]);
         $bhk_or_sqft = mysqli_real_escape_string($conn, $_POST["bhkOrSqftType"]);
         
@@ -63,7 +64,7 @@
 
         echo $parsed_youtube_link;
 
-        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `project_status` = '$project_status', `bhk_or_sqft` = '$bhk_or_sqft', `location_link` = '$location_link', `img_link` = '$parsed_img_link', `gallery_link` = '$parsed_gallery_link', `sitemap_link` = '$parsed_sitemap_link', `youtube_link` = '$parsed_youtube_link', `anamatics` = '$anamatics', `sirena_features` = '$sirena_features', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
+        $sql = "UPDATE `project` SET `project_name` = '$project_name', `project_type` = '$project_type', `rate` = '$centRate', `project_status` = '$project_status', `bhk_or_sqft` = '$bhk_or_sqft', `location_link` = '$location_link', `img_link` = '$parsed_img_link', `gallery_link` = '$parsed_gallery_link', `sitemap_link` = '$parsed_sitemap_link', `youtube_link` = '$parsed_youtube_link', `anamatics` = '$anamatics', `sirena_features` = '$sirena_features', `address_line_1` = '$address_line_1', `address_line_2` = '$address_line_2', `district` = '$district', `state` = '$state', `pin_code` = '$pin_code' WHERE `project`.`id` = $id";
         if ($conn->query($sql) === TRUE) {
             $_SESSION["msg"] = 'Project "' . $project_name . '" Details updated Successfully';
             header('Location: ../project.php');

@@ -40,14 +40,17 @@ $(document).ready(function() {
 
         let typeValue = event.target.value;
         $('.bhkOrSqftTypeDiv').removeClass('d-none');
+        $('.CentRateDiv').removeClass('d-none');   
 
         if(typeValue == 1){
             $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener BHK value');
-            $('.bhkOrSqftTypeLabel').html('BHK value');            
+            $('.bhkOrSqftTypeLabel').html('BHK value');  
+            $('.CentRateDiv').hide();             
         }
         else{
             $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener Cent value');
-            $('.bhkOrSqftTypeLabel').html('Cent value');            
+            $('.bhkOrSqftTypeLabel').html('Cent value');
+            $('.CentRateDiv').show();               
         }
 
         console.log(event.target.value);

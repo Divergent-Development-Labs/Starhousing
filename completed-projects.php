@@ -120,10 +120,10 @@
                                                     <!-- <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png"> -->
                                                     <span class="proj-detail"><?php echo $completed['bhk_or_sqft']; ?> Cent</span>
                                                 </p>
-                                                <!-- <p class="text-left project-details  pb-3 fs-16 color-666 d-block lh-30">
+                                                <p class="text-left project-details  pb-3 fs-16 color-666 d-block lh-30">
                                                     <img class="icon" style="margin-left: 7px;" src="wp-content/themes/img/rupees.png">
-                                                    <span class="proj-detail">-</span>
-                                                </p> -->
+                                                    <span class="proj-detail"><?php echo ($completed['rate'] == '') ? '--' : $completed['rate'];?></span>
+                                                </p>
 
                                                 <p class="d-sm-flex">
                                                     <!-- <a href="javascript:void(0);" data-toggle="modal" data-proj_id="" data-project_name="" data-project_id="" data-target="#modal_enq_project" class="btn-brochure AvenirLTStdLight color-fff d-inline-block fs-16 click-enq click-downloadBrochure proj-btn">Download Brochure</a> -->

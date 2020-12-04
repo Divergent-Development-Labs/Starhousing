@@ -31,7 +31,7 @@
     </section>
     <section class="banner-holder clearfix rowz m-0 px-4" id="about_banner_holder">
         <div class="col-lg-6 mx-auto">
-            <img src="admin/assets/images/md_pic.jpg" class="w-100" style="max-height: 600px;">
+            <img src="admin/assets/images/star_housing_md.jpg" class="w-100" style="max-height: 600px;">
         </div>
         <div class="abh_leftz col-11 col-md-9 mx-auto pb-5 pt-2 text-justify">
             <h3 style="font-weight: 600;" class="text-center">OUR MD</h3>
