@@ -40,7 +40,7 @@
                                     $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1' AND `address_line_2`='$a'";
                                 }
                                 else{
-                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1' AND `address_line_2`='$a'";
+                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
                                 }                                
                                 $onGoingArray = $conn->query($sql);
 

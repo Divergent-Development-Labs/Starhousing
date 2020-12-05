@@ -330,10 +330,10 @@
 		<div class="container">
 			<label class="primary-color fs-30 AvenirLTStdHeavy">Our Projects</label>
 			<div class="row mb-3">
-				<a type="link" href="completed-projects.php?a=OTHAKKADAI" class="col-md-3 col-6"><span>OTHAKKADAI</span></a>
-				<a type="link" href="completed-projects.php?a=VNCT NAGAR" class="col-md-3 col-6"><span>VNCT NAGAR</span></a>
-				<a type="link" href="completed-projects.php?a=JP NAGAR" class="col-md-3 col-6"><span>JP NAGAR</span></a>
-				<a type="link" href="completed-projects.php?a=ISWARYA LAKSHMI NAGAR" class="col-md-3 col-6"><span>ISWARYA LAKSHMI NAGAR</span></a>
+				<a type="link" href="ongoing-projects.php?a=OTHAKKADAI" class="col-md-3 col-6"><span>OTHAKKADAI</span></a>
+				<a type="link" href="ongoing-projects.php?a=VNCT NAGAR" class="col-md-3 col-6"><span>VNCT NAGAR</span></a>
+				<a type="link" href="ongoing-projects.php?a=JP NAGAR" class="col-md-3 col-6"><span>JP NAGAR</span></a>
+				<a type="link" href="ongoing-projects.php?a=ISWARYA LAKSHMI NAGAR" class="col-md-3 col-6"><span>ISWARYA LAKSHMI NAGAR</span></a>
 			</div>
 			<!-- <div class="row">
 				<?php
