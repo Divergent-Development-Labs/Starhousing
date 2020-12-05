@@ -123,7 +123,7 @@ $result = $project->get_result();
                                     </div>
                                 </div>
 
-                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: 1123px;">
+                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: auto;">
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
                                     <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
                                 </div>
