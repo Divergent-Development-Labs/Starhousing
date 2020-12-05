@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <section class="bg-f5f5f5">
+    <section class="bg-f5f5f5"  style="min-height: 100vh;">
         <div class="container">
             <div class="row" id="result">
                 <div class="col-12 col-md-12">
