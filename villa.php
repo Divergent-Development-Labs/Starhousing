@@ -88,12 +88,12 @@ $result = $project->get_result();
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
                         <div role="tabpanel" class="tab-pane in active">
-                            <div class="d-sm-flex justify-content-around">
-                                <div class="<?php echo ($row['anamatics'] == '') ? 'd-none' : 'd-block'; ?>">
+                            <div class="row">
+                                <div class="col-lg-6 col-12 <?php echo ($row['anamatics'] == '') ? 'd-none' : 'd-block'; ?>">
                                     <h5 class="color-444 AvenirLTStdHeavy text-uppercase fs-20 pb-20 text-center">Amenities</h5>
                                     <span class=" m-auto"><?php echo $row['anamatics']; ?></span>
                                 </div>
-                                <div class="<?php echo ($row['sirena_features'] == '') ? 'd-none' : 'd-block'; ?>">
+                                <div class="col-lg-6 col-12 <?php echo ($row['sirena_features'] == '') ? 'd-none' : 'd-block'; ?>">
                                     <h5 class="color-444 AvenirLTStdHeavy text-uppercase fs-20 pb-20 text-center">Salient Features</h5>
                                     <span class=" m-auto"><?php echo $row['sirena_features']; ?></span>
                                 </div>
@@ -125,7 +125,7 @@ $result = $project->get_result();
                                     </div>
                                 </div>
 
-                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="width: 793.7px; height: 1123px;">
+                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: 1123px;">
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
                                     <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
                                 </div>
