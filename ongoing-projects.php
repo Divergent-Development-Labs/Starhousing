@@ -37,11 +37,11 @@
                                 <?php
                                 if (isset($_GET['a'])) {
                                     $a = $_GET['a'];
+                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1' AND `address_line_2`='$a'";
                                 }
                                 else{
-                                    $a = '';
+                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1' AND `address_line_2`='$a'";
                                 }                                
-                                $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1' AND `address_line_2`='$a'";
                                 $onGoingArray = $conn->query($sql);
 
                                 if ($onGoingArray->num_rows > 0) {
@@ -96,7 +96,14 @@
                             <!-- main -->
                             <div class="row mt-5 mb-5">
                                 <?php
-                                $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='2'";
+                                if (isset($_GET['a'])) {
+                                    $a = $_GET['a'];
+                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='2' AND `address_line_2`='$a'";
+                                }
+                                else{
+                                    $sql = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='2'";
+                                }                                
+                                
                                 $onGoingArray = $conn->query($sql);
 
                                 if ($onGoingArray->num_rows > 0) {

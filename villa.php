@@ -117,16 +117,17 @@ $result = $project->get_result();
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
                         <div role="tabpanel" class="tab-pane in active">
-                            <div class="d-sm-flex justify-content-around">
-                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-6">
-                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
-                                    <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
-                                </div>
-                                <div class="<?php echo ($row['youtube_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-6 pt-20 pb-15 pt-sm-0">
+                            <div class="justify-content-around">
+                                <div class="<?php echo ($row['youtube_link'] == '') ? 'd-none' : 'd-block'; ?> col-11 pt-20 pb-15 pt-sm-0 mx-auto" >
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 text-center text-uppercase">Project Video</h4>
                                     <div class="w-100 h-100">
-                                        <iframe width="100%" height="100%" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                        <iframe width="100%" height="500px" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                                     </div>
+                                </div>
+
+                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="width: 793.7px; height: 1123px;">
+                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
+                                    <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
                                 </div>
                             </div>
                         </div>

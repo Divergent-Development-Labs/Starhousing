@@ -22,13 +22,19 @@
                 <p style="font-weight: bold; font-size: 20px;">Tamil Nadu, India</p>
                 <br>
                 <span class="mob-link d-block">Phone : <span class="ybtn"><br>
-                    <a href="tel:+0452-4391555" class="ybtn  text-white">+0452-4391555</a><br>
+                    <a href="tel:0452-4391555" class="ybtn  text-white">0452-4391555</a><br>
                 </span>
                 <br>
                 <span class="mob-link d-block">Mobile : <span class="ybtn"><br>
                     <a href="tel:+9197877 00111" class="ybtn  text-white">+91-97877 00111</a><br>
-                    <a href="tel:+919787773834" class="ybtn  text-white">+91-97877 73834</a></span></span><br><br>
-                <span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn  text-white">Jemibalamkt2010@gmail.com</a></span><br>
+                    <a href="tel:+919787773834" class="ybtn  text-white">+91-97877 73834</a></span>
+                </span>
+                <br><br>
+                <span class="mob-link d-block">Email Id : 
+                    <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn  text-white">jemibalamkt2010@gmail.com</a></span>
+                    <span> | </span>
+                    <span class="ybtn"><a href="mailto:starhousingmadurai2012@gmail.com" class="ybtn  text-white">starhousingmadurai2012@gmail.com</a></span>
+                    <br>
             </div>
         </div>
         <div class="cs-cont-dtls-right ">

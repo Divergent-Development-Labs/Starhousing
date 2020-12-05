@@ -319,7 +319,7 @@
 				<!-- <a href="#" download="Starhousing Corporate Brochure" target="_blank" class="view_more_arr">View brochure</a> -->
 			</div>
 			<div class="home_about_video_wrap">
-				<iframe width="100%" height="398" src="https://www.youtube.com/embed/nrHtreIIo04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
+				<iframe width="100%" height="398" src="https://www.youtube.com/embed/VpQP-H7SERg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                
 			</div>
 		</div>
 	</section>
@@ -330,10 +330,10 @@
 		<div class="container">
 			<label class="primary-color fs-30 AvenirLTStdHeavy">Our Projects</label>
 			<div class="row mb-3">
-				<span class="col-md-3 col-6">OTTAKADAI</span>
-				<span class="col-md-3 col-6">VNCT NAGAR</span>
-				<span class="col-md-3 col-6">JP NAGAR</span>
-				<span class="col-md-3 col-6">ISWARYA LAKSHMI NAGAR</span>
+				<a type="link" href="completed-projects.php?a=OTHAKKADAI" class="col-md-3 col-6"><span>OTHAKKADAI</span></a>
+				<a type="link" href="completed-projects.php?a=VNCT NAGAR" class="col-md-3 col-6"><span>VNCT NAGAR</span></a>
+				<a type="link" href="completed-projects.php?a=JP NAGAR" class="col-md-3 col-6"><span>JP NAGAR</span></a>
+				<a type="link" href="completed-projects.php?a=ISWARYA LAKSHMI NAGAR" class="col-md-3 col-6"><span>ISWARYA LAKSHMI NAGAR</span></a>
 			</div>
 			<!-- <div class="row">
 				<?php
@@ -381,9 +381,13 @@
 						</div> -->
 						<div class="off_add">
 							<p class="mb-0">22,<br>Lake Area Main Road,<br>Uthangudi<br>Madurai - 625 107<br> Tamil Nadu, India
-								<div class="chennais"><span class="mob-link d-block">Phone : <span class="ybtn"><a href="tel:+0452-4391555" class="ybtn">+0452-4391555</a></span></span></div>
+								<div class="chennais"><span class="mob-link d-block">Phone : <span class="ybtn"><a href="tel:0452-4391555" class="ybtn">0452-4391555</a></span></span></div>
 								<div class="chennais"><span class="mob-link d-block">Mobile : <span class="ybtn"><a href="tel:+9197877 00111" class="ybtn">+91-97877 00111</a><span> | </span><a href="tel:+919787773834" class="ybtn">+91-97877 73834</a></span></span></div>
-								<div class="chennais"><span class="mob-link d-block">Email Id : <span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn">Jemibalamkt2010@gmail.com</a></span></div>								
+								<div class="chennais"><span class="mob-link d-block">Email Id : 
+									<span class="ybtn"><a href="mailto:jemibalamkt2010@gmail.com" class="ybtn">jemibalamkt2010@gmail.com</a></span>
+									<span> | </span>
+									<span class="ybtn"><a href="mailto:starhousingmadurai2012@gmail.com" class="ybtn">starhousingmadurai2012@gmail.com</a></span>
+								</div>								
 						</div>
 					</div>
 				</div>
