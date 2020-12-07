@@ -1,16 +1,16 @@
 <?php
 
 //Local
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "star_db";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "star_db";
 
 //Production Old
-// $servername = "localhost";
-// $username = "eakmartc_star";
-// $password = "@Starhousing2020";
-// $dbname = "eakmartc_star_db";
+$servername = "localhost";
+$username = "eakmartc_star";
+$password = "@Starhousing2020";
+$dbname = "eakmartc_star_db";
 
 //Production New
 
