@@ -341,7 +341,7 @@
 
 							if ($projectArray->num_rows > 0) {
 								$c = 1;
-								$d = 5;
+								$d = 6;
 								while ($project = $projectArray->fetch_assoc()) {
 									if($project['project_type'] == '2'){
 										if ($c == 1) {
@@ -350,7 +350,7 @@
 										}
 	
 										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 4 : 5);
+											$d = ($d == 5 ? 6 : 5);
 												echo '</ul>
 														</div>
 														<div class="col-12 col-md-4">
@@ -368,7 +368,7 @@
 							}
 							if ($project2Array->num_rows > 0) {
 								$c = 1;
-								$d = 5;
+								$d = 6;
 
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){
@@ -378,7 +378,7 @@
 										}
 
 										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 4 : 5);
+											$d = ($d == 5 ? 6 : 5);
 												echo '		</ul>
 														</div>
 														<div class="col-12 col-md-4">
@@ -408,7 +408,7 @@
 
 							if ($projectArray->num_rows > 0) {
 								$c = 1;
-								$d = 5;
+								$d = 6;
 
 								while ($project = $projectArray->fetch_assoc()) {
 									if($project['project_type'] == '2'){
@@ -418,7 +418,7 @@
 										}
 	
 										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 4 : 5);
+											$d = ($d == 5 ? 6 : 5);
 												echo '		</ul>
 														</div>
 														<div class="col-12 col-md-4">
@@ -436,7 +436,7 @@
 							}
 							if ($project2Array->num_rows > 0) {
 								$c = 1;
-								$d = 5;
+								$d = 6;
 
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){
@@ -446,7 +446,7 @@
 										}
 
 										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 4 : 5);
+											$d = ($d == 5 ? 6 : 5);
 
 												echo '		</ul>
 														</div>
