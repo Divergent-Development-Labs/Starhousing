@@ -332,7 +332,7 @@
 			<div class="border-bttom-8b8b8b row">
 				<div class="col-12">
 					<label class="primary-color fs-17 AvenirLTStdHeavy">Ongoing Projects</label>
-					<div class="row mb-2  text-center">
+					<div class="row mb-2">
 						<?php
 							$sql2 = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='2'";
 							$sql3 = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
@@ -394,7 +394,7 @@
 				</div>
 				<div class="col-12">
 					<label class="primary-color fs-17 AvenirLTStdHeavy">Completed Projects</label>
-					<div class="row mb-2 text-center">
+					<div class="row mb-2">
 						<?php
 							$sql2 = "SELECT * FROM `project` WHERE `project_status`='2' AND `project_type`='2'";
 							$sql3 = "SELECT * FROM `project` WHERE `project_status`='2' AND `project_type`='1'";
