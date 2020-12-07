@@ -6,7 +6,7 @@
 						<a href="index.php" class="logo">
 							<span class="">
 								<!-- <img src="admin/assets/images/logo.ico" alt=""> -->
-								<img src="admin/assets/images/logo_1.ico" alt="" style="height: 110px;">
+								<img src="admin/assets/images/logo_1.ico" alt="" style="height: 120px; width:fit-content;">
 							</span>
 						</a>
 					</div>
