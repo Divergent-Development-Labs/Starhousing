@@ -340,56 +340,30 @@
 							$project2Array = $conn->query($sql3);
 
 							if ($projectArray->num_rows > 0) {
-								$c = 1;
-								$d = 6;
+								echo '	<div class="col-12">
+								<ul class="link_row_1 row mb-0">';
+
 								while ($project = $projectArray->fetch_assoc()) {
 									if($project['project_type'] == '2'){
-										if ($c == 1) {
-											echo '	<div class="col-12 col-md-4">
-														<ul class="link_row_1">';
-										}
 	
-										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 6 : 5);
-												echo '</ul>
-														</div>
-														<div class="col-12 col-md-4">
-															<ul class="link_row_1">';
-										}
-	
-										echo '<li><a href="plot.php?id='.$project['id'].'"><span>';
+										echo '<li class="col-4"><a href="plot.php?id='.$project['id'].'"><span>';
 										echo 'Plot ';
 										echo $project['project_name'];
 										echo '</span></a></li>';
-										$c++;	
 									}
 								}
 								echo '</ul></div>';
 							}
 							if ($project2Array->num_rows > 0) {
-								$c = 1;
-								$d = 6;
+								echo '	<div class="col-12">
+								<ul class="link_row_1 row mb-0">';
 
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){
-										if ($c == 1) {
-											echo '	<div class="col-12 col-md-4">
-														<ul class="link_row_1">';
-										}
-
-										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 6 : 5);
-												echo '		</ul>
-														</div>
-														<div class="col-12 col-md-4">
-															<ul class="link_row_1">';
-										}
-
-										echo '<li><a href="villa.php?id='.$project['id'].'"><span>';
+										echo '<li class="col-4"><a href="villa.php?id='.$project['id'].'"><span>';
 										echo 'Villa ';
 										echo $project['project_name'];
 										echo '</span></a></li>';
-										$c++;
 									}
 								}
 								echo '</ul></div>';
@@ -407,58 +381,31 @@
 							$project2Array = $conn->query($sql3);
 
 							if ($projectArray->num_rows > 0) {
-								$c = 1;
-								$d = 6;
+
+								echo '	<div class="col-12">
+								<ul class="link_row_1 row mb-0">';
 
 								while ($project = $projectArray->fetch_assoc()) {
 									if($project['project_type'] == '2'){
-										if ($c == 1) {
-											echo '	<div class="col-12 col-md-4">
-														<ul class="link_row_1">';
-										}
-	
-										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 6 : 5);
-												echo '		</ul>
-														</div>
-														<div class="col-12 col-md-4">
-															<ul class="link_row_1">';
-										}
-	
-										echo '<li><a href="plot.php?id='.$project['id'].'"><span>';
+										echo '<li class="col-4"><a href="plot.php?id='.$project['id'].'"><span>';
 										echo 'Plot ';
 										echo $project['project_name'];
 										echo '</span></a></li>';
-										$c++;	
 									}
 								}
 								echo '</ul></div>';
 							}
 							if ($project2Array->num_rows > 0) {
-								$c = 1;
-								$d = 6;
 
+								echo '	<div class="col-12">
+								<ul class="link_row_1 row mb-0">';
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){
-										if ($c == 1) {
-											echo '	<div class="col-12 col-md-4">
-														<ul class="link_row_1">';
-										}
-
-										if (($c % $d) == 0) {
-											$d = ($d == 5 ? 6 : 5);
-
-												echo '		</ul>
-														</div>
-														<div class="col-12 col-md-4">
-															<ul class="link_row_1">';
-										}
-
-										echo '<li><a href="villa.php?id='.$project['id'].'"><span>';
+					
+										echo '<li class="col-4"><a href="villa.php?id='.$project['id'].'"><span>';
 										echo 'Villa ';
 										echo $project['project_name'];
 										echo '</span></a></li>';
-										$c++;
 									}
 								}
 								echo '</ul></div>';
