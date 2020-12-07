@@ -330,9 +330,9 @@
 		<div class="container">
 			<label class="primary-color fs-30 AvenirLTStdHeavy">Our Projects</label>
 			<div class="border-bttom-8b8b8b row">
-				<div class="col-lg-6 col-12 text-center">
+				<div class="col-12">
 					<label class="primary-color fs-17 AvenirLTStdHeavy">Ongoing Projects</label>
-					<div class="row mb-2">
+					<div class="row mb-2  text-center">
 						<?php
 							$sql2 = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='2'";
 							$sql3 = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
@@ -344,14 +344,14 @@
 								while ($project = $projectArray->fetch_assoc()) {
 									if($project['project_type'] == '2'){
 										if ($c == 1) {
-											echo '	<div class="col-12 col-md-3">
+											echo '	<div class="col-12 col-md-4">
 														<ul class="link_row_1">';
 										}
 	
 										if (($c % 5) == 0) {
 												echo '		</ul>
 														</div>
-														<div class="col-12 col-md-3">
+														<div class="col-12 col-md-4">
 															<ul class="link_row_1">';
 										}
 	
@@ -369,14 +369,14 @@
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){
 										if ($c == 1) {
-											echo '	<div class="col-12 col-md-3">
+											echo '	<div class="col-12 col-md-4">
 														<ul class="link_row_1">';
 										}
 
 										if (($c % 5) == 0) {
 												echo '		</ul>
 														</div>
-														<div class="col-12 col-md-3">
+														<div class="col-12 col-md-4">
 															<ul class="link_row_1">';
 										}
 
@@ -392,9 +392,9 @@
 						?>
 					</div>
 				</div>
-				<div class="col-lg-6 col-12 text-center">
+				<div class="col-12">
 					<label class="primary-color fs-17 AvenirLTStdHeavy">Completed Projects</label>
-					<div class="row mb-2">
+					<div class="row mb-2 text-center">
 						<?php
 							$sql2 = "SELECT * FROM `project` WHERE `project_status`='2' AND `project_type`='2'";
 							$sql3 = "SELECT * FROM `project` WHERE `project_status`='2' AND `project_type`='1'";
@@ -406,14 +406,14 @@
 								while ($project = $projectArray->fetch_assoc()) {
 									if($project['project_type'] == '2'){
 										if ($c == 1) {
-											echo '	<div class="col-12 col-md-3">
+											echo '	<div class="col-12 col-md-4">
 														<ul class="link_row_1">';
 										}
 	
 										if (($c % 5) == 0) {
 												echo '		</ul>
 														</div>
-														<div class="col-12 col-md-3">
+														<div class="col-12 col-md-4">
 															<ul class="link_row_1">';
 										}
 	
@@ -431,14 +431,14 @@
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){
 										if ($c == 1) {
-											echo '	<div class="col-12 col-md-3">
+											echo '	<div class="col-12 col-md-4">
 														<ul class="link_row_1">';
 										}
 
 										if (($c % 5) == 0) {
 												echo '		</ul>
 														</div>
-														<div class="col-12 col-md-3">
+														<div class="col-12 col-md-4">
 															<ul class="link_row_1">';
 										}
 
