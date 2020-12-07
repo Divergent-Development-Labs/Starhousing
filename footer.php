@@ -4,34 +4,12 @@
 		<script type='text/javascript' src='wp-content/themes/js/validator.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/intlTelInput.min.js'></script>
 		<script type='text/javascript' src='wp-content/themes/js/wow.min.js'></script>
-		<!-- <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBSySEpEe05QrYkYuOhQXJc3mbGpg5GftI&#038;ver=3.1'></script> -->
-
-		<!-- <script type='text/javascript'>
-			/* <![CDATA[ */
-			var siteurls = {
-				"site_url": "https:\/\/localhost\/Starhousing\/",
-				"template_url": "https:\/\/localhost\/Starhousing\/\/wp-content\/themes\/"
-			};
-			/* ]]> */
-		</script> -->
 
 		<script type='text/javascript' src='wp-content/themes/js/custom.js'></script>
 		<script type='text/javascript' src='wp-includes/js/wp-embed.min.js'></script>
-		<script type='text/javascript'>
-			/* <![CDATA[ */
-			// var ajax_object = {
-			// 	"ajaxurl": "https:\/\/localhost\/Starhousing\/\/wp-admin\/admin-ajax.php"
-			// };
-			/* ]]> */
-		</script>
+
 		<script type='text/javascript' src='wp-content/themes/js/custom-filter.js'></script>
-		<script type='text/javascript'>
-			/* <![CDATA[ */
-			// var ajax_object = {
-			// 	"ajaxurl": "https:\/\/localhost\/Starhousing\/\/wp-admin\/admin-ajax.php"
-			// };
-			/* ]]> */
-		</script>
+
 		<script type='text/javascript' src='wp-content/themes/js/custom-jobfilter.js'></script>
 	</footer>
 
@@ -40,16 +18,7 @@
 			<div class="lf_left lf_menu_wrap float-left">
 				<div class="menu-lower-footer-menu-container">
 					<ul id="menu-lower-footer-menu" class="menu">
-					Developed by <a href="https://kvncloud.com/" target="_blank" class="text-white">KVN Cloud</a>
-						<!-- <li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li> -->
-						<!-- <li id="menu-item-52132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52132"><a href="about-us.php">About us</a></li> -->
-						<!-- <li id="menu-item-52134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52134"><a href="channel-partner/">Channel Partners</a></li>
-						<li id="menu-item-52135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52135"><a href="media/press-release/">Media</a></li>
-						<li id="menu-item-52659" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52659"><a href="blog/">Blog</a></li>
-						<li id="menu-item-52137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52137"><a href="testimonials/">Testimonials</a></li>
-						<li id="menu-item-52138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52138"><a href="http://www.cgreferral.com/">Referrals</a></li>
-						<li id="menu-item-52139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52139"><a href="nri/">NRI</a></li>
-						<li id="menu-item-52141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52141"><a href="helpful-tools/">Helpful Tools</a></li> -->
+						Developed by <a href="https://kvncloud.com/" target="_blank" class="text-white">KVN Cloud</a>
 					</ul>
 				</div>
 			</div>
@@ -65,29 +34,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
-	<!-- Popup -->
-
-
-	<!-- Popup -->
-
-
-	<!-- Popup -->
-
-
-	<!-- Chat widget script -->
-	<!-- <script src="https://cwc.livserv.in/chat.js?lid=0001"></script>
-	<script src='https://cw1.livserv.in?did=11912&pid=1'></script>  -->
-
-	<!-- <script type="text/javascript">
-	  jQuery(document).ready(function($) {
-	    setTimeout( function(){
-	      $('#casa_modal').prop('checked', true);
-	    }, 5000);
-	  });
-	</script> -->
 
 	<style>
 		body #ls_theLayer {
@@ -113,19 +59,6 @@
 
 
 	<script>
-		// $(document).ready(function() {
-		// 	console.log(localStorage.getItem("visited"));
-		// 	if (localStorage.getItem("visited") != 1) {
-		// 		localStorage.setItem('visited', 1);
-		// 		setTimeout(function() {
-		// 			$('.disclaimer-wrapper').show();
-		// 		}, 1000);
-		// 		var d = new Date();
-		// 		d.setTime(d.getTime() + (1 * 24 * 60 * 60 * 1000));
-		// 		document.cookie = "visited=1; expires=" + d.toUTCString() + ";";
-		// 	}
-		// });
-
 		function getCookie(cname) {
 			var name = cname + "=";
 			var decodedCookie = decodeURIComponent(document.cookie);
@@ -190,80 +123,8 @@
 				]
 			});
 
-			/* Script for Animation */
-			/*$(document).on('click', '.ahp_close', function(){
-	        	$('.anim_home_popup').fadeOut(300);
-	        });
-	        $(document).keydown(function(event) { 
-				if (event.keyCode == 27) { 
-					$('.anim_home_popup').fadeOut(300);
-				}
-			});*/
 		});
 
-		/*$(window).on('load', function(){
-	    	$('.anim_home_popup').fadeIn(200, function(){
-	    		startPopupAnimation();
-	    	});
-	    });
-
-		function startPopupAnimation(){
-			$('.csg-pop-layer-1').addClass('visible animate__slideInUp');
-			$('.csg-txt-1').removeClass('hidden').addClass('animate__fadeInUp');
-			setTimeout(function(){
-                $('.csg-pop-layer-2').addClass('visible animate__slideInLeft');
-                $('.csg-txt-1').addClass('animate__fadeOut');
-                $('.csg-txt-2').removeClass('hidden').addClass('animate__fadeInUp');
-                $('.csg-pop-layer-3').addClass('visible animate__zoomIn');
-            }, 1000);
-            setTimeout(function(){
-                $('.csg-pop-layer-4').addClass('visible animate__slideInUp');
-                $('.csg-txt-2').addClass('animate__flipOutX');
-                $('.csg-txt-3').removeClass('hidden').addClass('animate__flipInX');
-            }, 3000);
-            setTimeout(function(){
-                $('.csg-txt-3').addClass('animate__zoomOut');
-                $('.csg-txt-4').removeClass('hidden').addClass('animate__zoomIn');
-            }, 5000);
-            setTimeout(function(){
-                $('.csg-pop-layer-5').addClass('visible animate__bounceInUp');
-                $('.csg-txt-4').addClass('animate__zoomOut');
-                $('.csg-txt-5').removeClass('hidden').addClass('animate__zoomIn');
-            }, 7000);
-            setTimeout(function(){
-                $('.csg-txt-5').addClass('animate__zoomOut');
-                $('.csg-pop-layer-4').removeClass('animate__slideInUp').addClass('animate__slideOutDown');
-                $('.csg-box').addClass('visible animate__zoomIn');
-                $('.grass-img').hide();
-                $('.grass-img-2').show();
-            }, 9000);
-            setTimeout(function(){
-                $('.csg-box').addClass('az-active');
-                $('.csg-txt-7').removeClass('hidden').addClass('animate__zoomIn');
-            }, 10000);
-            setTimeout(function(){
-                $('.close-loc-list').removeClass('hidden').addClass('animate__slideInLeft');
-                $('.close-loc-list ul li').removeClass('hidden').addClass('animate__slideInLeft');
-            }, 11000);
-            setTimeout(function(){
-                $('.csg-box').addClass('animate__zoomOut');
-                $('.close-loc-list').removeClass('animate__slideInLeft').addClass('animate__zoomOut');
-                $('.csg-box').removeClass('az-active');
-                $('.csg-txt-7').addClass('animate__zoomOut');
-                $('.csg-box-1').removeClass('hidden').addClass('animate__zoomIn');
-                $('.grass-img').hide();
-                $('.grass-img-3').show();
-            }, 13000);
-            setTimeout(function(){
-                $('.cas-logo').addClass('visible animate__zoomIn');
-            }, 14000);
-            setTimeout(function(){
-                $('.csg-txt-9').addClass('visible animate__zoomIn');
-            }, 15000);
-            setTimeout(function(){
-                $('.anim_home_popup').fadeOut(300);
-            }, 21000);
-		}*/
 	</script>
 
 	<style type="text/css">
@@ -554,6 +415,6 @@
 			}, 5000);
 			setTimeout(function() {
 				$('#firstcity_anim_wrap').fadeOut(300);
-			}, 5000);
+			}, 2000);
 		}
 	</script>

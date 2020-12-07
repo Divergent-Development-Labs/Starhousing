@@ -329,56 +329,134 @@
 	<footer class="fs-10 fw-bold">
 		<div class="container">
 			<label class="primary-color fs-30 AvenirLTStdHeavy">Our Projects</label>
-			<div class="row mb-2">
-				<a type="link" href="ongoing-projects.php?a=OTHAKKADAI" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Ongoing in OTHAKKADAI</span></a>
-				<a type="link" href="ongoing-projects.php?a=VNCT NAGAR" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Ongoing in VNCT NAGAR</span></a>
-				<a type="link" href="ongoing-projects.php?a=JP NAGAR" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Ongoing in JP NAGAR</span></a>
-				<a type="link" href="ongoing-projects.php?a=ISWARYA LAKSHMI NAGAR" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Ongoing in ISWARYA LAKSHMI NAGAR</span></a>
+			<div class="border-bttom-8b8b8b row">
+				<div class="col-lg-6 col-12 text-center">
+					<label class="primary-color fs-17 AvenirLTStdHeavy">Ongoing Projects</label>
+					<div class="row mb-2">
+						<?php
+							$sql2 = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='2'";
+							$sql3 = "SELECT * FROM `project` WHERE `project_status`='1' AND `project_type`='1'";
+							$projectArray = $conn->query($sql2);
+							$project2Array = $conn->query($sql3);
+
+							if ($projectArray->num_rows > 0) {
+								$c = 1;
+								while ($project = $projectArray->fetch_assoc()) {
+									if($project['project_type'] == '2'){
+										if ($c == 1) {
+											echo '	<div class="col-12 col-md-3">
+														<ul class="link_row_1">';
+										}
+	
+										if (($c % 5) == 0) {
+												echo '		</ul>
+														</div>
+														<div class="col-12 col-md-3">
+															<ul class="link_row_1">';
+										}
+	
+										echo '<li><span>';
+										echo 'PLot ';
+										echo $project['project_name'];
+										echo '</span></li>';
+										$c++;	
+									}
+								}
+								echo '</ul></div>';
+							}
+							if ($project2Array->num_rows > 0) {
+								$c = 1;
+								while ($project = $project2Array->fetch_assoc()) {
+									if($project['project_type'] == '1'){
+										if ($c == 1) {
+											echo '	<div class="col-12 col-md-3">
+														<ul class="link_row_1">';
+										}
+
+										if (($c % 5) == 0) {
+												echo '		</ul>
+														</div>
+														<div class="col-12 col-md-3">
+															<ul class="link_row_1">';
+										}
+
+										echo '<li><span>';
+										echo 'Villa ';
+										echo $project['project_name'];
+										echo '</span></li>';
+										$c++;
+									}
+								}
+								echo '</ul></div>';
+							}
+						?>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 text-center">
+					<label class="primary-color fs-17 AvenirLTStdHeavy">Completed Projects</label>
+					<div class="row mb-2">
+						<?php
+							$sql2 = "SELECT * FROM `project` WHERE `project_status`='2' AND `project_type`='2'";
+							$sql3 = "SELECT * FROM `project` WHERE `project_status`='2' AND `project_type`='1'";
+							$projectArray = $conn->query($sql2);
+							$project2Array = $conn->query($sql3);
+
+							if ($projectArray->num_rows > 0) {
+								$c = 1;
+								while ($project = $projectArray->fetch_assoc()) {
+									if($project['project_type'] == '2'){
+										if ($c == 1) {
+											echo '	<div class="col-12 col-md-3">
+														<ul class="link_row_1">';
+										}
+	
+										if (($c % 5) == 0) {
+												echo '		</ul>
+														</div>
+														<div class="col-12 col-md-3">
+															<ul class="link_row_1">';
+										}
+	
+										echo '<li><a href="plot.php?id='.$project['id'].'"><span>';
+										echo 'PLot ';
+										echo $project['project_name'];
+										echo '</span></a></li>';
+										$c++;	
+									}
+								}
+								echo '</ul></div>';
+							}
+							if ($project2Array->num_rows > 0) {
+								$c = 1;
+								while ($project = $project2Array->fetch_assoc()) {
+									if($project['project_type'] == '1'){
+										if ($c == 1) {
+											echo '	<div class="col-12 col-md-3">
+														<ul class="link_row_1">';
+										}
+
+										if (($c % 5) == 0) {
+												echo '		</ul>
+														</div>
+														<div class="col-12 col-md-3">
+															<ul class="link_row_1">';
+										}
+
+										echo '<li><a href="villa.php?id='.$project['id'].'"><span>';
+										echo 'Villa ';
+										echo $project['project_name'];
+										echo '</span></a></li>';
+										$c++;
+									}
+								}
+								echo '</ul></div>';
+							}
+						?>
+					</div>
+				</div>
 			</div>
 			<!-- <br> -->
-			<div class="row mb-3">
-				<a type="link" href="completed-projects.php?a=OTHAKKADAI" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Completed in OTHAKKADAI</span></a>
-				<a type="link" href="completed-projects.php?a=VNCT NAGAR" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Completed in VNCT NAGAR</span></a>
-				<a type="link" href="completed-projects.php?a=JP NAGAR" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Completed in JP NAGAR</span></a>
-				<a type="link" href="completed-projects.php?a=ISWARYA LAKSHMI NAGAR" class="col-md-4 col-sm-6 col-12 m-md-0  mb-1"><span>Completed in ISWARYA LAKSHMI NAGAR</span></a>
-			</div>
-			<!-- <div class="row">
-				<?php
-					$sql2 = "SELECT * FROM `project` WHERE `project_status`='1'";
-					$projectArray = $conn->query($sql2);
-
-					if ($projectArray->num_rows > 0) {
-						$c = 1;
-						while ($project = $projectArray->fetch_assoc()) {
-
-							if ($c == 1) {
-								echo '	<div class="col-12 col-md-3">
-											<ul class="link_row_1">';
-							}
-
-							if (($c % 5) == 0) {
-									echo '		</ul>
-											</div>
-											<div class="col-12 col-md-3">
-												<ul class="link_row_1">';
-							}
-
-							echo '<li><span>';
-							echo ($project['project_type'] == 1) ? "Villa " : "PLot ";
-							echo $project['project_name'];
-							echo '</span></li>';
-							$c++;
-
-						}
-						echo '</ul></div>';
-
-					}
-				?>
-				<div class="col-12 col-md-3">
-					<ul class="link_row_1">
-					</ul>
-				</div>
-			</div> -->
+			
 			<label class="primary-color fs-30 AvenirLTStdHeavy">Get in touch</label>
 			<div class="row ">
 				<div class="col-12 pb-3">

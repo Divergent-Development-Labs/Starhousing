@@ -2798,3 +2798,9 @@ body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submi
 .hide	{ display:none;}
 .bg-grey-color	{ background-color:#d6d6d6!important;}
 .color-232323	{ color:#232323;}
+
+
+
+.flip-grid-view .flip-entry{
+    width: 30%;
+}
