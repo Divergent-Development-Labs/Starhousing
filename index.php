@@ -349,16 +349,16 @@
 										}
 	
 										if (($c % 5) == 0) {
-												echo '		</ul>
+												echo '</ul>
 														</div>
 														<div class="col-12 col-md-4">
 															<ul class="link_row_1">';
 										}
 	
-										echo '<li><span>';
-										echo 'PLot ';
+										echo '<li><a href="plot.php?id='.$project['id'].'"><span>';
+										echo 'Plot ';
 										echo $project['project_name'];
-										echo '</span></li>';
+										echo '</span></a></li>';
 										$c++;	
 									}
 								}
@@ -380,10 +380,10 @@
 															<ul class="link_row_1">';
 										}
 
-										echo '<li><span>';
+										echo '<li><a href="villa.php?id='.$project['id'].'"><span>';
 										echo 'Villa ';
 										echo $project['project_name'];
-										echo '</span></li>';
+										echo '</span></a></li>';
 										$c++;
 									}
 								}
@@ -418,7 +418,7 @@
 										}
 	
 										echo '<li><a href="plot.php?id='.$project['id'].'"><span>';
-										echo 'PLot ';
+										echo 'Plot ';
 										echo $project['project_name'];
 										echo '</span></a></li>';
 										$c++;	
