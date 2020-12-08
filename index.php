@@ -355,7 +355,7 @@
 								echo '</ul></div>';
 							}
 							if ($project2Array->num_rows > 0) {
-								echo '	<div class="col-12">
+								echo '<br>	<div class="col-12">
 								<ul class="link_row_1 row mb-0">';
 
 								while ($project = $project2Array->fetch_assoc()) {
@@ -397,7 +397,7 @@
 							}
 							if ($project2Array->num_rows > 0) {
 
-								echo '	<div class="col-12">
+								echo '<br>	<div class="col-12">
 								<ul class="link_row_1 row mb-0">';
 								while ($project = $project2Array->fetch_assoc()) {
 									if($project['project_type'] == '1'){

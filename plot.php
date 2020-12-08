@@ -107,7 +107,7 @@ $result = $project->get_result();
 
         <div class=" <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">
             <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Gallery</h4>            
-            <iframe src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" height="300px" width="100%" class="mx-auto <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>" title="Project Gallery"></iframe>
+            <iframe id="plotGallery" src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#list" style="height:calc(100vh - 140px);" width="100%" class="mx-auto <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>" title="Project Gallery"></iframe>
         </div>
         
         <section class="project-highlights pb-40 pt-10" id="overview2">
@@ -137,6 +137,9 @@ $result = $project->get_result();
     <?php } ?>
     <?php include 'footer.php'; ?>
 
-</body>
+    <script type="text/javascript">
+        console.log(getElementsByClassName('flip-entry-info')[0].getElementsByTagName('a'));    
+    </script>
 
+</body>
 </html>

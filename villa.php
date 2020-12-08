@@ -109,7 +109,7 @@ $result = $project->get_result();
 
         <div class=" <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">
             <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Gallery</h4>            
-            <iframe src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" style="width:100%; height:300px; max-height:600px; border:0;" class="mx-auto responsive-frame" title="Iframe Example"></iframe>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" style="width:100%; height:3calc(100vh - 140px); border:0;" class="mx-auto responsive-frame" title="Iframe Example"></iframe>
         </div>
 
         <section class="project-highlights pb-40 pt-10" id="overview2">
