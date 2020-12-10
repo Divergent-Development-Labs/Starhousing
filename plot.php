@@ -60,6 +60,7 @@ $result = $project->get_result();
                             <div class="row bg-37393e project-btns mb-10">
                                 <div class="col-12 mb-md-20 mb-10 d-sm-flex justify-content-start">
                                     <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more mr-sm-2 my-sm-0 my-1 px-2 py-1  " target="_blank" href="<?php echo $row['pdf_link']; ?>" >Brochure</a>
+                                    <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more mr-sm-2 my-sm-0 my-1 px-2 py-1  " target="_blank" href="https://drive.google.com/file/d/<?php echo $row['sitemap_link'];?>/view" >SiteMap</a>
                                     <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more px-2 py-1 " target="_blank" href="<?php echo $row['location_link']; ?>" >Show in Map</a>
                                 </div>
                             </div>
@@ -68,20 +69,6 @@ $result = $project->get_result();
                 </div>
             </div>
         </section>
-<!-- 
-        <section class="container-fluid breadcrumb-section single_p float-left p-0">
-            <p id="breadcrumbs">
-                <span><a href="index.php">Home</a> | </span>
-                <!?php if($row['project_status'] == '1'){ ?>
-                    <span><a href="ongoing-projects.php">Ongoing Projects</a> | </span>
-                    <!?php 
-                }
-                else{ ?>
-                    <span><a href="completed-projects.php">Completed Projects</a> | </span>
-                    <!?php
-                } ?>
-                <span class="breadcrumb_last" aria-current="page">Plot</span>
-        </section> -->
 
         <section class="project-highlights pb-0 pt-50" id="overview">
             <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy">PLOT HIGHLIGHTS</h1>
@@ -107,7 +94,7 @@ $result = $project->get_result();
 
         <div class=" <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">
             <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Gallery</h4>            
-            <iframe id="plotGallery" src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#list" style="height:calc(100vh - 140px);" width="100%" class="mx-auto <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>" title="Project Gallery"></iframe>
+            <iframe id="plotGallery" src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" style="height:44vh;" width="100%" class="mx-auto <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>" title="Project Gallery"></iframe>
         </div>
         
         <section class="project-highlights pb-40 pt-10" id="overview2">
@@ -123,10 +110,10 @@ $result = $project->get_result();
                                     </div>
                                 </div>
 
-                                <div class="<?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: auto;">
+                                <!-- <div class="<!?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: auto;">
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
                                     <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
