@@ -228,7 +228,7 @@ $result = $project->get_result();
                         <?php
 
                         
-                        for ($i=0; $i < 9; $i++) { 
+                        for ($i=0; $i < 10; $i++) { 
                             $link = json_decode($row['gallery_link'])[$i];
                         ?>
                         <div class="form-group row">

@@ -196,7 +196,7 @@
                     </div>
                     <div class="tab-pane" id="gallery" role="tabpanel">
                         <?php
-                        for ($i=0; $i < 9; $i++) { 
+                        for ($i=0; $i < 10; $i++) { 
                         ?>
                         <div class="form-group row">
                             <label class="col-md-3 col-sm-3 col-form-label">Image <?php echo $i+1;?> Link</label>
