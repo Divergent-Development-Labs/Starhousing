@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $(".galleryImageLink").off('keyup, change').on('keyup, change', setGalleryArray);    
+
     $(".project").keyup(function(){
         console.log('project.js record checking calling');
         var txt = $(this).val();
@@ -60,3 +62,18 @@ $(document).ready(function() {
 
 } );
 
+function setGalleryArray(){
+    var arr = [];
+    
+    $.each($('.galleryImageLink'), function(k, ele){
+        console.log(k, ele);
+        console.log($(ele).val());
+        var val = $(ele).val().match("file/d/(.*)/view");
+        if(val && val[1] != null){
+            arr.push(val[1]);
+        }
+    });
+    
+    var arrData = JSON.stringify(arr);
+    $('#galleryLinkArray').val(arrData);
+}

@@ -10,7 +10,7 @@
 
         $location_link = mysqli_real_escape_string($conn, $_POST['locationLink']);
         $img_link = mysqli_real_escape_string($conn, $_POST['imgLink']);
-        $gallery_link = mysqli_real_escape_string($conn, $_POST['galleryLink']);
+        $gallery_link = mysqli_real_escape_string($conn, $_POST['galleryLinkArray']);
         
         $pdf_link = mysqli_real_escape_string($conn, $_POST["pdfLink"]);
         $sitemap_link = mysqli_real_escape_string($conn, $_POST["sitemapLink"]);
@@ -46,8 +46,6 @@
 
         $parsed_img_link = get_string_between($fullstring, 'file/d/', '/view?');
         
-        $parsed_gallery_link = get_string_between($gallery_link, 'drive/folders/', '?usp=sharing');
-
         $parsed_sitemap_link = get_string_between($sitemap_link, 'file/d/', '/view?');
 
         $parsed_youtube_link = get_string($youtube_link, 'youtu.be/', '');
@@ -55,7 +53,7 @@
         echo $parsed_youtube_link;
         
         // echo $username, $password;
-        $sql = "INSERT INTO `project` (`project_name`, `project_type`, 'rate`, `bhk_or_sqft`, `project_status`, `location_link`, `img_link`, `gallery_link`, `pdf_link`, `sitemap_link`, `youtube_link`, `anamatics`, `sirena_features`, `address_line_1`, `address_line_2`, `district`, `state`, `pin_code`) VALUES ('$project_name', '$project_type', '$centRate', '$bhk_or_sqft', '$project_status', '$location_link', '$parsed_img_link', '$parsed_gallery_link', '$pdf_link', '$parsed_sitemap_link', '$parsed_youtube_link', '$anamatics', '$sirena_features','$address_line_1', '$address_line_2', '$district', '$state', '$pin_code')";
+        $sql = "INSERT INTO `project` (`project_name`, `project_type`, `rate`, `bhk_or_sqft`, `project_status`, `location_link`, `img_link`, `gallery_link`, `pdf_link`, `sitemap_link`, `youtube_link`, `anamatics`, `sirena_features`, `address_line_1`, `address_line_2`, `district`, `state`, `pin_code`) VALUES ('$project_name', '$project_type', '$centRate', '$bhk_or_sqft', '$project_status', '$location_link', '$parsed_img_link', '$gallery_link', '$pdf_link', '$parsed_sitemap_link', '$parsed_youtube_link', '$anamatics', '$sirena_features','$address_line_1', '$address_line_2', '$district', '$state', '$pin_code')";
         if ($conn->query($sql) === TRUE) {
             $last_id = $conn->insert_id;
             $_SESSION["msg"] = 'Project added Successfull. Project id : ' . $last_id;

@@ -26,6 +26,10 @@ $result = $project->get_result();
 
 <head>
     <?php include 'head.php'; ?>
+    
+    <!-- Lightbox css -->
+    <link href="custom/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body data-rsssl=1 class="home page-template page-template-front-page page-template-front-page-php page page-id-15">
@@ -92,12 +96,43 @@ $result = $project->get_result();
             </div>
         </section>
 
-        <div class=" <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">
-            <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Gallery</h4>            
-            <iframe id="plotGallery" src="https://drive.google.com/embeddedfolderview?id=<?php echo $row['gallery_link']; ?>#grid" style="height:44vh;" width="100%" class="mx-auto <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>" title="Project Gallery"></iframe>
+        <div class="mb-3 <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">        
+            <div class="col-md-8 col-12 mx-auto" style="max-width: 700px !important;">
+                <div class="card">
+                    <div class="card-body" style="background-color: #37393e;">
+
+                        <h4 class="card-title text-white">Gallery</h4>
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                            <?php 
+                                foreach (json_decode($row['gallery_link']) as $key => $value) { ?>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $key; ?>" class="<?php echo ($key == 0) ? 'active': '';?>"></li>
+                                <?php } ?>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <?php 
+                                foreach (json_decode($row['gallery_link']) as $key => $value) { ?>
+                                <div class="carousel-item <?php echo ($key == 0) ? 'active': '';?>">
+                                    <img class="d-block img-fluid" src="https://drive.google.com/thumbnail?id=<?php echo $value; ?>" width="100%" style="height: 399px !important;max-width: 680px !important;" alt="Image <?php echo $key+1;?>">
+                                </div>
+                                <?php } ?>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end col -->         
         </div>
         
-        <section class="project-highlights pb-40 pt-10" id="overview2">
+        <section class="project-highlights pb-40 pt-10 <?php echo ($row['youtube_link'] == '') ? 'd-none' : 'd-block'; ?>" id="overview2">
             <div class="container-fluid">
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
@@ -124,9 +159,10 @@ $result = $project->get_result();
     <?php } ?>
     <?php include 'footer.php'; ?>
 
-    <script type="text/javascript">
-        console.log(getElementsByClassName('flip-entry-info')[0].getElementsByTagName('a'));    
-    </script>
+    <!-- Magnific Popup-->
+    <!-- <script src="custom/js/jquery.magnific-popup.min.js"></script> -->
 
+    <!-- lightbox init js-->
+    <!-- <script src="custom/js/lightbox.init.js"></script> -->
 </body>
 </html>

@@ -56,15 +56,35 @@ $result = $project->get_result();
     </div>
 </div>
 <!-- end page title -->
-<div class="row">
-    <div class="col-xl-12 mx-auto">
-        <div class="card">
-            <div class="card-body">
 
-                <?php
-                while ($row = $result->fetch_assoc()) { ?>
-                    <form class="custom-validation" id="editProjectForm" action="backend/update-project-backend.php?id=<?php echo $row['id']; ?>" method="post">
+<div class="col-12">
+    <div class="card">
+        <div class="card-body">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#profile" role="tab">
+                        <span class="d-block">Profile</span> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#links" role="tab">
+                        <span class="d-block">Links</span> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#gallery" role="tab">
+                        <span class="d-block">Gallery</span>   
+                    </a>
+                </li>
+            </ul>
 
+            <?php
+            while ($row = $result->fetch_assoc()) { ?>
+            <form class="custom-validation" id="editProjectForm" action="backend/update-project-backend.php?id=<?php echo $row['id']; ?>" method="post">                                           
+                <!-- Tab panes -->
+                <div class="tab-content p-3 text-muted">
+                    <div class="tab-pane active" id="profile" role="tabpanel">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group row">
@@ -112,7 +132,6 @@ $result = $project->get_result();
                                         </select>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class="col-lg-6">
@@ -135,23 +154,39 @@ $result = $project->get_result();
                                         <input value="<?php echo $row['district']; ?>" type="text" name="district" class="form-control" placeholder="Enter Project District" />
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="form-group row col-6">
-                                        <label class="col-md-3 col-sm-3 col-form-label">State</label>
-                                        <div class="col-md-9">
-                                            <input value="<?php echo $row['state']; ?>" type="text" name="state" class="form-control" placeholder="Enter Project State" />
-                                        </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-sm-3 col-form-label">State</label>
+                                    <div class="col-md-9">
+                                        <input value="<?php echo $row['state']; ?>" type="text" name="state" class="form-control" placeholder="Enter Project State" />
                                     </div>
-                                    <div class="form-group row col-6">
-                                        <label class="col-md-4 col-sm-4 col-form-label text-right">Pin Code</label>
-                                        <div class="col-md-8">
-                                            <input value="<?php echo $row['pin_code']; ?>" type="text" class="form-control" name="pinCode" data-parsley-length="[6,6]" maxlength="6" placeholder="Enter Pin Code" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-sm-4 col-form-label">Pin Code</label>
+                                    <div class="col-md-9">
+                                        <input value="<?php echo $row['pin_code']; ?>" type="text" class="form-control" name="pinCode" data-parsley-length="[6,6]" maxlength="6" placeholder="Enter Pin Code" />
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Amenities</h4>        
+                                        <textarea id="elm1" name="anamatics"><?php echo $row['anamatics']; ?></textarea>                                        
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
 
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Salient Features</h4>        
+                                        <textarea id="elm2" name="sirena_features"><?php echo $row['sirena_features']; ?></textarea>                                        
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div> 
+                    </div>
+                    <div class="tab-pane" id="links" role="tabpanel">
                         <div>                                
                             <div class="form-group row">
                                 <label class="col-md-3 col-sm-3 col-form-label">Location Link</label>
@@ -164,13 +199,6 @@ $result = $project->get_result();
                                 <label class="col-md-3 col-sm-3 col-form-label">Image Link</label>
                                 <div class="col-md-9">
                                     <input value="<?php echo ($row['img_link'] != '') ? "https://drive.google.com/file/d/" . $row['img_link'] . "/view?usp=sharing" : ''; ?>" type="text" name="imgLink" class="form-control" placeholder="Enter Project Image Link" />
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <label class="col-md-3 col-sm-3 col-form-label">Gallery Link</label>
-                                <div class="col-md-9">
-                                    <input value="<?php echo ($row['gallery_link'] != '') ? "https://drive.google.com/drive/folders/" . $row['gallery_link'] . "?usp=sharing" : ''; ?>" type="text" name="galleryLink" class="form-control" placeholder="Enter Project Gallery Link" />
                                 </div>
                             </div>
 
@@ -195,46 +223,41 @@ $result = $project->get_result();
                                 </div>
                             </div>                                
                         </div>
+                    </div>
+                    <div class="tab-pane" id="gallery" role="tabpanel">
+                        <?php
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Amenities</h4>        
-                                        <textarea id="elm1" name="anamatics"><?php echo $row['anamatics']; ?></textarea>                                        
-                                    </div>
-                                </div>
-                            </div> <!-- end col -->
-                        </div> <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Salient Features</h4>        
-                                        <textarea id="elm2" name="sirena_features"><?php echo $row['sirena_features']; ?></textarea>                                        
-                                    </div>
-                                </div>
-                            </div> <!-- end col -->
-                        </div> <!-- end row -->
-
-                        <div class="card-footer form-group mb-0 text-right">
-                            <div>
-                                <button type="submit" class="btn btn-success waves-effect waves-light mr-1" id="updateBtn" name="updateBtn">
-                                    Update
-                                </button>
-                                <a type="button" class="btn btn-outline-secondary waves-effect" href="project.php">
-                                    Cancel
-                                </a>
+                        
+                        for ($i=0; $i < 9; $i++) { 
+                            $link = json_decode($row['gallery_link'])[$i];
+                        ?>
+                        <div class="form-group row">
+                            <label class="col-md-3 col-sm-3 col-form-label">Image <?php echo $i+1;?> Link</label>
+                            <div class="col-md-9">
+                                <input value="<?php echo ($link != '') ? "https://drive.google.com/file/d/" . $link . "/view?usp=sharing" : ''; ?>" type="text" name="galleryImgLink<?php echo $i+1; ?>" class="form-control galleryImageLink" placeholder="Enter Project Gallery Image Link" />
                             </div>
                         </div>
-                    </form>
-                <?php }   ?>
+                        <?php } ?>                        
+                    </div>
+                </div>
 
-            </div>
+                <div class="card-footer form-group mb-0 text-right">
+                    <input type="text" hidden id="galleryLinkArray" name="galleryLinkArray">
+                    <div>
+                        <button type="submit" onclick="setGalleryArray()" class="btn btn-success waves-effect waves-light mr-1" id="updateBtn" name="updateBtn">
+                            Update
+                        </button>
+                        <a type="button" class="btn btn-outline-secondary waves-effect" href="project.php">
+                            Cancel
+                        </a>
+                    </div>
+                </div>
+            </form>
+            <?php }   ?>    
         </div>
     </div>
 </div>
+
 <?php include 'footer.php'; ?>
 <!-- <script src="custom/js/project.js"></script> -->
 <script src="custom/js/edit-project.js"></script>
@@ -251,6 +274,8 @@ $result = $project->get_result();
 
 <?php include 'datatables.php' ?>
 
+<script type="text/javascript">
+</script>
 </body>
 
 </html>
