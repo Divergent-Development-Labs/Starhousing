@@ -25,11 +25,7 @@ $result = $project->get_result();
 <html>
 
 <head>
-    <?php include 'head.php'; ?>
-    
-    <!-- Lightbox css -->
-    <link href="custom/css/magnific-popup.css" rel="stylesheet" type="text/css" />
-
+    <?php include 'head.php'; ?>    
 </head>
 
 <body data-rsssl=1 class="home page-template page-template-front-page page-template-front-page-php page page-id-15">
