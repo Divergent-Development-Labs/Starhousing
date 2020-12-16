@@ -163,7 +163,7 @@
 														<div class="project_box_in">
 															<div class="imgbox">
 																<span>
-																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
+																	<img src="https://drive.google.com/uc?export=view&id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
 																</span>
 																<!-- <a href="<!?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a> -->
 															</div>
@@ -217,7 +217,7 @@
 														<div class="project_box_in">
 															<div class="imgbox">
 																<span>
-																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
+																	<img src="https://drive.google.com/uc?export=view&id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
 																</span>
 																<!-- <a href="<!?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a> -->
 															</div>

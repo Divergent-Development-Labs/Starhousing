@@ -53,7 +53,7 @@
                                         ?>
 
                                         <div class="col-12 col-sm-4 mb-sm-30 project-list-holder">
-                                            <div class="project-list-image card"> <a href="#"><img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>"></a></div>
+                                            <div class="project-list-image card"> <a href="#"><img class="w-100" src="https://drive.google.com/uc?export=view&id=<?php echo $onGoing['img_link']; ?>"></a></div>
 
                                             <div class="bg-fff opensansregular">
                                                 <h4 class="fs-18 tab-proj-title project-details AvenirLTStdHeavy"><?php echo $onGoing['project_name']; ?></h4>
@@ -115,7 +115,7 @@
                                         ?>
 
                                         <div class="col-12 col-sm-4 mb-sm-30 project-list-holder">
-                                            <div class="project-list-image card"> <a href="#"><img class="w-100" src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>"></a></div>
+                                            <div class="project-list-image card"> <a href="#"><img class="w-100" src="https://drive.google.com/uc?export=view&id=<?php echo $onGoing['img_link']; ?>"></a></div>
 
                                             <div class="bg-fff opensansregular">
                                                 <h4 class="fs-18 tab-proj-title project-details AvenirLTStdHeavy"><?php echo $onGoing['project_name']; ?></h4>

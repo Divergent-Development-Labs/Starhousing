@@ -40,8 +40,8 @@ $result = $project->get_result();
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <div class="swiper-container">
-                            <img src="https://drive.google.com/thumbnail?id=<?php echo $row['img_link']; ?>" class="w-100" style="height: 240px;" />
-                            <!-- <img src="https://drive.google.com/thumbnail?id=<?php echo $row['img_link']; ?>" class="w-100" alt="" style="position:relative" /> -->
+                            <img src="https://drive.google.com/uc?export=view&id=<?php echo $row['img_link']; ?>" class="w-100" style="height: 240px;" />
+                            <!-- <img src="https://drive.google.com/uc?export=view&id=<?php echo $row['img_link']; ?>" class="w-100" alt="" style="position:relative" /> -->
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
@@ -96,7 +96,7 @@ $result = $project->get_result();
         ?>
 
         <div class="mb-3 <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">        
-            <div class="col-md-8 col-12 mx-auto" style="max-width: 700px !important;">
+            <div class="col-md-8 col-12 mx-auto" style="max-width: 650px !important;">
                 <div class="card">
                     <div class="card-body" style="background-color: #37393e;">
 
@@ -113,7 +113,7 @@ $result = $project->get_result();
                                 <?php 
                                 foreach (json_decode($row['gallery_link']) as $key => $value) { ?>
                                 <div class="carousel-item <?php echo ($key == 0) ? 'active': '';?>">
-                                    <img class="d-block img-fluid" src="https://drive.google.com/thumbnail?id=<?php echo $value; ?>" width="100%" style="height: 399px !important;max-width: 680px !important;" alt="Image <?php echo $key+1;?>">
+                                    <img class="d-block img-fluid" src="https://drive.google.com/uc?export=view&id=<?php echo $value; ?>" width="100%" style="height: 359px !important;max-width: 630px !important;" alt="Image <?php echo $key+1;?>">
                                 </div>
                                 <?php } ?>
                             </div>
@@ -145,7 +145,7 @@ $result = $project->get_result();
                                 </div>
                                 <!-- <div class="<!?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: auto;">
                                     <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
-                                    <img class="h-100 pb-15 w-100" src="https://drive.google.com/thumbnail?id=<!?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
+                                    <img class="h-100 pb-15 w-100" src="https://drive.google.com/uc?export=view&id=<!?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
                                 </div> -->
                             </div>
                         </div>
