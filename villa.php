@@ -40,7 +40,7 @@ $result = $project->get_result();
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <div class="swiper-container">
-                            <img src="https://drive.google.com/uc?export=view&id=<?php echo $row['img_link']; ?>" class="w-100" style="height: 240px;" />
+                            <img src="https://drive.google.com/uc?export=view&id=<?php echo $row['img_link']; ?>" class="w-100" style="height: 330px;" alt="Villa"/>
                             <!-- <img src="https://drive.google.com/uc?export=view&id=<?php echo $row['img_link']; ?>" class="w-100" alt="" style="position:relative" /> -->
                         </div>
                     </div>
@@ -58,7 +58,7 @@ $result = $project->get_result();
                                 </ul>
                             </div>
                             <div class="row bg-37393e project-btns mb-10">
-                                <div class="col-12 mb-md-20 mb-10 d-sm-flex justify-content-start">
+                                <div class="col-12 mb-md-20 mb-10 d-sm-flex justify-content-center">
                                     <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more mr-sm-2 my-sm-0 my-1 px-2 py-1  " target="_blank" href="<?php echo $row['pdf_link']; ?>" >Brochure</a>
                                     <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more mr-sm-2 my-sm-0 my-1 px-2 py-1  " target="_blank" href="https://drive.google.com/file/d/<?php echo $row['sitemap_link'];?>/view" >SiteMap </a>
                                     <a class="d-block text-center AvenirLTStdHeavy color-444 fs-13 proj-details-more px-2 py-1 " target="_blank" href="<?php echo $row['location_link']; ?>" >Show in Map</a>
@@ -70,7 +70,7 @@ $result = $project->get_result();
             </div>
         </section>
 
-        <section class="project-highlights pb-0 pt-50" id="overview">
+        <section class="project-highlights pb-0 pt-10 border" id="overview" style="background: whitesmoke !important;">
             <h1 class="text-uppercase text-center fs-30 fs-xs-26 AvenirLTStdHeavy">VILLA HIGHLIGHTS</h1>
             <div class="container-fluid">
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
@@ -100,7 +100,7 @@ $result = $project->get_result();
                 <div class="card">
                     <div class="card-body" style="background-color: #37393e;">
 
-                        <h4 class="card-title text-white">Gallery</h4>
+                        <h4 class="card-title fs-25 text-bold text-center text-uppercase text-white">Gallery</h4>
 
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -131,7 +131,7 @@ $result = $project->get_result();
             </div> <!-- end col -->         
         </div>
 
-        <section class="project-highlights pb-40 pt-10" id="overview2">
+        <section class="bg-yellow border d-block mb-0 project-highlights pt-10 <?php echo ($row['youtube_link'] == '') ? 'd-none' : 'd-block'; ?>" id="overview2">
             <div class="container-fluid">
                 <div role="tabpanel" class="tab-pane in active AvenirLTStd55Roman_5173 ">
                     <div class="tab-content proj-highlights-section-tab pt-xs-30">
@@ -143,10 +143,6 @@ $result = $project->get_result();
                                         <iframe width="100%" height="500px" src="https://youtube.com/embed/<?php echo $row['youtube_link']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                                     </div>
                                 </div>
-                                <!-- <div class="<!?php echo ($row['sitemap_link'] == '') ? 'd-none' : 'd-block'; ?> col-sm-8 pt-20 pb-15 mx-auto" style="max-width: 793.7px; height: auto;">
-                                    <h4 class="AvenirLTStdHeavy color-444 fs-25 pt-0 text-center text-uppercase">Sitemap</h4>
-                                    <img class="h-100 pb-15 w-100" src="https://drive.google.com/uc?export=view&id=<!?php echo $row['sitemap_link']; ?>" alt="Villa Site Map">
-                                </div> -->
                             </div>
                         </div>
                     </div>
