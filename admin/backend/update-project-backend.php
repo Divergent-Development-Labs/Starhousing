@@ -52,9 +52,6 @@
             return substr($string, $ini);
         }
 
-        $centRate = ($centRate == '') ? '-' : '';
-        $bhk_or_sqft = ($bhk_or_sqft == '') ? '-' : '';
-
         $fullstring = $img_link;
 
         $parsed_img_link = get_string_between($fullstring, 'file/d/', '/view?');

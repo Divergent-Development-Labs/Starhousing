@@ -70,7 +70,7 @@
                                                 </a>
                                                 <p class="fs-16 project-details color-666 d-block text-left lh-30">
                                                     <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png">
-                                                    <span class="proj-detail"><?php echo $completed['bhk_or_sqft']; ?> BHK</span>
+                                                    <span class="proj-detail"><?php echo ($completed['bhk_or_sqft'] == '') ? '-' : $completed['bhk_or_sqft']; ?> BHK</span>
                                                 </p>
                                                 <!-- <p class="text-left project-details  pb-3 fs-16 color-666 d-block lh-30">
                                                     <img class="icon" style="margin-left: 7px;" src="wp-content/themes/img/rupees.png">
@@ -132,11 +132,11 @@
                                                 <p class="fs-16 project-details color-666 d-block text-left lh-30">
                                                     <img class="icon ml-1" style="margin-right: 26px; " src="wp-content/themes/img/plot2.png">
                                                     <!-- <img class="icon" style="margin-right: 26px;" src="wp-content/themes/img/bed.png"> -->
-                                                    <span class="proj-detail"><?php echo $completed['bhk_or_sqft']; ?> Cent</span>
+                                                    <span class="proj-detail"><?php echo ($completed['bhk_or_sqft'] == '' ? '-' : $completed['bhk_or_sqft']); ?> Cent</span>
                                                 </p>
                                                 <p class="text-left project-details  pb-3 fs-16 color-666 d-block lh-30">
                                                     <img class="icon" style="margin-left: 7px;" src="wp-content/themes/img/rupees.png">
-                                                    <span class="proj-detail"><?php echo ($completed['rate'] == '') ? '--' : $completed['rate'];?></span>
+                                                    <span class="proj-detail"><?php echo ($completed['rate'] == '') ? '-' : $completed['rate'];?></span>
                                                 </p>
 
                                                 <p class="d-sm-flex">

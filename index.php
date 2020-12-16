@@ -163,14 +163,14 @@
 														<div class="project_box_in">
 															<div class="imgbox">
 																<span>
-																	<img src="https://drive.google.com/uc?export=view&id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
+																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
 																</span>
 																<!-- <a href="<!?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a> -->
 															</div>
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
 																<a href="<?php echo $onGoing['location_link']; ?>" target="_blank" ><span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span></a>
-																<span class="ft-bhk"><?php echo $onGoing['bhk_or_sqft']; ?> BHK</span>
+																<span class="ft-bhk"><?php echo ($onGoing['bhk_or_sqft'] == '') ? '-' : $onGoing['bhk_or_sqft']; ?> BHK</span>
 																<!-- <span class="ft-amt">-</span> -->
 																<div class="clearfix"></div>
 																<a href="villa.php?id=<?php echo $onGoing['id']; ?>" class="view_more_arr">View More</a>
@@ -217,15 +217,15 @@
 														<div class="project_box_in">
 															<div class="imgbox">
 																<span>
-																	<img src="https://drive.google.com/uc?export=view&id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
+																	<img src="https://drive.google.com/thumbnail?id=<?php echo $onGoing['img_link']; ?>" alt="Star Housing Ongoing Project" class="img-responsive  card-img">
 																</span>
 																<!-- <a href="<!?php echo $onGoing['pdf_link']; ?>" class="prj-phase-label" title="Download Brochure" target="_blank"></a> -->
 															</div>
 															<div class="txt-content clearfix">
 																<h4><?php echo $onGoing['project_name']; ?></h4>
 																<a href="<?php echo $onGoing['location_link']; ?>" target="_blank" ><span class="ft-lk"><?php echo ($onGoing['address_line_2']) ? $onGoing['address_line_2'] : '--'; ?></span></a>
-																<span class="ft-plot"><?php echo $onGoing['bhk_or_sqft']; ?> Cent</span>
-																<span class="ft-amt"><?php echo $onGoing['rate']; ?></span>
+																<span class="ft-plot"><?php echo ($onGoing['bhk_or_sqft'] == '') ? '-' : $onGoing['bhk_or_sqft']; ?> Cent</span>
+																<span class="ft-amt"><?php echo ($onGoing['rate'] == '') ? '-' : $onGoing['rate']; ?></span>
 																<div class="clearfix"></div>
 																<a href="plot.php?id=<?php echo $onGoing['id']; ?>"  class="view_more_arr">View More</a>
 																<a href="<?php echo $onGoing['pdf_link']; ?>" target="_blank" class="download_btn_arr">Brochure</a>
