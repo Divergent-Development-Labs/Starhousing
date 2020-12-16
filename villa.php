@@ -35,7 +35,7 @@ $result = $project->get_result();
     <?php
     while ($row = $result->fetch_assoc()) { ?>
 
-        <section class="pt-40 bg-37393e">
+        <section class="pt-40 pb-30 bg-37393e">
             <div class="container AvenirLTStdHeavy">
                 <div class="row">
                     <div class="col-12 col-md-8">
@@ -98,7 +98,7 @@ $result = $project->get_result();
         <div class="mb-3 <?php echo ($row['gallery_link'] == '') ? 'd-none' : 'd-block'; ?>">        
             <div class="col-md-8 col-12 mx-auto" style="max-width: 650px !important;">
                 <div class="card">
-                    <div class="card-body" style="background-color: #37393e;">
+                    <div class="card-body px-0 pb-0" style="background-color: #37393e;">
 
                         <h4 class="card-title fs-25 text-bold text-center text-uppercase text-white">Gallery</h4>
 

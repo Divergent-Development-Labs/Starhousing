@@ -11,8 +11,8 @@
 
     <?php include 'top_bar.php'; ?>
 
-    <section class="cs-cont-map-sec clearfix h-auto">
-        <div class="cs-cont-dtls-left" style="background-image: url(admin/assets/images/map-layer-1.jpg);">
+    <section class="cs-cont-map-sec clearfix h-auto" style="background-image: url(admin/assets/images/map-layer-1.jpg);">
+        <div class="cs-cont-dtls-left">
             <h2>Contact Us</h2>
             <div class="text-warning">
                 <p style="font-weight: bold; font-size: 20px;">Plot Number: 22,</p>
@@ -37,7 +37,7 @@
                     <br>
             </div>
         </div>
-        <div class="cs-cont-dtls-right ">
+        <div class="p-1 p-sm-5 ">
             <div class="card mx-md-3 mt-0 px-4 py-3"  style="background-color: #f2f2f2;">
                 <form action="mail.php" method="post">
                     <div class="form-group">
