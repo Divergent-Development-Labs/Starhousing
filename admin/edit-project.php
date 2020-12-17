@@ -117,7 +117,7 @@ $result = $project->get_result();
                                 <div class="form-group row CentRateDiv <?php echo $row['project_type'] == '1' ? 'd-none' : '';?>">
                                     <label class="col-md-3 col-sm-3 col-form-label CentRateLabel"> Cent Rate</label>
                                     <div class="col-md-9">
-                                        <input type="text" name="centRate" class="project form-control CentRateValue" placeholder="Enter Cent Rate " value="<?php echo $row['rate']; ?>"  required/>
+                                        <input type="text" name="centRate" class="project form-control CentRateValue" placeholder="Enter Cent Rate " value="<?php echo $row['rate']; ?>" <?php echo $row['project_type'] == '1' ? '' : 'required';?> />
                                         <span class="text-danger"></span>
                                     </div>
                                 </div>

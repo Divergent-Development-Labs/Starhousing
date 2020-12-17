@@ -48,11 +48,13 @@ $(document).ready(function() {
             $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener BHK value');
             $('.bhkOrSqftTypeLabel').html('BHK value');  
             $('.CentRateDiv').hide();             
+            $('.CentRateValue').prop('required', false);   
         }
         else{
             $('.bhkOrSqftTypeValue').attr('placeholder', 'Ener Cent value');
             $('.bhkOrSqftTypeLabel').html('Cent value');
             $('.CentRateDiv').show();               
+            $('.CentRateValue').prop('required', true);   
         }
 
         console.log(event.target.value);
